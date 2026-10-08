@@ -1,0 +1,12 @@
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.STL filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+EgoRepair_Studio_视频制作素材_原始文件/P1/agents/F7B_same_episode/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTqualifiedEvaluation/output/evaluation/execution.json filter=lfs diff=lfs merge=lfs -text
+EgoRepair_Studio_视频制作素材_原始文件/P1/agents/F7B_same_episode/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTrawEvaluation/output/evaluation/execution.json filter=lfs diff=lfs merge=lfs -text
+EgoRepair_Studio_视频制作素材_原始文件/P1/agents/F7B_same_episode/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/execution.json filter=lfs diff=lfs merge=lfs -text
+EgoRepair_Studio_视频制作素材_原始文件/P1/scene/basic_pick_place_117/v34_robot/search/TabletopSearchV34.json filter=lfs diff=lfs merge=lfs -text
+EgoRepair_Studio_视频制作素材_原始文件/P1/agents/F7B_same_episode/F2b_20261005T121819_657861/attempt_05/execution.json filter=lfs diff=lfs merge=lfs -text
+EgoRepair_Studio_视频制作素材_原始文件/P1/agents/F7B_same_episode/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTmatched_controlEvaluation/output/evaluation/execution.json filter=lfs diff=lfs merge=lfs -text

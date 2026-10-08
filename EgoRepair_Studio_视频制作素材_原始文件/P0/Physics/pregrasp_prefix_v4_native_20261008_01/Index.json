@@ -1,0 +1,15 @@
+{
+  "execution_ref": {
+    "path": "/data/xklv_data/a4_experiment/runs/pregrasp_prefix_v4_native_20261008_01/PrefixExecution.json.gz",
+    "bytes": 13103862,
+    "sha256": "f3b98d2f9289c034ccf5b09ccdd3f1f27e5041b963335fcf8ad374a8e03f8e43"
+  },
+  "runtime_receipt_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/.runtime/egodex_demos/pregrasp_prefix_v4_native_20261008_01.json",
+    "bytes": 1046,
+    "sha256": "a51a5f7776a4c0845e0784398271fda43a4bf03c4436a2f19cd807272928fd93"
+  },
+  "prefix_complete": true,
+  "prefix_drag_diagnostic_pass": false,
+  "whole_task_success": "NOT_ACCEPTED_PREFIX_ONLY"
+}

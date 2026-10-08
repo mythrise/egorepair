@@ -1,0 +1,127 @@
+[
+  {
+    "request": "original_clock_native_20261008_01 original physical video >=1280x720",
+    "status": "NOT_FOUND",
+    "evidence": "Original run contains execution gzip and Scene.xml, no MP4. XML offwidth/offheight is render configuration, not an existing video."
+  },
+  {
+    "request": "pregrasp_prefix_v4_native_20261008_01 original physical video >=1280x720",
+    "status": "NOT_FOUND",
+    "evidence": "Original run contains execution gzip and Scene.xml, no MP4. XML offwidth/offheight is render configuration, not an existing video."
+  },
+  {
+    "request": "root_demo_fixed8_closure original physical video >=1280x720",
+    "status": "NOT_FOUND_IN_CLOSURE_OR_137_VIDEO_INVENTORY",
+    "evidence": "Closure is an eight-candidate study receipt; existing RecordedPolicy_F.mp4 is marked SYNTHETIC_SIM_MODEL_RECORDED_POLICY_PRESENTATION."
+  },
+  {
+    "request": "Unique old edit with reported two-minute problem",
+    "status": "AMBIGUOUS_CANDIDATES_PRESERVED",
+    "candidates": [
+      {
+        "path": "/home/xklv/ego_robot/a4_experiment/launch_video/out/egorepair_launch_v1.mp4",
+        "sha256": "8347d97a9a4e6f7f42137312f9f096c498ed44a78acd368ce2cb9a93fc71881c",
+        "size": 11802197,
+        "frame_meta": {
+          "width": 1920,
+          "height": 1080,
+          "fps": "60",
+          "time_base": "1/15360",
+          "container_frame_count": 12660,
+          "duration_s": 211.0,
+          "clock_method": "ORIGINAL_STREAM_TIME_BASE",
+          "codec": "h264",
+          "frame_count": 12660,
+          "count_method": "DECODED_ALL_ORIGINAL_FRAMES",
+          "first_pts_s": 0.0,
+          "last_pts_s": 210.98333333333332,
+          "pts_monotone": true
+        }
+      },
+      {
+        "path": "/data/xklv_data/a4_experiment/egorepair_launch_20261008/egorepair_launch.mp4",
+        "sha256": "c0ddbd626f40e73dd8aadda9d3a913116629f9bc83ea12b57c798b6645eedda4",
+        "size": 8735113,
+        "frame_meta": {
+          "width": 1920,
+          "height": 1080,
+          "fps": "60",
+          "time_base": "1/15360",
+          "container_frame_count": 2517,
+          "duration_s": 41.95,
+          "clock_method": "ORIGINAL_STREAM_TIME_BASE",
+          "codec": "h264",
+          "frame_count": 2517,
+          "count_method": "DECODED_ALL_ORIGINAL_FRAMES",
+          "first_pts_s": 0.0,
+          "last_pts_s": 41.93333333333333,
+          "pts_monotone": true
+        }
+      },
+      {
+        "path": "/data/xklv_data/a4_experiment/egorepair_launch_20261008/egorepair_launch_v2.mp4",
+        "sha256": "17297b082d78b4d70a6b5845809058ccd82b307dbaa1f346ddc8ee072cd02ab2",
+        "size": 26039354,
+        "frame_meta": {
+          "width": 1920,
+          "height": 1080,
+          "fps": "60",
+          "time_base": "1/15360",
+          "container_frame_count": 15000,
+          "duration_s": 250.0,
+          "clock_method": "ORIGINAL_STREAM_TIME_BASE",
+          "codec": "h264",
+          "frame_count": 15000,
+          "count_method": "DECODED_ALL_ORIGINAL_FRAMES",
+          "first_pts_s": 0.0,
+          "last_pts_s": 249.98333333333332,
+          "pts_monotone": true
+        }
+      },
+      {
+        "path": "/data/xklv_data/a4_experiment/egorepair_launch_20261008/egorepair_launch_v3.mp4",
+        "sha256": "1c6567a80ff91b2c0aa5ffb270c938294698dc5e9fba9ea07df6674c630bb4ca",
+        "size": 46635850,
+        "frame_meta": {
+          "width": 1920,
+          "height": 1080,
+          "fps": "60",
+          "time_base": "1/15360",
+          "container_frame_count": 11580,
+          "duration_s": 193.0,
+          "clock_method": "ORIGINAL_STREAM_TIME_BASE",
+          "codec": "h264",
+          "frame_count": 11580,
+          "count_method": "DECODED_ALL_ORIGINAL_FRAMES",
+          "first_pts_s": 0.0,
+          "last_pts_s": 192.98333333333332,
+          "pts_monotone": true
+        }
+      },
+      {
+        "path": "/data/xklv_data/a4_experiment/egorepair_launch_20261008/egorepair_launch_v5.mp4",
+        "sha256": "fca30c6127a095876d3ac96f1c2c231191b27f97bc3d2359f298f3a83c755bea",
+        "size": 40351692,
+        "frame_meta": {
+          "width": 1920,
+          "height": 1080,
+          "fps": "60",
+          "time_base": "1/15360",
+          "container_frame_count": 8700,
+          "duration_s": 145.0,
+          "clock_method": "ORIGINAL_STREAM_TIME_BASE",
+          "codec": "mpeg4",
+          "frame_count": 8700,
+          "count_method": "DECODED_ALL_ORIGINAL_FRAMES",
+          "first_pts_s": 0.0,
+          "last_pts_s": 144.98333333333332,
+          "pts_monotone": true
+        }
+      }
+    ]
+  },
+  {
+    "request": "Original EEF array paired with /data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+    "status": "NOT_FOUND_AT_CANONICAL_STANDARD_IO_ACTIONS_PATH"
+  }
+]

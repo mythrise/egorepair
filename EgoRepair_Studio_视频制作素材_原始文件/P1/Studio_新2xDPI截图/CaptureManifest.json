@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "source": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/native_2xdpi/M2_多智能体协作.png",
+      "dest": "P1/Studio_新2xDPI截图/M2_多智能体协作.png",
+      "priority": "P1",
+      "category": "studio_native_2xdpi",
+      "status": "NATIVE_BROWSER_CAPTURE",
+      "sha256": "ad83a9028d04a125a524c4ebf9d0e2f089226971f02c38fab13052cb9c5281cb",
+      "captured_at": "2026-10-08T14:05:49.664446+00:00",
+      "deviceScaleFactor": 2,
+      "viewport": {
+        "width": 1600,
+        "height": 1150
+      },
+      "ui_module": "M2_多智能体协作",
+      "source_site": "/home/xklv/ego_robot/a4_experiment/deployment_v2/site",
+      "site_index_sha256": "b38f816f9339957c0cf0f334709bc7f9d3c80f7e83b22849e0a25d39e4323460",
+      "site_mutation": false,
+      "semantics": "当前Studio原有示例数据与记录播放界面；不是实时推理或同一episode端到端物理成功。"
+    },
+    {
+      "source": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/native_2xdpi/M4_轨迹修复.png",
+      "dest": "P1/Studio_新2xDPI截图/M4_轨迹修复.png",
+      "priority": "P1",
+      "category": "studio_native_2xdpi",
+      "status": "NATIVE_BROWSER_CAPTURE",
+      "sha256": "dae1f7313bfc658f7d9425a9dc8d80c5ca9efcec2ce132ffd3323435299f9636",
+      "captured_at": "2026-10-08T14:05:59.543536+00:00",
+      "deviceScaleFactor": 2,
+      "viewport": {
+        "width": 1600,
+        "height": 1150
+      },
+      "ui_module": "M4_轨迹修复",
+      "source_site": "/home/xklv/ego_robot/a4_experiment/deployment_v2/site",
+      "site_index_sha256": "b38f816f9339957c0cf0f334709bc7f9d3c80f7e83b22849e0a25d39e4323460",
+      "site_mutation": false,
+      "semantics": "当前Studio原有示例数据与记录播放界面；不是实时推理或同一episode端到端物理成功。"
+    },
+    {
+      "source": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/native_2xdpi/M5_审计.png",
+      "dest": "P1/Studio_新2xDPI截图/M5_审计.png",
+      "priority": "P1",
+      "category": "studio_native_2xdpi",
+      "status": "NATIVE_BROWSER_CAPTURE",
+      "sha256": "4f54124713b7e08829561bfd03576b6e47b0e2126eea5d057750d86d676e7b15",
+      "captured_at": "2026-10-08T14:06:05.998136+00:00",
+      "deviceScaleFactor": 2,
+      "viewport": {
+        "width": 1600,
+        "height": 1150
+      },
+      "ui_module": "M5_审计",
+      "source_site": "/home/xklv/ego_robot/a4_experiment/deployment_v2/site",
+      "site_index_sha256": "b38f816f9339957c0cf0f334709bc7f9d3c80f7e83b22849e0a25d39e4323460",
+      "site_mutation": false,
+      "semantics": "当前Studio原有示例数据与记录播放界面；不是实时推理或同一episode端到端物理成功。"
+    },
+    {
+      "source": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/native_2xdpi/M6_物理回放.png",
+      "dest": "P1/Studio_新2xDPI截图/M6_物理回放.png",
+      "priority": "P1",
+      "category": "studio_native_2xdpi",
+      "status": "NATIVE_BROWSER_CAPTURE",
+      "sha256": "fc8520e8278166c4eaea3a8dae1549134eb2fc8f0316e828e24b75f123d565d4",
+      "captured_at": "2026-10-08T14:06:17.800156+00:00",
+      "deviceScaleFactor": 2,
+      "viewport": {
+        "width": 1600,
+        "height": 1150
+      },
+      "ui_module": "M6_物理回放",
+      "source_site": "/home/xklv/ego_robot/a4_experiment/deployment_v2/site",
+      "site_index_sha256": "b38f816f9339957c0cf0f334709bc7f9d3c80f7e83b22849e0a25d39e4323460",
+      "site_mutation": false,
+      "semantics": "当前Studio原有示例数据与记录播放界面；不是实时推理或同一episode端到端物理成功。"
+    },
+    {
+      "source": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/native_2xdpi/M7_机器人轨迹.png",
+      "dest": "P1/Studio_新2xDPI截图/M7_机器人轨迹.png",
+      "priority": "P1",
+      "category": "studio_native_2xdpi",
+      "status": "NATIVE_BROWSER_CAPTURE",
+      "sha256": "9602f8fc97d9be001290c097eee49cb2f6ebfd7aa089f4a173ddb100dc049e5b",
+      "captured_at": "2026-10-08T14:06:24.155744+00:00",
+      "deviceScaleFactor": 2,
+      "viewport": {
+        "width": 1600,
+        "height": 1150
+      },
+      "ui_module": "M7_机器人轨迹",
+      "source_site": "/home/xklv/ego_robot/a4_experiment/deployment_v2/site",
+      "site_index_sha256": "b38f816f9339957c0cf0f334709bc7f9d3c80f7e83b22849e0a25d39e4323460",
+      "site_mutation": false,
+      "semantics": "当前Studio原有示例数据与记录播放界面；不是实时推理或同一episode端到端物理成功。"
+    }
+  ],
+  "source_url": "http://127.0.0.1:42317/",
+  "pageerrors": [],
+  "bad_responses": [],
+  "external_network_used": false,
+  "dom_data_mutated": false
+}

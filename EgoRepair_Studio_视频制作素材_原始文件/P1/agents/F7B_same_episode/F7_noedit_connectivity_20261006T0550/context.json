@@ -1,0 +1,17 @@
+{
+  "schema": "a4x.pipeline.context.v1",
+  "source_sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+  "data_line": "SYNTHETIC_SIM",
+  "robot": "SO101",
+  "frame": "WORLD",
+  "time_unit": "s",
+  "position_unit": "m",
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

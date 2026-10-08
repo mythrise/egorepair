@@ -1,0 +1,7 @@
+{
+  "limit_bytes": 2000000000,
+  "zip_bytes": "1122730486",
+  "strict_less_than_limit": true,
+  "all_existing_media_preserved": true,
+  "lossless_zip_only": true
+}

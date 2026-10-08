@@ -1,0 +1,61 @@
+{
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json",
+    "sha256": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+    "bytes": 109154156,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/Context.json",
+    "sha256": "4c63f29333343344bb38ee1c2473d315103cbd9fb466504a1c8835bc0d760092",
+    "bytes": 378,
+    "media_type": "application/json"
+  },
+  "actual_result": {
+    "status": "PASS",
+    "success": true,
+    "denominator": 1,
+    "scope": "SIM_MODEL_REPLAY",
+    "data_line": "SYNTHETIC_SIM",
+    "task_predicates": {
+      "status": "SATISFIED",
+      "satisfied": true,
+      "lift_end_state": 3083,
+      "place_end_state": 5796,
+      "contact_semantics": "BOTH_MODEL_FINGERS_POSITIVE_NORMAL_CONTACT_NOT_FORCE_CLOSURE_CERTIFICATION",
+      "evaluation_hz": 500,
+      "evaluated_states": 7001,
+      "lift_end_control_boundary": 124,
+      "place_end_control_boundary": 232
+    },
+    "physical_qualification": {
+      "status": "PASS",
+      "aggregate_metrics": {
+        "pad_fixed_force_N": 41.101428054016644,
+        "pad_moving_force_N": 36.66123751927541,
+        "support_force_N": 23.759580187043944,
+        "max_penetration_m": 0.0014817484894152166,
+        "max_unintended_penetration_m": 0.0,
+        "unintended_contact_samples": 0,
+        "max_joint_speed_rad_s": 2.6664832828264946,
+        "max_actuator_force_Nm": 2.94
+      },
+      "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+      "recipe_sha256": "0a4ce2bc3129171ab001553e3c89f3ea16e339a012d11ede2993b47e89a9e9d5",
+      "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET",
+      "checked_substeps": 7000,
+      "command_count": 280,
+      "state_count": 281,
+      "failed_substeps": [],
+      "failed_substep_count": 0,
+      "independent_replay_max_error": 0.0,
+      "continuous_collision_certified": false,
+      "hardware_certified": false
+    },
+    "task_id": "T1",
+    "reason": "ACTUAL_TASK_AND_ESTIMATED_MODEL_GATES"
+  },
+  "original_states": 281,
+  "issued_commands": 280,
+  "origin_not_task_acceptance": true
+}

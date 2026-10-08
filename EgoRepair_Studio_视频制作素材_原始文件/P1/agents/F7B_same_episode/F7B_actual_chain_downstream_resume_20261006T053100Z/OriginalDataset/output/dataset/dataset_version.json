@@ -1,0 +1,105 @@
+{
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "artifact_id": "dataset",
+  "context_hash": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+  "source_group_id": "source_dfddd806dd6bf57f",
+  "parents": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+      "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+      "bytes": 110310359,
+      "media_type": "application/json"
+    }
+  ],
+  "status": "EXECUTED",
+  "candidate_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "execution_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "original_source_manifest": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "reference_head_schema": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/reference_head_schema.json",
+    "sha256": "0e069d70d4faf1cc4c4ade7494efe47cdf5b726e0d30a3b507148bbcf9f4a603",
+    "bytes": 145,
+    "media_type": "application/json"
+  },
+  "execution_head_schema": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/head_schema.json",
+    "sha256": "2bb37832dee16c656abbb8113f3293b944b3c1c9dd65fa128e81f8cda51c56e7",
+    "bytes": 3909,
+    "media_type": "application/json"
+  },
+  "data_files": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/data/chunk-000/episode_000000.parquet",
+      "sha256": "8bb4ff43ba995064456224fcdee702219e36b2cbf38dbc0b7f7b131aae77a6ce",
+      "bytes": 72575,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/episodes.jsonl",
+      "sha256": "7473729b1864bcef4e35e0e9e5f0de92788d7313a7b27c7d82f1fd8611440cfd",
+      "bytes": 79,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/episodes_stats.jsonl",
+      "sha256": "76552324b7138db4b9321ca83bcb78b1a779017b15bdafa0e071608f792e32e3",
+      "bytes": 9387,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/info.json",
+      "sha256": "bd479fdad0fc75cee77aa6ef8f14e384977cc3b4b19db0ad11876214c293f644",
+      "bytes": 6159,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/tasks.jsonl",
+      "sha256": "84812d5b8b59cf588ace558d93d547d66a5580831b89c6a678f995441982a034",
+      "bytes": 58,
+      "media_type": "application/octet-stream"
+    }
+  ],
+  "image_state_action_dependencies": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/dependencies.json",
+    "sha256": "f88d2ea26371da909c6baccba6a014744ebbddfa1808089c9618c748d1d96255",
+    "bytes": 567,
+    "media_type": "application/json"
+  },
+  "mask_and_qualification_refs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/dependencies.json",
+      "sha256": "f88d2ea26371da909c6baccba6a014744ebbddfa1808089c9618c748d1d96255",
+      "bytes": 567,
+      "media_type": "application/json"
+    }
+  ],
+  "writer_reader_report": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/dataset_receipt.json",
+    "sha256": "e5f69380b77bbdfee5f4a73b40c82b62e9a19ad77c69eb9e8a85411757fcb51a",
+    "bytes": 23625,
+    "media_type": "application/json"
+  },
+  "normalizer_ref": null,
+  "original_recording_count": 1,
+  "original_frame_count": 281,
+  "accepted_training_row_count": 280,
+  "published_pointer_parent_hash": "",
+  "data_line": "SYNTHETIC_SIM",
+  "policy_observation_profile": "SIM_STATE_V1",
+  "sim_bridge_ref": null
+}

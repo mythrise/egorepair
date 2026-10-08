@@ -1,0 +1,1138 @@
+{
+  "checked": 188,
+  "errors": [],
+  "references": [
+    {
+      "xml": "P1/models/SO101/scene_SO_ARM100.xml",
+      "uri": "so101_new_calib.xml",
+      "dest": "P1/models/SO101/so101_new_calib.xml",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.urdf",
+      "uri": "assets/moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib.xml",
+      "uri": "base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_camera_mount_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_camera_mount_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_camera_mount_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_camera_mount_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_camera_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_camera_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.urdf",
+      "uri": "assets/wrist_camera_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_camera_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "wrist_camera_mount_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_camera_mount_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_new_calib_camera.xml",
+      "uri": "wrist_camera_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_camera_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.urdf",
+      "uri": "assets/moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101_old_calib.xml",
+      "uri": "sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/scene.xml",
+      "uri": "so101.xml",
+      "dest": "P1/models/SO101/so101.xml",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/scene_box.xml",
+      "uri": "so101.xml",
+      "dest": "P1/models/SO101/so101.xml",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "waveshare_mounting_plate_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "sts3215_03a_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "motor_holder_so101_base_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_base_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "wrist_roll_follower_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "moving_jaw_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "base_motor_holder_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/base_motor_holder_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "upper_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/upper_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "wrist_roll_pitch_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "under_arm_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/under_arm_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "rotation_pitch_so101_v1.stl",
+      "dest": "P1/models/SO101/assets/rotation_pitch_so101_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "motor_holder_so101_wrist_v1.stl",
+      "dest": "P1/models/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "sts3215_03a_no_horn_v1.stl",
+      "dest": "P1/models/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "base_so101_v2.stl",
+      "dest": "P1/models/SO101/assets/base_so101_v2.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "moving_jaw_so101_gripper_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_gripper_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "wrist_roll_follower_so101_camera_mount.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_camera_mount.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "wrist_roll_follower_so101_gripper_part0_v1.stl",
+      "dest": "P1/models/SO101/assets/wrist_roll_follower_so101_gripper_part0_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "moving_jaw_so101_gripper_part0_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_gripper_part0_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/SO101/so101.xml",
+      "uri": "moving_jaw_so101_gripper_part1_v1.stl",
+      "dest": "P1/models/SO101/assets/moving_jaw_so101_gripper_part1_v1.stl",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/base_link.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/base_link.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/base_link.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/base_link.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link1.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link1.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link1.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link1.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link2.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link2.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link2.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link2.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link3.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link3.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link3.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link3.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link4.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link4.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link4.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link4.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link5.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link5.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link5.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link5.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link6.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link6.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/arm_link6.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/arm_link6.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/gripper_link.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/gripper_link.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/gripper_link.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/gripper_link.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/gripper_finger_link1.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/gripper_finger_link1.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/gripper_finger_link1.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/gripper_finger_link1.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/gripper_finger_link2.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/gripper_finger_link2.STL",
+      "present": true
+    },
+    {
+      "xml": "P1/models/A1X/mobiman/urdf/A1X/urdf/a1x.urdf",
+      "uri": "package://mobiman/urdf/A1X/meshes/gripper_finger_link2.STL",
+      "dest": "P1/models/A1X/mobiman/urdf/A1X/meshes/gripper_finger_link2.STL",
+      "present": true
+    }
+  ],
+  "status": "PASS",
+  "raw_xml_unchanged": true,
+  "f7_absolute_meshdir_relocation_required": true,
+  "scope": "Packaged A1X arm URDF and SO101 URDF/MJCF; unrelated incomplete mobile-platform URDF omitted"
+}

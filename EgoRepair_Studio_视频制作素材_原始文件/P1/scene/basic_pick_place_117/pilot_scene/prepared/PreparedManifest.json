@@ -1,0 +1,3468 @@
+{
+  "schema": "a2.scene_prepared.v1",
+  "case": "current_take",
+  "source_recording_id": "basic_pick_place_117",
+  "source_group_id": "test/basic_pick_place/117",
+  "split": "official_test",
+  "development_exposed": true,
+  "source_frame_count": 302,
+  "source_video": {
+    "bytes": 4537513,
+    "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/shared/basic_pick_place_117/frontend/work/clips/basic_pick_place_117.mp4",
+    "sha256": "c9103930cbcac54ea6e5ae64ab05979b533abba108665160375ccc7a8f8ede02"
+  },
+  "input_manifest": {
+    "bytes": 3057,
+    "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/shared_geometry/basic_pick_place_117/frontend/observation/InputManifest.json",
+    "sha256": "7334b743aa2912132621d3ad39265c3eef3c14e5143e73a54f920a8e7eef4f7e"
+  },
+  "target_manifest": {
+    "bytes": 13108,
+    "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/shared_geometry/basic_pick_place_117/target/TargetEstimate.json",
+    "sha256": "7358fb9b83bc4f7fe74eb8d05fc49bc905c1e722e648afbd6a9fad7341488a2f"
+  },
+  "source_size_wh": [
+    1920,
+    1080
+  ],
+  "image_size_wh": [
+    960,
+    540
+  ],
+  "K_source_kind": "A1_EFFECTIVE_INFERENCE",
+  "K_source": [
+    [
+      870.9872131347656,
+      0.0,
+      960.56591796875
+    ],
+    [
+      0.0,
+      870.9872131347656,
+      540.1262817382812
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "K_virtual": [
+    [
+      435.4936065673828,
+      0.0,
+      479.5
+    ],
+    [
+      0.0,
+      435.4936065673828,
+      269.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "A_source_to_virtual": [
+    [
+      0.5,
+      0.0,
+      -0.7829589843750568
+    ],
+    [
+      0.0,
+      0.5,
+      -0.5631408691406818
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "pixel_convention": "PIXEL_CENTER_INTEGER",
+  "optical_axis_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "world_id": "f8a53e5554f5472eb299f118c381862a:basic_pick_place_117:0:0",
+  "depth_world_mode": "FINAL_CAMERA_LOCAL_METRIC",
+  "scale_level": "ESTIMATED_METRIC",
+  "fov_x_deg": 95.56644510092119,
+  "camera_arrays": {
+    "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/cameras.npz",
+    "sha256": "2404de6d18ef88deceeb2d36b96c07385c338a1a8ff68065dbc93201f1e31298",
+    "bytes": 161278
+  },
+  "frames": [
+    {
+      "source_frame_id": 0,
+      "source_time_s": 0.0,
+      "pts": 0,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000000.jpg",
+        "sha256": "9712ad201b687fd39bb13981cfdc976aae7f3640dd9adc0ec713f30dabc547b9",
+        "bytes": 67417
+      }
+    },
+    {
+      "source_frame_id": 1,
+      "source_time_s": 0.03333333333333333,
+      "pts": 512,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000001.jpg",
+        "sha256": "798cbc98c150199e743a888e855285144ae98d2b6e1e9fad76867af56bb37272",
+        "bytes": 68279
+      }
+    },
+    {
+      "source_frame_id": 2,
+      "source_time_s": 0.06666666666666667,
+      "pts": 1024,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000002.jpg",
+        "sha256": "db25fde55b500d36c66e41b8129bfeb7b4d31b0e9395464d06ff664114f950f1",
+        "bytes": 68480
+      }
+    },
+    {
+      "source_frame_id": 3,
+      "source_time_s": 0.1,
+      "pts": 1536,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000003.jpg",
+        "sha256": "b66c444f54f8b3a1c051e3364c274645ab1a5721b26cc47dc6cc26c5e055a413",
+        "bytes": 68856
+      }
+    },
+    {
+      "source_frame_id": 4,
+      "source_time_s": 0.13333333333333333,
+      "pts": 2048,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000004.jpg",
+        "sha256": "b8bbc88b675b754f1d725e785ac65decef7784e03f5565490536a0d9790860bc",
+        "bytes": 68426
+      }
+    },
+    {
+      "source_frame_id": 5,
+      "source_time_s": 0.16666666666666666,
+      "pts": 2560,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000005.jpg",
+        "sha256": "9f9828c857b2d39b4f805995fd95abc174af55d5e43a94fa7f8101f832ae83c6",
+        "bytes": 68707
+      }
+    },
+    {
+      "source_frame_id": 6,
+      "source_time_s": 0.2,
+      "pts": 3072,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000006.jpg",
+        "sha256": "78e4dbaa8ce682f1e50209e0c0785d08f98801e23a1f5018f726fb8ba6e06c7b",
+        "bytes": 68829
+      }
+    },
+    {
+      "source_frame_id": 7,
+      "source_time_s": 0.23333333333333334,
+      "pts": 3584,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000007.jpg",
+        "sha256": "cc11c22c0819a9bd63b3412e1e2db0f925308c3909daecc01f367c53d7075214",
+        "bytes": 69831
+      }
+    },
+    {
+      "source_frame_id": 8,
+      "source_time_s": 0.26666666666666666,
+      "pts": 4096,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000008.jpg",
+        "sha256": "aba209086a8726531c6db5082b1d7b745b828ba4d09fbf2e39d9c3dcb56d2cae",
+        "bytes": 69114
+      }
+    },
+    {
+      "source_frame_id": 9,
+      "source_time_s": 0.3,
+      "pts": 4608,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000009.jpg",
+        "sha256": "8e832d83c49c8a1d8cab0f143b4d812d24dd6eed42c5cb4581a81bf47bb16913",
+        "bytes": 68994
+      }
+    },
+    {
+      "source_frame_id": 10,
+      "source_time_s": 0.3333333333333333,
+      "pts": 5120,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000010.jpg",
+        "sha256": "8155d5079f6061ba0d39587cc045cf9abac019f11cc91d8e4825195230757587",
+        "bytes": 69221
+      }
+    },
+    {
+      "source_frame_id": 11,
+      "source_time_s": 0.36666666666666664,
+      "pts": 5632,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000011.jpg",
+        "sha256": "ace5f2e7de357a89713c77016611029fe03b2da095f595c4a51cfa7cd5e79de8",
+        "bytes": 69771
+      }
+    },
+    {
+      "source_frame_id": 12,
+      "source_time_s": 0.4,
+      "pts": 6144,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000012.jpg",
+        "sha256": "95efb1eb21e0230fc264d27e14a824517435f67af08c6b5cd3dcf69d4c2fb585",
+        "bytes": 68454
+      }
+    },
+    {
+      "source_frame_id": 13,
+      "source_time_s": 0.43333333333333335,
+      "pts": 6656,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000013.jpg",
+        "sha256": "d4a69b7c35b683621392e800306a966539baf3cdb1db83cebf7d042d669a709e",
+        "bytes": 68126
+      }
+    },
+    {
+      "source_frame_id": 14,
+      "source_time_s": 0.4666666666666667,
+      "pts": 7168,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000014.jpg",
+        "sha256": "ce895e41ce90510cfbfd6391abdb456bc5be1f826ba510dd46ee7aac083ab71e",
+        "bytes": 67613
+      }
+    },
+    {
+      "source_frame_id": 15,
+      "source_time_s": 0.5,
+      "pts": 7680,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000015.jpg",
+        "sha256": "1e9b267f311226fb615d15e33d87e3733b14d87a1838ec635add8a63660bcc4d",
+        "bytes": 67655
+      }
+    },
+    {
+      "source_frame_id": 16,
+      "source_time_s": 0.5333333333333333,
+      "pts": 8192,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000016.jpg",
+        "sha256": "de8a3cdcb5ee86aa31afd34a96f99113810f75572d32d09e3bdf356a3ab3426c",
+        "bytes": 67528
+      }
+    },
+    {
+      "source_frame_id": 17,
+      "source_time_s": 0.5666666666666667,
+      "pts": 8704,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000017.jpg",
+        "sha256": "e3fcde6ac29328edabf021baa8ead553d5e3ec4e504de78d9ac21f379a5ec207",
+        "bytes": 67734
+      }
+    },
+    {
+      "source_frame_id": 18,
+      "source_time_s": 0.6,
+      "pts": 9216,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000018.jpg",
+        "sha256": "17dea19d5ac5a47d97f80e831644f76b59c8282a15aca358fd3e048a371f2fdc",
+        "bytes": 67782
+      }
+    },
+    {
+      "source_frame_id": 19,
+      "source_time_s": 0.6333333333333333,
+      "pts": 9728,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000019.jpg",
+        "sha256": "98a3cfdbd5320cbfb25a41a9597a2e58ca5e09304f5b3f59350c362979a4cb9f",
+        "bytes": 69013
+      }
+    },
+    {
+      "source_frame_id": 20,
+      "source_time_s": 0.6666666666666666,
+      "pts": 10240,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000020.jpg",
+        "sha256": "3cd37e2d3564e863863b66c1441982e59880eb14dc79d3677fde3cf18fe1a31f",
+        "bytes": 68996
+      }
+    },
+    {
+      "source_frame_id": 21,
+      "source_time_s": 0.7,
+      "pts": 10752,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000021.jpg",
+        "sha256": "49022a58e8c9b73a8f9a15f1a1917acf8592d6df248541c2df3b82ebe6bb2609",
+        "bytes": 69212
+      }
+    },
+    {
+      "source_frame_id": 22,
+      "source_time_s": 0.7333333333333333,
+      "pts": 11264,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000022.jpg",
+        "sha256": "9f6d434555caa5892ac564c2736c42026f0bcf01aa4675f144ff07f8f74841b8",
+        "bytes": 69587
+      }
+    },
+    {
+      "source_frame_id": 23,
+      "source_time_s": 0.7666666666666667,
+      "pts": 11776,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000023.jpg",
+        "sha256": "71489f99e2076a6c434823cdb184e4a4d51a65fb0ba9468422b52c828e4cca48",
+        "bytes": 70398
+      }
+    },
+    {
+      "source_frame_id": 24,
+      "source_time_s": 0.8,
+      "pts": 12288,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000024.jpg",
+        "sha256": "29a5bf7a18d65b8bdc3cea49b1415e44103f5f5f3bf1e9736e64dfad8e05d25a",
+        "bytes": 68656
+      }
+    },
+    {
+      "source_frame_id": 25,
+      "source_time_s": 0.8333333333333334,
+      "pts": 12800,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000025.jpg",
+        "sha256": "e45131bdb40a71c28ccc38c5dcf2bac54ad97fed908c8334a9c7f8f3af8d1cb6",
+        "bytes": 69065
+      }
+    },
+    {
+      "source_frame_id": 26,
+      "source_time_s": 0.8666666666666667,
+      "pts": 13312,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000026.jpg",
+        "sha256": "74111d0ea7122ec1805ccc598f1fdb56df970831bd7099803471162dafa2cbf2",
+        "bytes": 69147
+      }
+    },
+    {
+      "source_frame_id": 27,
+      "source_time_s": 0.9,
+      "pts": 13824,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000027.jpg",
+        "sha256": "7956a9ed628ab973375ce18ff80725abaaaf22d3ae74f968a6e9f4e7411209ab",
+        "bytes": 70573
+      }
+    },
+    {
+      "source_frame_id": 28,
+      "source_time_s": 0.9333333333333333,
+      "pts": 14336,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000028.jpg",
+        "sha256": "05a0b20c08feb99bd2048924e75556be7d31509f787629dab069b2c41873f5d9",
+        "bytes": 70194
+      }
+    },
+    {
+      "source_frame_id": 29,
+      "source_time_s": 0.9666666666666667,
+      "pts": 14848,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000029.jpg",
+        "sha256": "7cf42c4d1407dec7ab1a2d478065c7dca314799b7fd0a1c6d7ad62c28e62f158",
+        "bytes": 70408
+      }
+    },
+    {
+      "source_frame_id": 30,
+      "source_time_s": 1.0,
+      "pts": 15360,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000030.jpg",
+        "sha256": "f1a0a37fec29f5217dd68502db61c4df2cfb371b48ee024c3d92a2b1a807085e",
+        "bytes": 70316
+      }
+    },
+    {
+      "source_frame_id": 31,
+      "source_time_s": 1.0333333333333334,
+      "pts": 15872,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000031.jpg",
+        "sha256": "2bf8cfda3950a218ee6a7cdbf8dca75a16bbfc7c482d001bcb1eb6ea3b54096c",
+        "bytes": 71178
+      }
+    },
+    {
+      "source_frame_id": 32,
+      "source_time_s": 1.0666666666666667,
+      "pts": 16384,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000032.jpg",
+        "sha256": "a27c75622b278b197045081cc89024fbc8b7373f4cf11d010da6332ad5eaa33c",
+        "bytes": 70803
+      }
+    },
+    {
+      "source_frame_id": 33,
+      "source_time_s": 1.1,
+      "pts": 16896,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000033.jpg",
+        "sha256": "eae67d434ccdd981673e0bb7520be93f93233e1030508d09479164ec3f4a763d",
+        "bytes": 70914
+      }
+    },
+    {
+      "source_frame_id": 34,
+      "source_time_s": 1.1333333333333333,
+      "pts": 17408,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000034.jpg",
+        "sha256": "0b79e6dbd763a9d7496b7ba4bc7b68a61115124d6e15050e371474e6924bb29b",
+        "bytes": 70783
+      }
+    },
+    {
+      "source_frame_id": 35,
+      "source_time_s": 1.1666666666666667,
+      "pts": 17920,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000035.jpg",
+        "sha256": "22bf7175f5de9b2825769bb6f119ee9e3045428a5f9024831342d2a5c2bd92fc",
+        "bytes": 71710
+      }
+    },
+    {
+      "source_frame_id": 36,
+      "source_time_s": 1.2,
+      "pts": 18432,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000036.jpg",
+        "sha256": "4d6534af214a35605c9b332fa5bcd0c84df80f28a3ce9ee4705c8d1c26316943",
+        "bytes": 70237
+      }
+    },
+    {
+      "source_frame_id": 37,
+      "source_time_s": 1.2333333333333334,
+      "pts": 18944,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000037.jpg",
+        "sha256": "c40449f36a80826db8c6cea6d4201e79f7f8db311648afc9c3e9acdfb867bbed",
+        "bytes": 71519
+      }
+    },
+    {
+      "source_frame_id": 38,
+      "source_time_s": 1.2666666666666666,
+      "pts": 19456,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000038.jpg",
+        "sha256": "fc680450ab2b036919f3a6e3ec93a76a95fb0531c21bc5022cc4ae230b062f58",
+        "bytes": 71753
+      }
+    },
+    {
+      "source_frame_id": 39,
+      "source_time_s": 1.3,
+      "pts": 19968,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000039.jpg",
+        "sha256": "d8574d019fbc49110f93b68fa4707b92c982b6f522d3c06f45e309b984b16045",
+        "bytes": 72829
+      }
+    },
+    {
+      "source_frame_id": 40,
+      "source_time_s": 1.3333333333333333,
+      "pts": 20480,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000040.jpg",
+        "sha256": "806654333196ba8c547e993a0cfc86578af19953baa7dfaffebccb5036401899",
+        "bytes": 72616
+      }
+    },
+    {
+      "source_frame_id": 41,
+      "source_time_s": 1.3666666666666667,
+      "pts": 20992,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000041.jpg",
+        "sha256": "2ea709bc3eb655446dd895a430cebd1067a975b3c8242235eda81ad28c6bbbb2",
+        "bytes": 72374
+      }
+    },
+    {
+      "source_frame_id": 42,
+      "source_time_s": 1.4,
+      "pts": 21504,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000042.jpg",
+        "sha256": "3bedbb7988cb2fc042c2441686e9835fd10b79250a197b762958a16e2909eaf0",
+        "bytes": 71395
+      }
+    },
+    {
+      "source_frame_id": 43,
+      "source_time_s": 1.4333333333333333,
+      "pts": 22016,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000043.jpg",
+        "sha256": "feffd0d6036f2de3e8b31bcb837338d54c028638475d3e6a83103e217e59f01a",
+        "bytes": 71281
+      }
+    },
+    {
+      "source_frame_id": 44,
+      "source_time_s": 1.4666666666666666,
+      "pts": 22528,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000044.jpg",
+        "sha256": "5f23ef5477c5c84268b67e534f7471a992e9d52b7dd09fd04617016776b0d08f",
+        "bytes": 72043
+      }
+    },
+    {
+      "source_frame_id": 45,
+      "source_time_s": 1.5,
+      "pts": 23040,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000045.jpg",
+        "sha256": "987786639ba703fa9373b92fd5aee10d287ddc35318bb6271bdff2cc742b7f55",
+        "bytes": 71848
+      }
+    },
+    {
+      "source_frame_id": 46,
+      "source_time_s": 1.5333333333333334,
+      "pts": 23552,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000046.jpg",
+        "sha256": "28f294bb781f4832b0b7f94a23259506e2ffbd511e66d36bf545cbb35503247b",
+        "bytes": 72354
+      }
+    },
+    {
+      "source_frame_id": 47,
+      "source_time_s": 1.5666666666666667,
+      "pts": 24064,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000047.jpg",
+        "sha256": "1cbb80876d4f23ddbd2589fb76663543486125fa51d8926c6df595e6abe6d019",
+        "bytes": 72580
+      }
+    },
+    {
+      "source_frame_id": 48,
+      "source_time_s": 1.6,
+      "pts": 24576,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000048.jpg",
+        "sha256": "349cf91929ac0dc4bf1060ffcbc8b51b3d10c510af4fc3c8b3d45ed1faf4deec",
+        "bytes": 69327
+      }
+    },
+    {
+      "source_frame_id": 49,
+      "source_time_s": 1.6333333333333333,
+      "pts": 25088,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000049.jpg",
+        "sha256": "fbcde2843acbaaf8a7c0047c6b39bed87f46f50cb9365cb7b66bb993d6cb3327",
+        "bytes": 70501
+      }
+    },
+    {
+      "source_frame_id": 50,
+      "source_time_s": 1.6666666666666667,
+      "pts": 25600,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000050.jpg",
+        "sha256": "a83580dcff0c7a9e35665a4393b3afbd2156abe79db832e6971ec1a372b098c4",
+        "bytes": 70733
+      }
+    },
+    {
+      "source_frame_id": 51,
+      "source_time_s": 1.7,
+      "pts": 26112,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000051.jpg",
+        "sha256": "45200c49660c484b779626128ca68de927aaa08c68e80795437e238b0cea8258",
+        "bytes": 72174
+      }
+    },
+    {
+      "source_frame_id": 52,
+      "source_time_s": 1.7333333333333334,
+      "pts": 26624,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000052.jpg",
+        "sha256": "039caffb1120dce8bee18bbf9f38a5184b4e23e9dbcc41b6dafadcf1376d798a",
+        "bytes": 71682
+      }
+    },
+    {
+      "source_frame_id": 53,
+      "source_time_s": 1.7666666666666666,
+      "pts": 27136,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000053.jpg",
+        "sha256": "82b2dbe08a65f6871d7ff41cc85121daadfc55e91c8d334fc19a71533bc26dfb",
+        "bytes": 72127
+      }
+    },
+    {
+      "source_frame_id": 54,
+      "source_time_s": 1.8,
+      "pts": 27648,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000054.jpg",
+        "sha256": "b78f0b4bbde1a75417593a11a990abd1553e54be030678ecdf50c480c7f00f40",
+        "bytes": 72699
+      }
+    },
+    {
+      "source_frame_id": 55,
+      "source_time_s": 1.8333333333333333,
+      "pts": 28160,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000055.jpg",
+        "sha256": "3f1fff77bb27ae4ecded4d72d7368db4e7fa7dcb8e73a824539ac02911804c22",
+        "bytes": 73565
+      }
+    },
+    {
+      "source_frame_id": 56,
+      "source_time_s": 1.8666666666666667,
+      "pts": 28672,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000056.jpg",
+        "sha256": "4fdab8985cf015c5279176c9e48a5ff5e5819602265bd31726b8d6787c5034c5",
+        "bytes": 73300
+      }
+    },
+    {
+      "source_frame_id": 57,
+      "source_time_s": 1.9,
+      "pts": 29184,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000057.jpg",
+        "sha256": "a155737ff92a3e4415f499a0b421fda5e663cd8590de82ef34a61ff1758400dd",
+        "bytes": 73487
+      }
+    },
+    {
+      "source_frame_id": 58,
+      "source_time_s": 1.9333333333333333,
+      "pts": 29696,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000058.jpg",
+        "sha256": "bfc19062396e60dcf18aaf241c0b30401541b44bdce5098693ee9e319c365ec1",
+        "bytes": 73442
+      }
+    },
+    {
+      "source_frame_id": 59,
+      "source_time_s": 1.9666666666666666,
+      "pts": 30208,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000059.jpg",
+        "sha256": "ac433a795ef7976404435eab71c52f9b908835cf59ba9a876fa29404d4e4cf27",
+        "bytes": 74399
+      }
+    },
+    {
+      "source_frame_id": 60,
+      "source_time_s": 2.0,
+      "pts": 30720,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000060.jpg",
+        "sha256": "53af515b7f1504652ad31e9004d39f393dddc0324a6fc0f09f79e2d87cd9ebad",
+        "bytes": 72522
+      }
+    },
+    {
+      "source_frame_id": 61,
+      "source_time_s": 2.033333333333333,
+      "pts": 31232,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000061.jpg",
+        "sha256": "ebcc9cf8248efaa10b7826b5b6e678005d3c1d02d056e0f9cb1760ceada7f7a6",
+        "bytes": 73956
+      }
+    },
+    {
+      "source_frame_id": 62,
+      "source_time_s": 2.066666666666667,
+      "pts": 31744,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000062.jpg",
+        "sha256": "2aaf844ce09c1fddccb192f6b12ecab37dd83e0f518fafdcc66c57e7495bb6d3",
+        "bytes": 74314
+      }
+    },
+    {
+      "source_frame_id": 63,
+      "source_time_s": 2.1,
+      "pts": 32256,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000063.jpg",
+        "sha256": "b5b66b46500b6ae94853a5ede8601e9e378af04e095d399e2d47e12a847a20a4",
+        "bytes": 74982
+      }
+    },
+    {
+      "source_frame_id": 64,
+      "source_time_s": 2.1333333333333333,
+      "pts": 32768,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000064.jpg",
+        "sha256": "30da9ec4aefac1bf72fa97363501f6bf322fa3866c82146aa1d1719ec17d2407",
+        "bytes": 74261
+      }
+    },
+    {
+      "source_frame_id": 65,
+      "source_time_s": 2.1666666666666665,
+      "pts": 33280,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000065.jpg",
+        "sha256": "12dd43f40c1b59a7a0ee1222ad203a86f65e038dea5d2d2ecf043ab2cb490597",
+        "bytes": 73941
+      }
+    },
+    {
+      "source_frame_id": 66,
+      "source_time_s": 2.2,
+      "pts": 33792,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000066.jpg",
+        "sha256": "e5a9e8eceee30f7c1fa03e87c8f2cd5ff8d1bc321354c4323e2e99aeec2842c7",
+        "bytes": 74105
+      }
+    },
+    {
+      "source_frame_id": 67,
+      "source_time_s": 2.2333333333333334,
+      "pts": 34304,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000067.jpg",
+        "sha256": "0cc21e5de2d6a1df46dfb570cf9d1df8fddd49b9af00d38e3eaf5ac096c6b63c",
+        "bytes": 75371
+      }
+    },
+    {
+      "source_frame_id": 68,
+      "source_time_s": 2.2666666666666666,
+      "pts": 34816,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000068.jpg",
+        "sha256": "20cb44856e976118c9f9bf0eed522072870b6ebe40c6afda618ed2cada28f876",
+        "bytes": 75245
+      }
+    },
+    {
+      "source_frame_id": 69,
+      "source_time_s": 2.3,
+      "pts": 35328,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000069.jpg",
+        "sha256": "f6ced75e27c9086817d6f81fdd30b6c893312b86803108a13f4a37a8962d67da",
+        "bytes": 74674
+      }
+    },
+    {
+      "source_frame_id": 70,
+      "source_time_s": 2.3333333333333335,
+      "pts": 35840,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000070.jpg",
+        "sha256": "67aaa5635fb4fb0fea1fe6fc4a923925833e07f55af4706badf06de8a042a72f",
+        "bytes": 74321
+      }
+    },
+    {
+      "source_frame_id": 71,
+      "source_time_s": 2.3666666666666667,
+      "pts": 36352,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000071.jpg",
+        "sha256": "524801157800e6b3b0ef4fa9b34c6b440e8ad2772bc31228cc5d3c556eeb48a1",
+        "bytes": 75525
+      }
+    },
+    {
+      "source_frame_id": 72,
+      "source_time_s": 2.4,
+      "pts": 36864,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000072.jpg",
+        "sha256": "8fcb6b2af79f9a6706a4e05eb911a89b707c270c7673eda50090d548ebddf361",
+        "bytes": 71621
+      }
+    },
+    {
+      "source_frame_id": 73,
+      "source_time_s": 2.433333333333333,
+      "pts": 37376,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000073.jpg",
+        "sha256": "2427a93a55ba57954a458136a96804d1b0f8c92e0e845bd6b9573e6c5da9c68f",
+        "bytes": 73688
+      }
+    },
+    {
+      "source_frame_id": 74,
+      "source_time_s": 2.466666666666667,
+      "pts": 37888,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000074.jpg",
+        "sha256": "17533b6149938c9f0fba6aea811340be28e739d84fbc55693bbcd0e779ad8d25",
+        "bytes": 74420
+      }
+    },
+    {
+      "source_frame_id": 75,
+      "source_time_s": 2.5,
+      "pts": 38400,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000075.jpg",
+        "sha256": "00bf7f587241dde661756fd64e421eda60da860fd46dc7d8370ab3595d9ad4ed",
+        "bytes": 75283
+      }
+    },
+    {
+      "source_frame_id": 76,
+      "source_time_s": 2.533333333333333,
+      "pts": 38912,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000076.jpg",
+        "sha256": "6d297efaddbf9ca3915fa234fa371f06f2e9101ca829b3ea23f57f014f946e8b",
+        "bytes": 74687
+      }
+    },
+    {
+      "source_frame_id": 77,
+      "source_time_s": 2.566666666666667,
+      "pts": 39424,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000077.jpg",
+        "sha256": "b076d59b1e20af690fcad8f80791ffa53978986e1e391f6b3cb2585fa98bb1b1",
+        "bytes": 74351
+      }
+    },
+    {
+      "source_frame_id": 78,
+      "source_time_s": 2.6,
+      "pts": 39936,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000078.jpg",
+        "sha256": "3e8c657eecce86923b2aecd9de557bda82e62648fd4dfe2b111c6d308a09c2be",
+        "bytes": 74741
+      }
+    },
+    {
+      "source_frame_id": 79,
+      "source_time_s": 2.6333333333333333,
+      "pts": 40448,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000079.jpg",
+        "sha256": "45e0672c6fef88dd559aae400da8bf74530f0eab89a41e7900ee9e5ea84fe267",
+        "bytes": 74921
+      }
+    },
+    {
+      "source_frame_id": 80,
+      "source_time_s": 2.6666666666666665,
+      "pts": 40960,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000080.jpg",
+        "sha256": "4587999c5ac0ef67ca715febb1b3a151e1ea210e7953a2595a79e0f6e7eb9a44",
+        "bytes": 75205
+      }
+    },
+    {
+      "source_frame_id": 81,
+      "source_time_s": 2.7,
+      "pts": 41472,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000081.jpg",
+        "sha256": "438b75e58659e06b1554b075a392c2174fb254ff33aee2e9eda1813c522f8efb",
+        "bytes": 75509
+      }
+    },
+    {
+      "source_frame_id": 82,
+      "source_time_s": 2.7333333333333334,
+      "pts": 41984,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000082.jpg",
+        "sha256": "774efdb3a15ad5807e2c072b4f51f29817218a0be84d211484041f4086221bd0",
+        "bytes": 75881
+      }
+    },
+    {
+      "source_frame_id": 83,
+      "source_time_s": 2.7666666666666666,
+      "pts": 42496,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000083.jpg",
+        "sha256": "af844c30df56dd43084d8c2c16d8736428f7e6f08156d67b053af18d8c53540d",
+        "bytes": 76835
+      }
+    },
+    {
+      "source_frame_id": 84,
+      "source_time_s": 2.8,
+      "pts": 43008,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000084.jpg",
+        "sha256": "035af036ded01c840aa8b8be6bed9923243734ffedda650c3c376915c08ec94a",
+        "bytes": 72932
+      }
+    },
+    {
+      "source_frame_id": 85,
+      "source_time_s": 2.8333333333333335,
+      "pts": 43520,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000085.jpg",
+        "sha256": "75d7ed168f86cae508ecc74cdb94b32f50ac19810a425ec664edc637364562d2",
+        "bytes": 74661
+      }
+    },
+    {
+      "source_frame_id": 86,
+      "source_time_s": 2.8666666666666667,
+      "pts": 44032,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000086.jpg",
+        "sha256": "a74b374999643cb77c1971a75a5f8ef6ba5b3f2a216227ae23bc5d3d592e1de7",
+        "bytes": 75240
+      }
+    },
+    {
+      "source_frame_id": 87,
+      "source_time_s": 2.9,
+      "pts": 44544,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000087.jpg",
+        "sha256": "a36d09574741ae1971359a4c61ee2df51b5aecda945f90080a2765ae7ec35844",
+        "bytes": 76632
+      }
+    },
+    {
+      "source_frame_id": 88,
+      "source_time_s": 2.933333333333333,
+      "pts": 45056,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000088.jpg",
+        "sha256": "de1e6901e497249f3233d8304a770378b1e65c91a0854bf4257314fe5264c865",
+        "bytes": 77090
+      }
+    },
+    {
+      "source_frame_id": 89,
+      "source_time_s": 2.966666666666667,
+      "pts": 45568,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000089.jpg",
+        "sha256": "f8e416c966ecd36a348568ead871db4c4a045c9f7952d3ffb6fc14a2dada8306",
+        "bytes": 77004
+      }
+    },
+    {
+      "source_frame_id": 90,
+      "source_time_s": 3.0,
+      "pts": 46080,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000090.jpg",
+        "sha256": "b293f5b600a9a7d70ab2fc426c18a49c30b9a4cb9dd3ffaa416f00c3902863b2",
+        "bytes": 77222
+      }
+    },
+    {
+      "source_frame_id": 91,
+      "source_time_s": 3.033333333333333,
+      "pts": 46592,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000091.jpg",
+        "sha256": "3ad2b9ca64671b40085c1f98befe002a8603113ca2e935701c955b4d4c4373dd",
+        "bytes": 77968
+      }
+    },
+    {
+      "source_frame_id": 92,
+      "source_time_s": 3.066666666666667,
+      "pts": 47104,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000092.jpg",
+        "sha256": "645d85fe72b92733f621c6ff4ea01aae66f9d004b4daa2a569b8e0423125ac7c",
+        "bytes": 77931
+      }
+    },
+    {
+      "source_frame_id": 93,
+      "source_time_s": 3.1,
+      "pts": 47616,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000093.jpg",
+        "sha256": "45a30817f1d16dcc71ee8937288d25eb38f592b555b09b0609efa0630c7782ec",
+        "bytes": 78149
+      }
+    },
+    {
+      "source_frame_id": 94,
+      "source_time_s": 3.1333333333333333,
+      "pts": 48128,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000094.jpg",
+        "sha256": "0b02b7ed4abf960f34b4c9ccbb2202f5dc4ce5f69693b546566b41aa43b9c34c",
+        "bytes": 78139
+      }
+    },
+    {
+      "source_frame_id": 95,
+      "source_time_s": 3.1666666666666665,
+      "pts": 48640,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000095.jpg",
+        "sha256": "a1f5b398f40ac5b6d4fdee01d1f2909b9bf5a7722f580e16aabb0ff3b1c141e6",
+        "bytes": 78990
+      }
+    },
+    {
+      "source_frame_id": 96,
+      "source_time_s": 3.2,
+      "pts": 49152,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000096.jpg",
+        "sha256": "02fddf7db5125948bdacb6ee47ed104e630d5c03f87fd61012737290c35c3a80",
+        "bytes": 75400
+      }
+    },
+    {
+      "source_frame_id": 97,
+      "source_time_s": 3.2333333333333334,
+      "pts": 49664,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000097.jpg",
+        "sha256": "c1abd070f2655b578355b44c0af1cc6c7d9f57ea91bbb2993903b6cf1bf413dc",
+        "bytes": 76819
+      }
+    },
+    {
+      "source_frame_id": 98,
+      "source_time_s": 3.2666666666666666,
+      "pts": 50176,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000098.jpg",
+        "sha256": "ce9c27822d95740d267a5e9dbdb332615a131d1a80817ac5b9dedf439cd0504c",
+        "bytes": 77903
+      }
+    },
+    {
+      "source_frame_id": 99,
+      "source_time_s": 3.3,
+      "pts": 50688,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000099.jpg",
+        "sha256": "59a2316f24c7ba8bac0fac2f2140aa9e6aa29033b589ca65af09154105913e08",
+        "bytes": 77204
+      }
+    },
+    {
+      "source_frame_id": 100,
+      "source_time_s": 3.3333333333333335,
+      "pts": 51200,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000100.jpg",
+        "sha256": "9d179aae9e2d34fd1218bc75a9d986b3e0be10fb35aeeceb4fc7c54e1ea3ea50",
+        "bytes": 77237
+      }
+    },
+    {
+      "source_frame_id": 101,
+      "source_time_s": 3.3666666666666667,
+      "pts": 51712,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000101.jpg",
+        "sha256": "15b940b0525a5ed1a035acf2824031b3c8ba162cc25952ee680a04f9ddc84d49",
+        "bytes": 77462
+      }
+    },
+    {
+      "source_frame_id": 102,
+      "source_time_s": 3.4,
+      "pts": 52224,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000102.jpg",
+        "sha256": "1472b3dd5f4c009465d6005f7e674cec2a45b31e4c3f583d3db6ee5ab52cee4e",
+        "bytes": 77083
+      }
+    },
+    {
+      "source_frame_id": 103,
+      "source_time_s": 3.433333333333333,
+      "pts": 52736,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000103.jpg",
+        "sha256": "65d13546bb594bb61c180ba0dd486ce29ff3e683e558294b25ce36c5372810a9",
+        "bytes": 77946
+      }
+    },
+    {
+      "source_frame_id": 104,
+      "source_time_s": 3.466666666666667,
+      "pts": 53248,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000104.jpg",
+        "sha256": "a1a6bdcb054efbc869f879c9838f0a9e74cbf50a8539148c480569b9d0e8b968",
+        "bytes": 78769
+      }
+    },
+    {
+      "source_frame_id": 105,
+      "source_time_s": 3.5,
+      "pts": 53760,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000105.jpg",
+        "sha256": "e094203bd4513300ef7f627f2719c4a2141529b5ad6b18afc374c54609e4d29c",
+        "bytes": 79029
+      }
+    },
+    {
+      "source_frame_id": 106,
+      "source_time_s": 3.533333333333333,
+      "pts": 54272,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000106.jpg",
+        "sha256": "aad377d953add8a5bcccfd68ebbdc23793b971801fcd2e9aa6671a8611f7ffca",
+        "bytes": 78668
+      }
+    },
+    {
+      "source_frame_id": 107,
+      "source_time_s": 3.566666666666667,
+      "pts": 54784,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000107.jpg",
+        "sha256": "b8093556172ef80ab81f5ae490ced46d8047c0728ae6caaef45992d28dfc46e1",
+        "bytes": 78954
+      }
+    },
+    {
+      "source_frame_id": 108,
+      "source_time_s": 3.6,
+      "pts": 55296,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000108.jpg",
+        "sha256": "e92ed680ae48b41dc5bdfb17ab1326b267518a9f06fe6ba53cc46967cd158a2c",
+        "bytes": 75702
+      }
+    },
+    {
+      "source_frame_id": 109,
+      "source_time_s": 3.6333333333333333,
+      "pts": 55808,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000109.jpg",
+        "sha256": "3e52b05c391b01aaa102163b579b7bc3e14c1004594ade1749c235f0fc720564",
+        "bytes": 76533
+      }
+    },
+    {
+      "source_frame_id": 110,
+      "source_time_s": 3.6666666666666665,
+      "pts": 56320,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000110.jpg",
+        "sha256": "cf0dded84501c6bf44a3011d9bb21faf7764ac27422b6ed9fd07394d6d4f03dc",
+        "bytes": 76802
+      }
+    },
+    {
+      "source_frame_id": 111,
+      "source_time_s": 3.7,
+      "pts": 56832,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000111.jpg",
+        "sha256": "27e7e20f07322576ffeecac8dd9d6c7235fe82dc524199b432b9a71760f82137",
+        "bytes": 77230
+      }
+    },
+    {
+      "source_frame_id": 112,
+      "source_time_s": 3.7333333333333334,
+      "pts": 57344,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000112.jpg",
+        "sha256": "e65391527f797c407a792e6ab44bd336e164a6abfe21a2c0bd7bea21a9e7c328",
+        "bytes": 77453
+      }
+    },
+    {
+      "source_frame_id": 113,
+      "source_time_s": 3.7666666666666666,
+      "pts": 57856,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000113.jpg",
+        "sha256": "6cfee1f09fc5b6f7d0722ebd1f3148939bc0734d3216938786e1cad3396f807a",
+        "bytes": 77152
+      }
+    },
+    {
+      "source_frame_id": 114,
+      "source_time_s": 3.8,
+      "pts": 58368,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000114.jpg",
+        "sha256": "5d25b6400f05fcc0b2f423eca67845ab94ff2b0d9c4832c5d2e29698a2982bf7",
+        "bytes": 77311
+      }
+    },
+    {
+      "source_frame_id": 115,
+      "source_time_s": 3.8333333333333335,
+      "pts": 58880,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000115.jpg",
+        "sha256": "461b32ae5145bece410ff0762026ef050c6b7c1fbbe3cdf174884cd961896ac8",
+        "bytes": 77386
+      }
+    },
+    {
+      "source_frame_id": 116,
+      "source_time_s": 3.8666666666666667,
+      "pts": 59392,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000116.jpg",
+        "sha256": "ce7a19cae6a1bc2ff863044a216607ecb7c8ebcb74ebccfe5597bdff2a42a4ea",
+        "bytes": 77281
+      }
+    },
+    {
+      "source_frame_id": 117,
+      "source_time_s": 3.9,
+      "pts": 59904,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000117.jpg",
+        "sha256": "090ee6e80ae69aeb288b6e8fa1090105cb479591d9405c094310f70aaaf957d6",
+        "bytes": 77225
+      }
+    },
+    {
+      "source_frame_id": 118,
+      "source_time_s": 3.933333333333333,
+      "pts": 60416,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000118.jpg",
+        "sha256": "4082112c948bd5c92b544ebcf5e5232e46be1bd12dca8effa57885e40c80ec28",
+        "bytes": 77161
+      }
+    },
+    {
+      "source_frame_id": 119,
+      "source_time_s": 3.966666666666667,
+      "pts": 60928,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000119.jpg",
+        "sha256": "9a4b25942afea569635a5fb17ce0bdd8c1ec87ccfe581720432c8c1c18c173f8",
+        "bytes": 77758
+      }
+    },
+    {
+      "source_frame_id": 120,
+      "source_time_s": 4.0,
+      "pts": 61440,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000120.jpg",
+        "sha256": "b7f16bd3a1a577cfb012fac3c92f887f5b3f456b484cbc95851546eda5bd89a4",
+        "bytes": 75589
+      }
+    },
+    {
+      "source_frame_id": 121,
+      "source_time_s": 4.033333333333333,
+      "pts": 61952,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000121.jpg",
+        "sha256": "b2dcaf4cae3c859e3783f34c12ed516b5df033e2c0656de501de82e240fbf466",
+        "bytes": 76672
+      }
+    },
+    {
+      "source_frame_id": 122,
+      "source_time_s": 4.066666666666666,
+      "pts": 62464,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000122.jpg",
+        "sha256": "ba3d9253317a61e32de1db33727988de3de57c920930d93adf8f18357d526634",
+        "bytes": 76840
+      }
+    },
+    {
+      "source_frame_id": 123,
+      "source_time_s": 4.1,
+      "pts": 62976,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000123.jpg",
+        "sha256": "d783810f3f531c45091a900fae21051d19cc5418d2fcacc69e51e00994411c3d",
+        "bytes": 77305
+      }
+    },
+    {
+      "source_frame_id": 124,
+      "source_time_s": 4.133333333333334,
+      "pts": 63488,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000124.jpg",
+        "sha256": "75dcd3bfebca0acbc1a3b1ef56166788eb2740d69822e4fccfdd9c89241aa2de",
+        "bytes": 76059
+      }
+    },
+    {
+      "source_frame_id": 125,
+      "source_time_s": 4.166666666666667,
+      "pts": 64000,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000125.jpg",
+        "sha256": "2b686e440f8887396a099534917082b7e4f6b3c025ffd2522f3052513641e6e4",
+        "bytes": 76016
+      }
+    },
+    {
+      "source_frame_id": 126,
+      "source_time_s": 4.2,
+      "pts": 64512,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000126.jpg",
+        "sha256": "d7cb88f31ff609bc4816176c8a2f0cf1d4421e63913292eb85cf8f385157ff9a",
+        "bytes": 75400
+      }
+    },
+    {
+      "source_frame_id": 127,
+      "source_time_s": 4.233333333333333,
+      "pts": 65024,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000127.jpg",
+        "sha256": "e46fb3f61d1dbef948900d92391143232a5b5a66b56fd2aa409a7d977eae0517",
+        "bytes": 75940
+      }
+    },
+    {
+      "source_frame_id": 128,
+      "source_time_s": 4.266666666666667,
+      "pts": 65536,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000128.jpg",
+        "sha256": "58ffc7a5053cd58b0554498b1b264ca5d70156fd7064e7b8f7feab9f1ae76a19",
+        "bytes": 76748
+      }
+    },
+    {
+      "source_frame_id": 129,
+      "source_time_s": 4.3,
+      "pts": 66048,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000129.jpg",
+        "sha256": "61e0f1e88729206b3b057354755c8c9e366237a4b33df9e3c6447692213793de",
+        "bytes": 76635
+      }
+    },
+    {
+      "source_frame_id": 130,
+      "source_time_s": 4.333333333333333,
+      "pts": 66560,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000130.jpg",
+        "sha256": "f91501e0f55012f28bb9269f64eeceb792e1ce915c5085f2abd7cfce8bdaf4ea",
+        "bytes": 76821
+      }
+    },
+    {
+      "source_frame_id": 131,
+      "source_time_s": 4.366666666666666,
+      "pts": 67072,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000131.jpg",
+        "sha256": "21ae681b153724607914fc53f1cfbdd28d211f3f5a67c464885f6b80a4fc4c38",
+        "bytes": 78078
+      }
+    },
+    {
+      "source_frame_id": 132,
+      "source_time_s": 4.4,
+      "pts": 67584,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000132.jpg",
+        "sha256": "7013f12d9b3bbdb77d7a47280af9fe26016891ae67142a9fd41218486aa4489a",
+        "bytes": 75850
+      }
+    },
+    {
+      "source_frame_id": 133,
+      "source_time_s": 4.433333333333334,
+      "pts": 68096,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000133.jpg",
+        "sha256": "40d475e332d45f713d805731ecbb1c586b5cc053e26c1b900db2a600c2b23663",
+        "bytes": 77841
+      }
+    },
+    {
+      "source_frame_id": 134,
+      "source_time_s": 4.466666666666667,
+      "pts": 68608,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000134.jpg",
+        "sha256": "f12733be46b61975c148b980843d2a0b46075c3b0898a01e3bf4ee6319451f7d",
+        "bytes": 77680
+      }
+    },
+    {
+      "source_frame_id": 135,
+      "source_time_s": 4.5,
+      "pts": 69120,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000135.jpg",
+        "sha256": "5e11586a5c58c04324c83b4a0d616f08b0737b2cc68f5560407d2f2aa417924d",
+        "bytes": 77774
+      }
+    },
+    {
+      "source_frame_id": 136,
+      "source_time_s": 4.533333333333333,
+      "pts": 69632,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000136.jpg",
+        "sha256": "2874d4c57722bcaf7245eaafe1b8187c913da652337371cf6ffa8f92aa177ba3",
+        "bytes": 78259
+      }
+    },
+    {
+      "source_frame_id": 137,
+      "source_time_s": 4.566666666666666,
+      "pts": 70144,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000137.jpg",
+        "sha256": "f1d0e27184947e08ad2d789e9ebe153f372d9eb08c88900cdeda504220d729cc",
+        "bytes": 78984
+      }
+    },
+    {
+      "source_frame_id": 138,
+      "source_time_s": 4.6,
+      "pts": 70656,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000138.jpg",
+        "sha256": "7159b51eb56a9052e53b14bcdb5c35d638330ec6e6d6f5e37e17c916ff025eb4",
+        "bytes": 79324
+      }
+    },
+    {
+      "source_frame_id": 139,
+      "source_time_s": 4.633333333333334,
+      "pts": 71168,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000139.jpg",
+        "sha256": "6b7c18eecc25acd3d30f921f8891241919ba98bbac17fe56b0d4e5fa758f575c",
+        "bytes": 79650
+      }
+    },
+    {
+      "source_frame_id": 140,
+      "source_time_s": 4.666666666666667,
+      "pts": 71680,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000140.jpg",
+        "sha256": "36f1eb02ccf09953fb5e02b5fd227d3b629afbea1ba07a498f7c30be00617d3e",
+        "bytes": 79748
+      }
+    },
+    {
+      "source_frame_id": 141,
+      "source_time_s": 4.7,
+      "pts": 72192,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000141.jpg",
+        "sha256": "5084223275cdd1cc88de7ad925d0c367561a171aafaebc50af22d39eb62a20df",
+        "bytes": 79411
+      }
+    },
+    {
+      "source_frame_id": 142,
+      "source_time_s": 4.733333333333333,
+      "pts": 72704,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000142.jpg",
+        "sha256": "0a685f667c946dc6b531d04be9e5e637232a86c62def71b047ea08f63280f1e8",
+        "bytes": 78972
+      }
+    },
+    {
+      "source_frame_id": 143,
+      "source_time_s": 4.766666666666667,
+      "pts": 73216,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000143.jpg",
+        "sha256": "0d69aeea03e5df4b691cae2dc34ca559f32b71c1a3d00b078d438e50127bfc5e",
+        "bytes": 79307
+      }
+    },
+    {
+      "source_frame_id": 144,
+      "source_time_s": 4.8,
+      "pts": 73728,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000144.jpg",
+        "sha256": "ad9930853d9c4f737bb7b6eb642f706b8153d848ad3ceeb66da3c7dc9cb5e6e3",
+        "bytes": 76289
+      }
+    },
+    {
+      "source_frame_id": 145,
+      "source_time_s": 4.833333333333333,
+      "pts": 74240,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000145.jpg",
+        "sha256": "8d6b2fda6134d6da5ec7ce22ef386156853cced3bfa597a79b46e4124820bf34",
+        "bytes": 77798
+      }
+    },
+    {
+      "source_frame_id": 146,
+      "source_time_s": 4.866666666666666,
+      "pts": 74752,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000146.jpg",
+        "sha256": "eddca763e15982c399ba174b04ca53a832783566bd9771041473c993a6d7c762",
+        "bytes": 78549
+      }
+    },
+    {
+      "source_frame_id": 147,
+      "source_time_s": 4.9,
+      "pts": 75264,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000147.jpg",
+        "sha256": "d5c3c9469596ec03929a9c4d04a2dfdee0588b8669faa24e9f81f0821e95a450",
+        "bytes": 79839
+      }
+    },
+    {
+      "source_frame_id": 148,
+      "source_time_s": 4.933333333333334,
+      "pts": 75776,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000148.jpg",
+        "sha256": "7ad0e6e7fcfd837482ce5ed6ba4443e3aac79c07bed7e4a57976ce3464dc365b",
+        "bytes": 80734
+      }
+    },
+    {
+      "source_frame_id": 149,
+      "source_time_s": 4.966666666666667,
+      "pts": 76288,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000149.jpg",
+        "sha256": "1c17ae958574f2f3b2dc1ac13ee8feaa8b06cf64d643912b7a63cc5bf723b812",
+        "bytes": 81090
+      }
+    },
+    {
+      "source_frame_id": 150,
+      "source_time_s": 5.0,
+      "pts": 76800,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000150.jpg",
+        "sha256": "af2119cab69c8eafcc033cd5bfbfd8c5570637a7b5d3c056f03708869c9b7d63",
+        "bytes": 81446
+      }
+    },
+    {
+      "source_frame_id": 151,
+      "source_time_s": 5.033333333333333,
+      "pts": 77312,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000151.jpg",
+        "sha256": "470cd0eeccd09024d0bffdf534cec8ec5d0f348eb70576ef2ac3f74d7e04731d",
+        "bytes": 81309
+      }
+    },
+    {
+      "source_frame_id": 152,
+      "source_time_s": 5.066666666666666,
+      "pts": 77824,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000152.jpg",
+        "sha256": "f5b36ed82c030bdedacae9ecbe4c4e77c1ee42d7ebbe2e2774433069d7bb1493",
+        "bytes": 81116
+      }
+    },
+    {
+      "source_frame_id": 153,
+      "source_time_s": 5.1,
+      "pts": 78336,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000153.jpg",
+        "sha256": "18e9d14d14b4e80e636074df5ec2c3d70fd813ffb480dd2d2e9dba28d608e26d",
+        "bytes": 80454
+      }
+    },
+    {
+      "source_frame_id": 154,
+      "source_time_s": 5.133333333333334,
+      "pts": 78848,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000154.jpg",
+        "sha256": "5f254c2e6c12db6261938550d9cae56aa2d11bb12e6b009c5d1c856b3c674d89",
+        "bytes": 79934
+      }
+    },
+    {
+      "source_frame_id": 155,
+      "source_time_s": 5.166666666666667,
+      "pts": 79360,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000155.jpg",
+        "sha256": "0ba9b1688efbdcb2adb90aaaccb64027357857622e3648b6600ea3edd9f2b296",
+        "bytes": 79898
+      }
+    },
+    {
+      "source_frame_id": 156,
+      "source_time_s": 5.2,
+      "pts": 79872,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000156.jpg",
+        "sha256": "0a77f17eb2502c3ae11d489cdc0ff3beec89d4f31d648bd468435663a08e04f3",
+        "bytes": 74756
+      }
+    },
+    {
+      "source_frame_id": 157,
+      "source_time_s": 5.233333333333333,
+      "pts": 80384,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000157.jpg",
+        "sha256": "bb2f277e6dc075221fdf8b18afbe8395c84754d15a1dd7335ae810f24096a477",
+        "bytes": 77015
+      }
+    },
+    {
+      "source_frame_id": 158,
+      "source_time_s": 5.266666666666667,
+      "pts": 80896,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000158.jpg",
+        "sha256": "ca7bc77579400c6498ace145459764461b2f5cfee9a9434c0559d5033db50c56",
+        "bytes": 77671
+      }
+    },
+    {
+      "source_frame_id": 159,
+      "source_time_s": 5.3,
+      "pts": 81408,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000159.jpg",
+        "sha256": "082ce2037143f9bed4651a32e9881cc0b0935f653ffa3af3be20c2d797b2bda5",
+        "bytes": 78404
+      }
+    },
+    {
+      "source_frame_id": 160,
+      "source_time_s": 5.333333333333333,
+      "pts": 81920,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000160.jpg",
+        "sha256": "3cddaf97fc8e4af2311580d532b87cdfb8c8d380b8c13dc6156356d8602248d7",
+        "bytes": 78742
+      }
+    },
+    {
+      "source_frame_id": 161,
+      "source_time_s": 5.366666666666666,
+      "pts": 82432,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000161.jpg",
+        "sha256": "27fc3742c8dabe1db9d706240eb4b2dc3f17ec2b4c8d8eaf6051d097f2d80dc2",
+        "bytes": 78937
+      }
+    },
+    {
+      "source_frame_id": 162,
+      "source_time_s": 5.4,
+      "pts": 82944,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000162.jpg",
+        "sha256": "13882ee0ab9d68aa55fb186e26576ffec3566f466fafcb1f2d439d04f035fed2",
+        "bytes": 78982
+      }
+    },
+    {
+      "source_frame_id": 163,
+      "source_time_s": 5.433333333333334,
+      "pts": 83456,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000163.jpg",
+        "sha256": "23e2319b338ac1c069bcbc8780115e837445e2341c2525ab994cbcde0e85fab7",
+        "bytes": 79526
+      }
+    },
+    {
+      "source_frame_id": 164,
+      "source_time_s": 5.466666666666667,
+      "pts": 83968,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000164.jpg",
+        "sha256": "a6906534db0ea820f3e2f7ae5ebad6c54f7d347a1bb77dcf21f0ee5c916151f7",
+        "bytes": 79145
+      }
+    },
+    {
+      "source_frame_id": 165,
+      "source_time_s": 5.5,
+      "pts": 84480,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000165.jpg",
+        "sha256": "a09c234dbfacdb171a441f66a858f62f6db71da9f3be9596269a334da1a9f44f",
+        "bytes": 79257
+      }
+    },
+    {
+      "source_frame_id": 166,
+      "source_time_s": 5.533333333333333,
+      "pts": 84992,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000166.jpg",
+        "sha256": "27e93809e90eca8a812fb578342e78356ce616d830192ad9c016ce2daddf2688",
+        "bytes": 79221
+      }
+    },
+    {
+      "source_frame_id": 167,
+      "source_time_s": 5.566666666666666,
+      "pts": 85504,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000167.jpg",
+        "sha256": "6a7a5452a7ce792625bf964013d70060c74de78b8cc00ef0cc20c89d0d08c0b9",
+        "bytes": 79891
+      }
+    },
+    {
+      "source_frame_id": 168,
+      "source_time_s": 5.6,
+      "pts": 86016,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000168.jpg",
+        "sha256": "cfff45fd6373ebce04ec896327053690db5532f1f5beeec3bc6438d048fd5d0e",
+        "bytes": 75314
+      }
+    },
+    {
+      "source_frame_id": 169,
+      "source_time_s": 5.633333333333334,
+      "pts": 86528,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000169.jpg",
+        "sha256": "e61deee868b1dba9426c9cdb224723855e6b1df9f7a5f1a7f50690ecdf1c82cb",
+        "bytes": 75821
+      }
+    },
+    {
+      "source_frame_id": 170,
+      "source_time_s": 5.666666666666667,
+      "pts": 87040,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000170.jpg",
+        "sha256": "44683b16000b443ac307276b9c2b49109902e3fd55f9888bffdd4abb8c0b0d75",
+        "bytes": 76017
+      }
+    },
+    {
+      "source_frame_id": 171,
+      "source_time_s": 5.7,
+      "pts": 87552,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000171.jpg",
+        "sha256": "e2dd6d3563fc13b8d5c777d4f70c58aa04824994c75b467c76a3f2a01bc5d806",
+        "bytes": 77600
+      }
+    },
+    {
+      "source_frame_id": 172,
+      "source_time_s": 5.733333333333333,
+      "pts": 88064,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000172.jpg",
+        "sha256": "b802eadfe69a690217e0c5c86714e1a8a40fa3b10032535e78ccd8575a2f3616",
+        "bytes": 77614
+      }
+    },
+    {
+      "source_frame_id": 173,
+      "source_time_s": 5.766666666666667,
+      "pts": 88576,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000173.jpg",
+        "sha256": "780c33a5d298d88f40b8bca583ef40c55ca81f1ef4874d6d767c27894d95d398",
+        "bytes": 77722
+      }
+    },
+    {
+      "source_frame_id": 174,
+      "source_time_s": 5.8,
+      "pts": 89088,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000174.jpg",
+        "sha256": "e51b764be787a236568063aa4c5ab3cc5eeb06f00c7f01deda1a2a507f2ebd94",
+        "bytes": 78051
+      }
+    },
+    {
+      "source_frame_id": 175,
+      "source_time_s": 5.833333333333333,
+      "pts": 89600,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000175.jpg",
+        "sha256": "6237c81b468aa71ff98fc85315fe5155c3b0a6fb13fc41cd87e9dacde558e0e8",
+        "bytes": 78448
+      }
+    },
+    {
+      "source_frame_id": 176,
+      "source_time_s": 5.866666666666666,
+      "pts": 90112,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000176.jpg",
+        "sha256": "621094a5c4f513b06c26ab074ef14ecf4474562c7b8930b199150faa86a53b11",
+        "bytes": 78549
+      }
+    },
+    {
+      "source_frame_id": 177,
+      "source_time_s": 5.9,
+      "pts": 90624,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000177.jpg",
+        "sha256": "223d0196a0f17ff10a927e93317ea760b69cac5111956691b25da695bd375909",
+        "bytes": 78614
+      }
+    },
+    {
+      "source_frame_id": 178,
+      "source_time_s": 5.933333333333334,
+      "pts": 91136,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000178.jpg",
+        "sha256": "cf966a8d9b432abb5c469d13df0863259e31ec7d20dd573078f011edde2568e9",
+        "bytes": 78552
+      }
+    },
+    {
+      "source_frame_id": 179,
+      "source_time_s": 5.966666666666667,
+      "pts": 91648,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000179.jpg",
+        "sha256": "11d85c29ca7128aff4556f83dd306fd88aa2a8e64b1f45021b814850763ca713",
+        "bytes": 78914
+      }
+    },
+    {
+      "source_frame_id": 180,
+      "source_time_s": 6.0,
+      "pts": 92160,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000180.jpg",
+        "sha256": "3dfbb0f420e3a38407b5775a724b389aec95436df51508450f090bf2f31ae29e",
+        "bytes": 74047
+      }
+    },
+    {
+      "source_frame_id": 181,
+      "source_time_s": 6.033333333333333,
+      "pts": 92672,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000181.jpg",
+        "sha256": "32ee6d6e0d101a872f04924599be27ef6a0b5624b572b96f693f9f29efe712b3",
+        "bytes": 74477
+      }
+    },
+    {
+      "source_frame_id": 182,
+      "source_time_s": 6.066666666666666,
+      "pts": 93184,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000182.jpg",
+        "sha256": "1a4f07c2b099d34f2bae30814e4d3502e54cdf49239087f0a79f84f2beaa558a",
+        "bytes": 74457
+      }
+    },
+    {
+      "source_frame_id": 183,
+      "source_time_s": 6.1,
+      "pts": 93696,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000183.jpg",
+        "sha256": "cc243991cb4b7a3428cebb4b551dd3ada2c6d82e9664a34f75ca560f0c0eab93",
+        "bytes": 74301
+      }
+    },
+    {
+      "source_frame_id": 184,
+      "source_time_s": 6.133333333333334,
+      "pts": 94208,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000184.jpg",
+        "sha256": "d75d4bf8f1c1c36f59f3a2842be6e0517b0e94504f183c9635a6f0e08bab5109",
+        "bytes": 75281
+      }
+    },
+    {
+      "source_frame_id": 185,
+      "source_time_s": 6.166666666666667,
+      "pts": 94720,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000185.jpg",
+        "sha256": "f68b74b44569912f777f7953a928fdac079539932eec7f0bf5d4bfa10580449e",
+        "bytes": 75936
+      }
+    },
+    {
+      "source_frame_id": 186,
+      "source_time_s": 6.2,
+      "pts": 95232,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000186.jpg",
+        "sha256": "8d83c40215f8dec7c432a4ed055e6de9e83d8bc68f9becb5a84878a5c37139a9",
+        "bytes": 76007
+      }
+    },
+    {
+      "source_frame_id": 187,
+      "source_time_s": 6.233333333333333,
+      "pts": 95744,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000187.jpg",
+        "sha256": "2f81ffa4ccc1511d2aed4f9275e30f1075ec73762620e722eccfba242256d76b",
+        "bytes": 76880
+      }
+    },
+    {
+      "source_frame_id": 188,
+      "source_time_s": 6.266666666666667,
+      "pts": 96256,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000188.jpg",
+        "sha256": "6390da7e42cd94725f403ddc7de4fae9fb0ca92e807d4af2376680b1c7ffed12",
+        "bytes": 75953
+      }
+    },
+    {
+      "source_frame_id": 189,
+      "source_time_s": 6.3,
+      "pts": 96768,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000189.jpg",
+        "sha256": "7dcedf0636efdd3ae47f7e8f94d3f54ed22400f9b3d450117714502e2eae70c1",
+        "bytes": 76250
+      }
+    },
+    {
+      "source_frame_id": 190,
+      "source_time_s": 6.333333333333333,
+      "pts": 97280,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000190.jpg",
+        "sha256": "3a125bec666701447c97747c1b689aa008d4d2e064248d10ac08c55aaecbd2a8",
+        "bytes": 76781
+      }
+    },
+    {
+      "source_frame_id": 191,
+      "source_time_s": 6.366666666666666,
+      "pts": 97792,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000191.jpg",
+        "sha256": "538b1da3e2cabd37907c2bc45adf7c83c0b55c763a30b8664aa26882e21a79cf",
+        "bytes": 76845
+      }
+    },
+    {
+      "source_frame_id": 192,
+      "source_time_s": 6.4,
+      "pts": 98304,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000192.jpg",
+        "sha256": "7df37140cddc778633a36a8e6d59d7c7596bf687a63f30ba4449b93d98b5f155",
+        "bytes": 73914
+      }
+    },
+    {
+      "source_frame_id": 193,
+      "source_time_s": 6.433333333333334,
+      "pts": 98816,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000193.jpg",
+        "sha256": "45eefa5c8c2a2999af96ea45f54cdbddda4d1634d602a2a02226df2f8050fa38",
+        "bytes": 75225
+      }
+    },
+    {
+      "source_frame_id": 194,
+      "source_time_s": 6.466666666666667,
+      "pts": 99328,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000194.jpg",
+        "sha256": "1fa00a351e62674383a7ae19d41e4c841c4e5bb698ebf1086e83c2b0aa6d9ad8",
+        "bytes": 75197
+      }
+    },
+    {
+      "source_frame_id": 195,
+      "source_time_s": 6.5,
+      "pts": 99840,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000195.jpg",
+        "sha256": "f93dafa44fcf9ee1e75d56b1cf07051ad4e472dfc09180a9b847d15f076f37c7",
+        "bytes": 75908
+      }
+    },
+    {
+      "source_frame_id": 196,
+      "source_time_s": 6.533333333333333,
+      "pts": 100352,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000196.jpg",
+        "sha256": "9c5c8c1f9fc36dfddefaf171ce11ec72178df9c0513351ceb54cfe29a619efe0",
+        "bytes": 75587
+      }
+    },
+    {
+      "source_frame_id": 197,
+      "source_time_s": 6.566666666666666,
+      "pts": 100864,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000197.jpg",
+        "sha256": "f71db0f6784b78b5923f787232276a468d3f8db289c83846588d362d727d1af0",
+        "bytes": 75921
+      }
+    },
+    {
+      "source_frame_id": 198,
+      "source_time_s": 6.6,
+      "pts": 101376,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000198.jpg",
+        "sha256": "3765f6b906e434b008a883f490daf0867674d5b423fe383580e16e7a55f83942",
+        "bytes": 76461
+      }
+    },
+    {
+      "source_frame_id": 199,
+      "source_time_s": 6.633333333333334,
+      "pts": 101888,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000199.jpg",
+        "sha256": "d4737daa21ad032e28369b72d74056ff52270306363c649f845c5213815677ea",
+        "bytes": 77012
+      }
+    },
+    {
+      "source_frame_id": 200,
+      "source_time_s": 6.666666666666667,
+      "pts": 102400,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000200.jpg",
+        "sha256": "dfa3caa52b6868d0f79b9fa3763692f1724f13e8b483308780a610a5602929a0",
+        "bytes": 76440
+      }
+    },
+    {
+      "source_frame_id": 201,
+      "source_time_s": 6.7,
+      "pts": 102912,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000201.jpg",
+        "sha256": "0816784b37793b60e09743656206de65a3da1838e75dd9cdad1aa2d228f24660",
+        "bytes": 76707
+      }
+    },
+    {
+      "source_frame_id": 202,
+      "source_time_s": 6.733333333333333,
+      "pts": 103424,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000202.jpg",
+        "sha256": "6d9518bd4bd674ce456036c427d67af2ddb0c7ec0828960d42bcddc2fca5f766",
+        "bytes": 76894
+      }
+    },
+    {
+      "source_frame_id": 203,
+      "source_time_s": 6.766666666666667,
+      "pts": 103936,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000203.jpg",
+        "sha256": "5375f44d0114ad9274f8846fdf9364ad7f829f6423d42159032b7d5cbbc4e585",
+        "bytes": 77560
+      }
+    },
+    {
+      "source_frame_id": 204,
+      "source_time_s": 6.8,
+      "pts": 104448,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000204.jpg",
+        "sha256": "9849c30cb9aaaedeb2d914610b0e2a4d4ed9ce0181ce11fee5e3055e1b95d8fb",
+        "bytes": 75334
+      }
+    },
+    {
+      "source_frame_id": 205,
+      "source_time_s": 6.833333333333333,
+      "pts": 104960,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000205.jpg",
+        "sha256": "ed944ebc6a7b710add14b89fe8a71b8acf43f4aedc2c85441ff85820245eb9db",
+        "bytes": 75976
+      }
+    },
+    {
+      "source_frame_id": 206,
+      "source_time_s": 6.866666666666666,
+      "pts": 105472,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000206.jpg",
+        "sha256": "887b34f1b496a26ce1593a80b229f092d0e01f2709da0056677fa2a6905c9361",
+        "bytes": 75770
+      }
+    },
+    {
+      "source_frame_id": 207,
+      "source_time_s": 6.9,
+      "pts": 105984,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000207.jpg",
+        "sha256": "7a669dd475ab99eee51f9d21442c16d38d186bb497e3b58aeb58350f56165780",
+        "bytes": 76608
+      }
+    },
+    {
+      "source_frame_id": 208,
+      "source_time_s": 6.933333333333334,
+      "pts": 106496,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000208.jpg",
+        "sha256": "28b8e89fc32ac899c07376c609f068f6c6ce7f5389d2f2b26b30ff285d73b8ce",
+        "bytes": 74644
+      }
+    },
+    {
+      "source_frame_id": 209,
+      "source_time_s": 6.966666666666667,
+      "pts": 107008,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000209.jpg",
+        "sha256": "1d5a39957488da78a35f8a323c5c6fa7ba30e1b39b9fd323a78ecdbc46e2ece8",
+        "bytes": 73826
+      }
+    },
+    {
+      "source_frame_id": 210,
+      "source_time_s": 7.0,
+      "pts": 107520,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000210.jpg",
+        "sha256": "88e95ddde536947d13f73c8d92a515cca50a7790db7d7cb2c843841c399b297a",
+        "bytes": 73985
+      }
+    },
+    {
+      "source_frame_id": 211,
+      "source_time_s": 7.033333333333333,
+      "pts": 108032,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000211.jpg",
+        "sha256": "017d926a940ea645189485f520e76721263b83a78ab9449a69d43b8102cdd7fe",
+        "bytes": 74631
+      }
+    },
+    {
+      "source_frame_id": 212,
+      "source_time_s": 7.066666666666666,
+      "pts": 108544,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000212.jpg",
+        "sha256": "67e2690a452c11d315a729d3ee7a8fbabcc92ef4e720b46c91aef401a444f97e",
+        "bytes": 74434
+      }
+    },
+    {
+      "source_frame_id": 213,
+      "source_time_s": 7.1,
+      "pts": 109056,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000213.jpg",
+        "sha256": "99ed2bfc5b886e6a2ee5d278b4b3e6d8ef1561578afc212c681e1ed56a7e52b7",
+        "bytes": 74409
+      }
+    },
+    {
+      "source_frame_id": 214,
+      "source_time_s": 7.133333333333334,
+      "pts": 109568,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000214.jpg",
+        "sha256": "2660219c190fef8a984b17b110c63b27620a10242887739b0ceaf710dec4997d",
+        "bytes": 74665
+      }
+    },
+    {
+      "source_frame_id": 215,
+      "source_time_s": 7.166666666666667,
+      "pts": 110080,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000215.jpg",
+        "sha256": "b148b1af846ee7f91fd0ec04c3a3819a7dd69adbabdd17da1b55f7b4e3ce781e",
+        "bytes": 75389
+      }
+    },
+    {
+      "source_frame_id": 216,
+      "source_time_s": 7.2,
+      "pts": 110592,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000216.jpg",
+        "sha256": "706fa2cf17235d7c96d89a8b1b24c00f697b7053b6e851002076b61c44bf9eb5",
+        "bytes": 72037
+      }
+    },
+    {
+      "source_frame_id": 217,
+      "source_time_s": 7.233333333333333,
+      "pts": 111104,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000217.jpg",
+        "sha256": "567f273d90c2b0de6fa6a58013647400bb1f453a3f3ff0da0d874ab6ab6441a4",
+        "bytes": 72827
+      }
+    },
+    {
+      "source_frame_id": 218,
+      "source_time_s": 7.266666666666667,
+      "pts": 111616,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000218.jpg",
+        "sha256": "5cf5a74b710a9c18f7bd9b8aad387f8dfd97277016345dd79da25d2c6bc2196c",
+        "bytes": 72708
+      }
+    },
+    {
+      "source_frame_id": 219,
+      "source_time_s": 7.3,
+      "pts": 112128,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000219.jpg",
+        "sha256": "2b6d3ca8e302bb225944f28ebbf0484eeccc9ee5118011c9f95d07c1988416fd",
+        "bytes": 73101
+      }
+    },
+    {
+      "source_frame_id": 220,
+      "source_time_s": 7.333333333333333,
+      "pts": 112640,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000220.jpg",
+        "sha256": "3fd9fe81c036d738adff5600264f12cca09d3bf2012c75fa9fb2e27998018d4d",
+        "bytes": 73377
+      }
+    },
+    {
+      "source_frame_id": 221,
+      "source_time_s": 7.366666666666666,
+      "pts": 113152,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000221.jpg",
+        "sha256": "5b28ea106f7a1c595cb4931b5a426537ddc2e2ec22643dd53ec4fc27c54712c7",
+        "bytes": 73920
+      }
+    },
+    {
+      "source_frame_id": 222,
+      "source_time_s": 7.4,
+      "pts": 113664,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000222.jpg",
+        "sha256": "6fb072dc9ec88075b54eef5131d7c3be1704ef5f0ce5cafc4529a801ff5355ce",
+        "bytes": 74558
+      }
+    },
+    {
+      "source_frame_id": 223,
+      "source_time_s": 7.433333333333334,
+      "pts": 114176,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000223.jpg",
+        "sha256": "c7dc7a6dc7248ccdd4826a3bba5cbd8732e4afe1cdbb63a72dd1be032ca8c5d5",
+        "bytes": 74837
+      }
+    },
+    {
+      "source_frame_id": 224,
+      "source_time_s": 7.466666666666667,
+      "pts": 114688,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000224.jpg",
+        "sha256": "25ccb08dfdd64f12f5795670a9839ef69e39a08552366ef8929561dc3ac2b112",
+        "bytes": 74517
+      }
+    },
+    {
+      "source_frame_id": 225,
+      "source_time_s": 7.5,
+      "pts": 115200,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000225.jpg",
+        "sha256": "4a1d41e10bd8a62d21b1e27087528c73daa3a607de5ea0a534fc3dd9f5414dd7",
+        "bytes": 74533
+      }
+    },
+    {
+      "source_frame_id": 226,
+      "source_time_s": 7.533333333333333,
+      "pts": 115712,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000226.jpg",
+        "sha256": "fc5bb4b92f3554123cb5d4fc30f0911bfca210a7216948396b4381639be30df4",
+        "bytes": 74369
+      }
+    },
+    {
+      "source_frame_id": 227,
+      "source_time_s": 7.566666666666666,
+      "pts": 116224,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000227.jpg",
+        "sha256": "13ccdf2da55fb99b23afdaa7eb7b731bf4d0a0a6b513a90d55a0a9bf1ef95554",
+        "bytes": 75605
+      }
+    },
+    {
+      "source_frame_id": 228,
+      "source_time_s": 7.6,
+      "pts": 116736,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000228.jpg",
+        "sha256": "14a0731329d8422bdfc2fb26306141de7dd24a4f21b192396cea89d79549e041",
+        "bytes": 74217
+      }
+    },
+    {
+      "source_frame_id": 229,
+      "source_time_s": 7.633333333333334,
+      "pts": 117248,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000229.jpg",
+        "sha256": "f7a6ae7ff9105eaa37cba0e71ffcc33af90c7b62adefa09c30f70a31e0496eb1",
+        "bytes": 75366
+      }
+    },
+    {
+      "source_frame_id": 230,
+      "source_time_s": 7.666666666666667,
+      "pts": 117760,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000230.jpg",
+        "sha256": "d5f7be44e6e15bb1cfa4e53dd469cb65d20523bfb0d4290ce6403e4b9bd82c24",
+        "bytes": 75722
+      }
+    },
+    {
+      "source_frame_id": 231,
+      "source_time_s": 7.7,
+      "pts": 118272,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000231.jpg",
+        "sha256": "7128a65acda26353fd750ef7dacfc8b84ce07b70a8f9427313d83363db951df9",
+        "bytes": 76076
+      }
+    },
+    {
+      "source_frame_id": 232,
+      "source_time_s": 7.733333333333333,
+      "pts": 118784,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000232.jpg",
+        "sha256": "4eb7bf197e8302846ee37b1217a99347cba07df1b7c19ce13bdd13d5f04dd4bd",
+        "bytes": 75985
+      }
+    },
+    {
+      "source_frame_id": 233,
+      "source_time_s": 7.766666666666667,
+      "pts": 119296,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000233.jpg",
+        "sha256": "7b6fdbe94e87296912270f9fbd52b21a8f23124f6ee7d343ab25df173c6fb1ec",
+        "bytes": 76345
+      }
+    },
+    {
+      "source_frame_id": 234,
+      "source_time_s": 7.8,
+      "pts": 119808,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000234.jpg",
+        "sha256": "528a3f52aa6a4716fb2d297768c7f95b99232d17a017e15d51f232703de505e8",
+        "bytes": 76701
+      }
+    },
+    {
+      "source_frame_id": 235,
+      "source_time_s": 7.833333333333333,
+      "pts": 120320,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000235.jpg",
+        "sha256": "19e8274438b3ed2c48dbdce882b90d502fe1a27f802d0f7df82f1f35bfe48bfb",
+        "bytes": 77430
+      }
+    },
+    {
+      "source_frame_id": 236,
+      "source_time_s": 7.866666666666666,
+      "pts": 120832,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000236.jpg",
+        "sha256": "efb0fe952568d9c1d6dc7e9ba560624ab0d55b2b024ab103fe02e18904270644",
+        "bytes": 76378
+      }
+    },
+    {
+      "source_frame_id": 237,
+      "source_time_s": 7.9,
+      "pts": 121344,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000237.jpg",
+        "sha256": "3f8d2bf54703fe8ab49654b5b085b7b411a7c71cc13068b23a0708b9ec81ac2d",
+        "bytes": 76129
+      }
+    },
+    {
+      "source_frame_id": 238,
+      "source_time_s": 7.933333333333334,
+      "pts": 121856,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000238.jpg",
+        "sha256": "096b51c78123d0edbe2b60b7969055377cad2329ce18c6563a8c35376c4522ec",
+        "bytes": 75887
+      }
+    },
+    {
+      "source_frame_id": 239,
+      "source_time_s": 7.966666666666667,
+      "pts": 122368,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000239.jpg",
+        "sha256": "5425b729331d8b7205125d369729145c4e2622c89f43c5c6a9f189def2e52b9b",
+        "bytes": 76748
+      }
+    },
+    {
+      "source_frame_id": 240,
+      "source_time_s": 8.0,
+      "pts": 122880,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000240.jpg",
+        "sha256": "8cf0515fc046d22310208199f3d94cdf348abd2010e2c7a53c180e9ffe0e7647",
+        "bytes": 73138
+      }
+    },
+    {
+      "source_frame_id": 241,
+      "source_time_s": 8.033333333333333,
+      "pts": 123392,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000241.jpg",
+        "sha256": "a06e779fb2b39cf81c94110093d7168e172523cf841bf4aa4adafc0f0ea86c9a",
+        "bytes": 75109
+      }
+    },
+    {
+      "source_frame_id": 242,
+      "source_time_s": 8.066666666666666,
+      "pts": 123904,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000242.jpg",
+        "sha256": "7836402f6c77bb2908eeaf025099f2cae1a8c14fdda58b64b00953b0178777a2",
+        "bytes": 75821
+      }
+    },
+    {
+      "source_frame_id": 243,
+      "source_time_s": 8.1,
+      "pts": 124416,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000243.jpg",
+        "sha256": "5fa8de153a36e53b16641f24fad24a5ca62fefbe7cc54a687f1609c3b966e61b",
+        "bytes": 77225
+      }
+    },
+    {
+      "source_frame_id": 244,
+      "source_time_s": 8.133333333333333,
+      "pts": 124928,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000244.jpg",
+        "sha256": "811f267e197210814c799ca3130a6b104d9fd7f8a3986f07d3b7048d4752095c",
+        "bytes": 77377
+      }
+    },
+    {
+      "source_frame_id": 245,
+      "source_time_s": 8.166666666666666,
+      "pts": 125440,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000245.jpg",
+        "sha256": "1696b0b0472ff0a7ce42dd7dc9bbe43678223216d067f0d896119556daf33039",
+        "bytes": 77462
+      }
+    },
+    {
+      "source_frame_id": 246,
+      "source_time_s": 8.2,
+      "pts": 125952,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000246.jpg",
+        "sha256": "287c89e2c4201317cde249bea891062d2e3dcf653eca6a4e8e8a988126de6d0c",
+        "bytes": 77120
+      }
+    },
+    {
+      "source_frame_id": 247,
+      "source_time_s": 8.233333333333333,
+      "pts": 126464,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000247.jpg",
+        "sha256": "6f44a180c34390e5975e3dc1123dd021b477807a1e3b4c39a934b6c574ffb283",
+        "bytes": 78060
+      }
+    },
+    {
+      "source_frame_id": 248,
+      "source_time_s": 8.266666666666667,
+      "pts": 126976,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000248.jpg",
+        "sha256": "680d492635bc0346f7fe33716e453c60327d77d85fdd90994bb7d916182c7998",
+        "bytes": 77571
+      }
+    },
+    {
+      "source_frame_id": 249,
+      "source_time_s": 8.3,
+      "pts": 127488,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000249.jpg",
+        "sha256": "906a534c59fb7bb3f498dc04d597919a155fb2a9ce484b80dd69807cd09a4143",
+        "bytes": 77129
+      }
+    },
+    {
+      "source_frame_id": 250,
+      "source_time_s": 8.333333333333334,
+      "pts": 128000,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000250.jpg",
+        "sha256": "26f71288c12f29b600891b751196311bd1eb61bf215ec7f817aa097048bd436f",
+        "bytes": 76920
+      }
+    },
+    {
+      "source_frame_id": 251,
+      "source_time_s": 8.366666666666667,
+      "pts": 128512,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000251.jpg",
+        "sha256": "e903cd82ef111f23b62b8834ae193eee365fdd350fed543b797d63e7817ae1c2",
+        "bytes": 77826
+      }
+    },
+    {
+      "source_frame_id": 252,
+      "source_time_s": 8.4,
+      "pts": 129024,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000252.jpg",
+        "sha256": "2579daf5a6bcef0bfa32cd18c27de7f6b84b2b1b77e3caa63222f74d44cad9ab",
+        "bytes": 74874
+      }
+    },
+    {
+      "source_frame_id": 253,
+      "source_time_s": 8.433333333333334,
+      "pts": 129536,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000253.jpg",
+        "sha256": "bd7551a956a8261503a261684adaf2a2d415c30080c8a815acdafe3990f6ec92",
+        "bytes": 76071
+      }
+    },
+    {
+      "source_frame_id": 254,
+      "source_time_s": 8.466666666666667,
+      "pts": 130048,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000254.jpg",
+        "sha256": "257a43a3c9c8c79b5ca5364f5c997b9019a88b5a9978c713b27b05a4ebae6da9",
+        "bytes": 76507
+      }
+    },
+    {
+      "source_frame_id": 255,
+      "source_time_s": 8.5,
+      "pts": 130560,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000255.jpg",
+        "sha256": "97531d0777d1fef8992730fa2f0487e4996b84f1de3487d9ae6589eb73eea514",
+        "bytes": 77071
+      }
+    },
+    {
+      "source_frame_id": 256,
+      "source_time_s": 8.533333333333333,
+      "pts": 131072,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000256.jpg",
+        "sha256": "9151eb41913466638a1f3ba68a983fc2be974d02d35ba449c7997b389741915d",
+        "bytes": 76667
+      }
+    },
+    {
+      "source_frame_id": 257,
+      "source_time_s": 8.566666666666666,
+      "pts": 131584,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000257.jpg",
+        "sha256": "619f22956a910a282967b9cd0b739d2b9d31813d13f64a7dd174b90d7261cb42",
+        "bytes": 76483
+      }
+    },
+    {
+      "source_frame_id": 258,
+      "source_time_s": 8.6,
+      "pts": 132096,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000258.jpg",
+        "sha256": "ebce3712d9c12b75965439481e2bf0b7adea3585de16bebb8f77850b297e6c3a",
+        "bytes": 76571
+      }
+    },
+    {
+      "source_frame_id": 259,
+      "source_time_s": 8.633333333333333,
+      "pts": 132608,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000259.jpg",
+        "sha256": "4736a1381c5d806f2a3d0e078649de28f45f0360435d1a28719592fef9529d9a",
+        "bytes": 77057
+      }
+    },
+    {
+      "source_frame_id": 260,
+      "source_time_s": 8.666666666666666,
+      "pts": 133120,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000260.jpg",
+        "sha256": "72ab99d6165818cdb8f3f206b9544b381a1bc76682d5aff30409320ed70a0ae1",
+        "bytes": 76800
+      }
+    },
+    {
+      "source_frame_id": 261,
+      "source_time_s": 8.7,
+      "pts": 133632,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000261.jpg",
+        "sha256": "cc789e01b78cd9298972a481e9f0f0104f71518ca597ddc7228917816314f9b0",
+        "bytes": 76661
+      }
+    },
+    {
+      "source_frame_id": 262,
+      "source_time_s": 8.733333333333333,
+      "pts": 134144,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000262.jpg",
+        "sha256": "18dbe7da8de7068df36adb29751f22b180be54ca9b8bad0a48149838c946e5cf",
+        "bytes": 77102
+      }
+    },
+    {
+      "source_frame_id": 263,
+      "source_time_s": 8.766666666666667,
+      "pts": 134656,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000263.jpg",
+        "sha256": "2730459d3365bce27ceb2fbcab03bc388f6e8b71d5e45dc3c4529c479e92547e",
+        "bytes": 78048
+      }
+    },
+    {
+      "source_frame_id": 264,
+      "source_time_s": 8.8,
+      "pts": 135168,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000264.jpg",
+        "sha256": "2c6716594b9faa7e6062e08b46fbec5d43df75a470e2ddb81b58bf6bc7b5d0c2",
+        "bytes": 74257
+      }
+    },
+    {
+      "source_frame_id": 265,
+      "source_time_s": 8.833333333333334,
+      "pts": 135680,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000265.jpg",
+        "sha256": "0d078fffdba9891cd81362dec36adc0d91239277ff8b3f3e00d9419b6d1d6fe9",
+        "bytes": 74937
+      }
+    },
+    {
+      "source_frame_id": 266,
+      "source_time_s": 8.866666666666667,
+      "pts": 136192,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000266.jpg",
+        "sha256": "250ec725817d7d2adbc67579fee5a82abcc352f01bf39b270b1151fd161b4932",
+        "bytes": 74554
+      }
+    },
+    {
+      "source_frame_id": 267,
+      "source_time_s": 8.9,
+      "pts": 136704,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000267.jpg",
+        "sha256": "cf85e3723838e4af7ab2662d38af5091fd469422af01b9090fb580c96809d59f",
+        "bytes": 74790
+      }
+    },
+    {
+      "source_frame_id": 268,
+      "source_time_s": 8.933333333333334,
+      "pts": 137216,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000268.jpg",
+        "sha256": "627f162744bbb90ec239f4621f8f8cfacaccf25ecb0412ed5078e064dd601322",
+        "bytes": 74569
+      }
+    },
+    {
+      "source_frame_id": 269,
+      "source_time_s": 8.966666666666667,
+      "pts": 137728,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000269.jpg",
+        "sha256": "d482b8d1f5a87e8d59ada744ebd370f2e4c870d38807ebbdada797a7ae079525",
+        "bytes": 74635
+      }
+    },
+    {
+      "source_frame_id": 270,
+      "source_time_s": 9.0,
+      "pts": 138240,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000270.jpg",
+        "sha256": "ba7cd909b46f9dfd0d88361e32de1dbb2111867bc45e94abfdcaec9cd3c9ea1b",
+        "bytes": 75507
+      }
+    },
+    {
+      "source_frame_id": 271,
+      "source_time_s": 9.033333333333333,
+      "pts": 138752,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000271.jpg",
+        "sha256": "3d0d5ac2cc6c631703041d8195d996a6825024be3d381befaf949d8b7c449e96",
+        "bytes": 76317
+      }
+    },
+    {
+      "source_frame_id": 272,
+      "source_time_s": 9.066666666666666,
+      "pts": 139264,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000272.jpg",
+        "sha256": "2036e52f633fceab3aeb2b8e912d6fdf3bac8a3056c5a53953cb9eca39c88d27",
+        "bytes": 76315
+      }
+    },
+    {
+      "source_frame_id": 273,
+      "source_time_s": 9.1,
+      "pts": 139776,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000273.jpg",
+        "sha256": "9ff4f073ce952525acf32aba7d58ad68fa06928f29a883c3b7bf0ba9fb53ee4e",
+        "bytes": 76748
+      }
+    },
+    {
+      "source_frame_id": 274,
+      "source_time_s": 9.133333333333333,
+      "pts": 140288,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000274.jpg",
+        "sha256": "865421b31e1dde185dd204c58461a04ca63d4fb6a27afca8ea5981a6894ca9b6",
+        "bytes": 76405
+      }
+    },
+    {
+      "source_frame_id": 275,
+      "source_time_s": 9.166666666666666,
+      "pts": 140800,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000275.jpg",
+        "sha256": "556ad4f1a67f1cf499b054d2e612e0bca326e71fe5f65b27b02a952a004600bd",
+        "bytes": 76781
+      }
+    },
+    {
+      "source_frame_id": 276,
+      "source_time_s": 9.2,
+      "pts": 141312,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000276.jpg",
+        "sha256": "06c389504236a354953adab44a30f02f8cd0a9d09ab057f936f5ab05bdff3d4d",
+        "bytes": 74204
+      }
+    },
+    {
+      "source_frame_id": 277,
+      "source_time_s": 9.233333333333333,
+      "pts": 141824,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000277.jpg",
+        "sha256": "c2329bd0f061451a4c7af3202a90f65051bb0a3381421e6dae4cdc8de0d0117c",
+        "bytes": 75274
+      }
+    },
+    {
+      "source_frame_id": 278,
+      "source_time_s": 9.266666666666667,
+      "pts": 142336,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000278.jpg",
+        "sha256": "0f74698b9e3dcf9af696bde2cb3007b07dcaad3f631dc27b584bd76a875990ee",
+        "bytes": 75640
+      }
+    },
+    {
+      "source_frame_id": 279,
+      "source_time_s": 9.3,
+      "pts": 142848,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000279.jpg",
+        "sha256": "385e824cf81bb8c35e7ff062d1f0cabcef22ee52519f91e1b1bfcb389ea48007",
+        "bytes": 76440
+      }
+    },
+    {
+      "source_frame_id": 280,
+      "source_time_s": 9.333333333333334,
+      "pts": 143360,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000280.jpg",
+        "sha256": "6b6697c0ad44ddf718718a5f06e03639d50085ad8bae3c643bbec9521bdf5b89",
+        "bytes": 76568
+      }
+    },
+    {
+      "source_frame_id": 281,
+      "source_time_s": 9.366666666666667,
+      "pts": 143872,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000281.jpg",
+        "sha256": "fc3205bd0d15965b15a552624aea4d3e1266731e29508f7cdefb385de134f6c9",
+        "bytes": 76651
+      }
+    },
+    {
+      "source_frame_id": 282,
+      "source_time_s": 9.4,
+      "pts": 144384,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000282.jpg",
+        "sha256": "fcf3112b89bed7481518d7aa649d1e8f750829884cbd0fe8d4878b55747cebc6",
+        "bytes": 76650
+      }
+    },
+    {
+      "source_frame_id": 283,
+      "source_time_s": 9.433333333333334,
+      "pts": 144896,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000283.jpg",
+        "sha256": "1963155c4306b4000c510e167284bf3c08030c58d4439241268bbd317bb72638",
+        "bytes": 76581
+      }
+    },
+    {
+      "source_frame_id": 284,
+      "source_time_s": 9.466666666666667,
+      "pts": 145408,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000284.jpg",
+        "sha256": "fe38ffa754f01067a417ff12526f9067171f31bffc318f77574ebeb38e7fc4be",
+        "bytes": 76586
+      }
+    },
+    {
+      "source_frame_id": 285,
+      "source_time_s": 9.5,
+      "pts": 145920,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000285.jpg",
+        "sha256": "ce9d5fb74fe14bb9396cf595145e4e5211da58d619166b230413c059cb20d328",
+        "bytes": 76901
+      }
+    },
+    {
+      "source_frame_id": 286,
+      "source_time_s": 9.533333333333333,
+      "pts": 146432,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000286.jpg",
+        "sha256": "05414c27651f606997f30db68173fd098848fa8579dbef1de4c4e3c57755ca4b",
+        "bytes": 77171
+      }
+    },
+    {
+      "source_frame_id": 287,
+      "source_time_s": 9.566666666666666,
+      "pts": 146944,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000287.jpg",
+        "sha256": "ffb5e0f4e78c5fa0915c26fd43595082ead3cab53bc22d794c42d9156d16d44c",
+        "bytes": 77752
+      }
+    },
+    {
+      "source_frame_id": 288,
+      "source_time_s": 9.6,
+      "pts": 147456,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000288.jpg",
+        "sha256": "5f8d1a8ac8af18e1de5c9f1e4aa5f918422feacfd1add4b186edfe69443c4d9b",
+        "bytes": 74883
+      }
+    },
+    {
+      "source_frame_id": 289,
+      "source_time_s": 9.633333333333333,
+      "pts": 147968,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000289.jpg",
+        "sha256": "c481190650ff97a56b2fe98702a529e5d5ed6b200257ecb9a1c8f75b01682b76",
+        "bytes": 76097
+      }
+    },
+    {
+      "source_frame_id": 290,
+      "source_time_s": 9.666666666666666,
+      "pts": 148480,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000290.jpg",
+        "sha256": "54be1eff3e4f56829034581e5055c4adc8db4d9ccdb158d9a9313d788537469c",
+        "bytes": 75645
+      }
+    },
+    {
+      "source_frame_id": 291,
+      "source_time_s": 9.7,
+      "pts": 148992,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000291.jpg",
+        "sha256": "67066f3a56bee341be5c98dfbf24cd4006c137711f887bc6a0dfd1d3029f0c04",
+        "bytes": 76498
+      }
+    },
+    {
+      "source_frame_id": 292,
+      "source_time_s": 9.733333333333333,
+      "pts": 149504,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000292.jpg",
+        "sha256": "43da3be2df1d3a2e289c5acf8bafc0c761587e5d53e5f32679fff0ac69e3edc7",
+        "bytes": 75569
+      }
+    },
+    {
+      "source_frame_id": 293,
+      "source_time_s": 9.766666666666667,
+      "pts": 150016,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000293.jpg",
+        "sha256": "b98677cee1c280d22ef05420981f927295b892ca196ba3db224e0fe44fa38255",
+        "bytes": 75874
+      }
+    },
+    {
+      "source_frame_id": 294,
+      "source_time_s": 9.8,
+      "pts": 150528,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000294.jpg",
+        "sha256": "270d7ef7c5675b66f8312a2cb6f479415b908a518eaf769255316fc6ba4ed61a",
+        "bytes": 74884
+      }
+    },
+    {
+      "source_frame_id": 295,
+      "source_time_s": 9.833333333333334,
+      "pts": 151040,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000295.jpg",
+        "sha256": "3162302cd9fc185aad6686a1918772ed6cea0c543fe4d048508db584afe84e68",
+        "bytes": 75005
+      }
+    },
+    {
+      "source_frame_id": 296,
+      "source_time_s": 9.866666666666667,
+      "pts": 151552,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000296.jpg",
+        "sha256": "27b37b3f41d5e8c5ac968181307a2a5a9be272506c8e1232806afea237858369",
+        "bytes": 75604
+      }
+    },
+    {
+      "source_frame_id": 297,
+      "source_time_s": 9.9,
+      "pts": 152064,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000297.jpg",
+        "sha256": "226885cfc1b51a4e3ae415abfd1e76b0a754eaa2fa3fe47bec7ef02f74f36a31",
+        "bytes": 76281
+      }
+    },
+    {
+      "source_frame_id": 298,
+      "source_time_s": 9.933333333333334,
+      "pts": 152576,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000298.jpg",
+        "sha256": "9fd21ff476d05afc69e50aa5a9d9aa171d7b4114cb7d5153efffff6e7e3e0e3f",
+        "bytes": 75479
+      }
+    },
+    {
+      "source_frame_id": 299,
+      "source_time_s": 9.966666666666667,
+      "pts": 153088,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000299.jpg",
+        "sha256": "b867d018d5ef11d79d42bc41e3467abe26c2373ab0d7af2d21b8e43940405cdb",
+        "bytes": 76261
+      }
+    },
+    {
+      "source_frame_id": 300,
+      "source_time_s": 10.0,
+      "pts": 153600,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000300.jpg",
+        "sha256": "3a9b554d472c626fb7729f9eeaf7a36ca6c97b5ad96986ed803d4fdf8cc664de",
+        "bytes": 72921
+      }
+    },
+    {
+      "source_frame_id": 301,
+      "source_time_s": 10.033333333333333,
+      "pts": 154112,
+      "time_base": "1/15360",
+      "image": {
+        "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000301.jpg",
+        "sha256": "552f8d3ca26f61ce618e78ad0c5983a6fd52102a03e43bbd3aab23a7f2c9cbeb",
+        "bytes": 74086
+      }
+    }
+  ],
+  "depth_sample_stride": 30,
+  "depth_sample_frame_ids": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    301
+  ],
+  "depth_sample_missing_camera_ids": [],
+  "image_warp": "RGB_BILINEAR_TO_CENTERED_VIRTUAL_K; optical_axes_unchanged; no hidden K replacement",
+  "A1_changed": false,
+  "metric_accuracy": "UNVERIFIED_MODEL_ESTIMATE",
+  "source": {
+    "path": "/home/xklv/ego_robot/egorobot_a2/OUR_EXT/a2/scene_inference.py",
+    "sha256": "ecda272320b1d11f7b3fb544ec4c7836d6ca74bf8f9c398593e6aedf894b66d8",
+    "bytes": 16573
+  }
+}

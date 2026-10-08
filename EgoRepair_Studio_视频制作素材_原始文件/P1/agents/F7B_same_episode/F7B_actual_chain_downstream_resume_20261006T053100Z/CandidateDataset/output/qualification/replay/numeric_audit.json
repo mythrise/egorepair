@@ -1,0 +1,62 @@
+{
+  "validator_source": {
+    "path": "/home/xklv/ego_robot/a4_experiment/backups/F2b_validator_fixed_20261005T134912_816871/source/src/a4x/sim/gates.py",
+    "sha256": "73634a25a197dd9dd0518968187442a052ab9d6f824e04a4622604aee7daf7a9",
+    "kind": "IMMUTABLE_SOURCE_SNAPSHOT"
+  },
+  "status": "PASS",
+  "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+  "recipe_sha256": "0a4ce2bc3129171ab001553e3c89f3ea16e339a012d11ede2993b47e89a9e9d5",
+  "model_signature": "f3855d667311ae60befcf90440b6c53d025e42f292b51b64e0b0a6d8071375d9",
+  "physical_qualification": {
+    "status": "PASS",
+    "aggregate_metrics": {
+      "pad_fixed_force_N": 41.49372559393026,
+      "pad_moving_force_N": 39.624045942908865,
+      "support_force_N": 29.658035862306587,
+      "max_penetration_m": 0.0014090273451935508,
+      "max_unintended_penetration_m": 0.0,
+      "unintended_contact_samples": 0,
+      "max_joint_speed_rad_s": 2.9513917413583575,
+      "max_actuator_force_Nm": 2.94
+    },
+    "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+    "recipe_sha256": "0a4ce2bc3129171ab001553e3c89f3ea16e339a012d11ede2993b47e89a9e9d5",
+    "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET",
+    "checked_substeps": 7000,
+    "command_count": 280,
+    "state_count": 281,
+    "failed_substeps": [],
+    "failed_substep_count": 0,
+    "independent_replay_max_error": 0.0,
+    "continuous_collision_certified": false,
+    "hardware_certified": false
+  },
+  "task_predicates": {
+    "status": "SATISFIED",
+    "satisfied": true,
+    "lift_end_state": 3083,
+    "place_end_state": 5793,
+    "contact_semantics": "BOTH_MODEL_FINGERS_POSITIVE_NORMAL_CONTACT_NOT_FORCE_CLOSURE_CERTIFICATION",
+    "evaluation_hz": 500,
+    "evaluated_states": 7001,
+    "lift_end_control_boundary": 124,
+    "place_end_control_boundary": 232
+  },
+  "source_execution_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/execution.json",
+    "sha256": "b09edf66b4b97808bc3ce9c82be424e51ac4b2559dbbbd5a2eed6c95b6eed7f5",
+    "bytes": 106556962,
+    "media_type": "application/json"
+  },
+  "source_summary_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/summary.json",
+    "sha256": "a38b47442c4b05e81d3510161b496be1a4e85ff7743e48ab0baa6028c025dfce",
+    "bytes": 2935,
+    "media_type": "application/json"
+  },
+  "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET",
+  "data_line": "SYNTHETIC_SIM",
+  "actual_independent_numeric_replay": true,
+  "teacher_independent_code_review": "PENDING"
+}

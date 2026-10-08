@@ -1,0 +1,1100 @@
+{
+  "schema": "a4x.execution.v1",
+  "scene_profile": {
+    "scope": "SIM_MODEL_REPLAY",
+    "data_line": "SYNTHETIC_SIM",
+    "dynamics": "SIM_ASSUMPTION",
+    "object_mass_kg": 0.04,
+    "object_friction": 0.5,
+    "object_inertia_source": "MuJoCo box-derived",
+    "object_half_sizes_m": [
+      0.012,
+      0.012,
+      0.018
+    ],
+    "gravity_m_s2": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "physics_dt_s": 0.002,
+    "control_dt_s": 0.05,
+    "controller": "MODEL_POSITION_ZERO_ORDER_HOLD",
+    "assistance_policy": "NONE",
+    "collision_qualification": "CONTACT_LOGGING_ONLY_NOT_FULL_CONTINUOUS_CERTIFICATION",
+    "source_materialization": "OFFICIAL_GIT_CHECKOUT",
+    "initial_object_position_m": [
+      0.18,
+      0.0,
+      0.018
+    ],
+    "goal_world_m": [
+      0.18,
+      0.1,
+      0.018
+    ],
+    "task_contract": {
+      "task": "T1",
+      "lift_m": 0.05,
+      "hold_s": 0.5,
+      "goal_xy_radius_m": 0.03,
+      "stable_speed_m_s": 0.02,
+      "release_min_joint_rad": 0.5
+    },
+    "execution_profile": "SO101_QUALIFIED_T1_V1",
+    "gate_recipe": {
+      "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+      "physics_dt_s": 0.002,
+      "control_dt_s": 0.05,
+      "substeps": 25,
+      "max_control_steps": 400,
+      "joint_limit_tolerance_rad": 0.001,
+      "velocity_limit_rad_s": 3.0,
+      "actuator_force_tolerance_Nm": 1e-06,
+      "permitted_contact_penetration_m": 0.002,
+      "unintended_contact_penetration_m": 0.0001,
+      "unintended_contact_force_N": 0.1,
+      "pad_force_budget_per_side_N": 60.0,
+      "support_contact_force_budget_N": 100.0,
+      "replay_tolerance": 1e-07,
+      "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET",
+      "continuous_collision_certified": false,
+      "real_hardware_certified": false,
+      "threshold_origin": "PREREGISTERED_DEVELOPMENT_SIM_ASSUMPTION_NOT_MEASURED_HARDWARE"
+    },
+    "contact_classes": {
+      "fixed": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "moving": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "mount": [],
+      "table": 0,
+      "object": 51,
+      "source": "PINNED_OFFICIAL_COLLISION_GEOMETRIES_NO_PAIR_DISABLES"
+    },
+    "initial_state_sha256": "42a76934d323ea79889c36e22741e20c1972d03447d1ad3c53dccb82b3d67ba4"
+  },
+  "robot_profile": {
+    "robot": "SO101",
+    "source_revision": "4d038b3feae26ec82b46a4d586379114012a8ac7",
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "joint_units": "rad",
+    "active_arm_dof": 5,
+    "full_dof": 6,
+    "tcp": "official gripperframe",
+    "tcp_semantics": "MODEL_REFERENCE_NOT_MEASURED_TOOL",
+    "opening": "distance between official tip sphere surfaces; not parallel jaw gap",
+    "mimic": false,
+    "controller": "official position actuators; zero-order hold",
+    "hardware_mapping": "NOT_VALIDATED",
+    "mass_inertia": "official MJCF",
+    "gain_source": "official sts3215 simulation estimates, not physical servo equivalence",
+    "source_materialization": "OFFICIAL_GIT_CHECKOUT"
+  },
+  "commands": [],
+  "states": [
+    {
+      "time_s": 0.0,
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7
+      ],
+      "qdot_rad_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tcp_position_m": [
+        0.3913614999999999,
+        -0.0009794652485835562,
+        0.24634517669302677
+      ],
+      "tcp_rotation": [
+        [
+          0.9999999999999996,
+          -3.4684193112293485e-17,
+          8.443715954216389e-19
+        ],
+        [
+          3.4684193112293485e-17,
+          0.9988153863756335,
+          -0.04866029119613881
+        ],
+        [
+          8.443715954216389e-19,
+          0.04866029119613881,
+          0.9988153863756335
+        ]
+      ],
+      "gripper_joint_rad": 0.7,
+      "opening_m": 0.06861958948047794,
+      "object_position_m": [
+        0.18,
+        0.0,
+        0.018
+      ],
+      "object_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_angular_velocity_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "contacts": [
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.192,
+            0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.16799999999999998,
+            0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.16799999999999998,
+            -0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.192,
+            -0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "robot_object_contact": false,
+      "grasp_contact_provenance": {
+        "source": "ACTUAL_MUJOCO_CONTACTS",
+        "contract": {
+          "source": "PINNED_SO101_MODEL_GEOMETRIES",
+          "object_geom": "object_geom",
+          "fixed_finger_geoms": [
+            "fixed_jaw_sph_tip1",
+            "fixed_jaw_sph_tip2",
+            "fixed_jaw_sph_tip3",
+            "official_geom_31_wrist_roll_follower_so101_gripper_part0_v1",
+            "fixed_jaw_box3",
+            "fixed_jaw_box4",
+            "fixed_jaw_box5",
+            "fixed_jaw_box6",
+            "fixed_jaw_box7"
+          ],
+          "moving_finger_geoms": [
+            "official_geom_43_moving_jaw_so101_gripper_part0_v1",
+            "official_geom_44_moving_jaw_so101_gripper_part1_v1",
+            "moving_jaw_box1",
+            "moving_jaw_sph_tip1",
+            "moving_jaw_sph_tip2",
+            "moving_jaw_sph_tip3",
+            "moving_jaw_box2",
+            "moving_jaw_box3"
+          ],
+          "derivation": "PINNED_OFFICIAL_COLLISION_GEOMETRIES_NO_PAIR_DISABLES"
+        },
+        "opposing_finger_contacts": false
+      },
+      "assistance": false,
+      "applied_object_force": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_angular_velocity_frame": "WORLD_FROM_MUJOCO_FREE_JOINT_LOCAL"
+    }
+  ],
+  "command_count": 0,
+  "state_count": 1,
+  "model_signature": "f3855d667311ae60befcf90440b6c53d025e42f292b51b64e0b0a6d8071375d9",
+  "recipe": {
+    "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+    "physics_dt_s": 0.002,
+    "control_dt_s": 0.05,
+    "substeps": 25,
+    "max_control_steps": 400,
+    "joint_limit_tolerance_rad": 0.001,
+    "velocity_limit_rad_s": 3.0,
+    "actuator_force_tolerance_Nm": 1e-06,
+    "permitted_contact_penetration_m": 0.002,
+    "unintended_contact_penetration_m": 0.0001,
+    "unintended_contact_force_N": 0.1,
+    "pad_force_budget_per_side_N": 60.0,
+    "support_contact_force_budget_N": 100.0,
+    "replay_tolerance": 1e-07,
+    "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET",
+    "continuous_collision_certified": false,
+    "real_hardware_certified": false,
+    "threshold_origin": "PREREGISTERED_DEVELOPMENT_SIM_ASSUMPTION_NOT_MEASURED_HARDWARE"
+  },
+  "recipe_sha256": "0a4ce2bc3129171ab001553e3c89f3ea16e339a012d11ede2993b47e89a9e9d5",
+  "initial_state": {
+    "state": {
+      "time_s": 0.0,
+      "qpos_full": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7,
+        0.18,
+        0.0,
+        0.018,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qvel_full": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "q_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7
+      ],
+      "qdot_rad_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrl_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7
+      ],
+      "actuator_force_Nm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tcp_position_m": [
+        0.3913614999999999,
+        -0.0009794652485835562,
+        0.24634517669302677
+      ],
+      "tcp_rotation": [
+        [
+          0.9999999999999996,
+          -3.4684193112293485e-17,
+          8.443715954216389e-19
+        ],
+        [
+          3.4684193112293485e-17,
+          0.9988153863756335,
+          -0.04866029119613881
+        ],
+        [
+          8.443715954216389e-19,
+          0.04866029119613881,
+          0.9988153863756335
+        ]
+      ],
+      "object_position_m": [
+        0.18,
+        0.0,
+        0.018
+      ],
+      "object_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_angular_velocity_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "applied_object_force": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_external_forces_zero": true,
+      "assistance": false,
+      "contacts": [
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.192,
+            0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.16799999999999998,
+            0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.16799999999999998,
+            -0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "geom1": 0,
+          "geom2": 51,
+          "geom1_name": "table",
+          "geom2_name": "object_geom",
+          "distance_m": 0.0,
+          "position_world_m": [
+            0.192,
+            -0.012,
+            0.0
+          ],
+          "force_on_geom2_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "frame_axes_world": [
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ]
+    },
+    "sha256": "42a76934d323ea79889c36e22741e20c1972d03447d1ad3c53dccb82b3d67ba4"
+  },
+  "expected_initial_state": {
+    "time_s": 0.0,
+    "qpos_full": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.7,
+      0.18,
+      0.0,
+      0.018,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel_full": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_rad": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.7
+    ],
+    "qdot_rad_s": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ctrl_rad": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.7
+    ],
+    "actuator_force_Nm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tcp_position_m": [
+      0.3913614999999999,
+      -0.0009794652485835562,
+      0.24634517669302677
+    ],
+    "tcp_rotation": [
+      [
+        0.9999999999999996,
+        -3.4684193112293485e-17,
+        8.443715954216389e-19
+      ],
+      [
+        3.4684193112293485e-17,
+        0.9988153863756335,
+        -0.04866029119613881
+      ],
+      [
+        8.443715954216389e-19,
+        0.04866029119613881,
+        0.9988153863756335
+      ]
+    ],
+    "object_position_m": [
+      0.18,
+      0.0,
+      0.018
+    ],
+    "object_quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_velocity_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_angular_velocity_rad_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "applied_object_force": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "all_external_forces_zero": true,
+    "assistance": false,
+    "contacts": [
+      {
+        "geom1": 0,
+        "geom2": 51,
+        "geom1_name": "table",
+        "geom2_name": "object_geom",
+        "distance_m": 0.0,
+        "position_world_m": [
+          0.192,
+          0.012,
+          0.0
+        ],
+        "force_on_geom2_contact_frame": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "frame_axes_world": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "geom1": 0,
+        "geom2": 51,
+        "geom1_name": "table",
+        "geom2_name": "object_geom",
+        "distance_m": 0.0,
+        "position_world_m": [
+          0.16799999999999998,
+          0.012,
+          0.0
+        ],
+        "force_on_geom2_contact_frame": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "frame_axes_world": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "geom1": 0,
+        "geom2": 51,
+        "geom1_name": "table",
+        "geom2_name": "object_geom",
+        "distance_m": 0.0,
+        "position_world_m": [
+          0.16799999999999998,
+          -0.012,
+          0.0
+        ],
+        "force_on_geom2_contact_frame": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "frame_axes_world": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "geom1": 0,
+        "geom2": 51,
+        "geom1_name": "table",
+        "geom2_name": "object_geom",
+        "distance_m": 0.0,
+        "position_world_m": [
+          0.192,
+          -0.012,
+          0.0
+        ],
+        "force_on_geom2_contact_frame": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "frame_axes_world": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ]
+  },
+  "observations": [
+    {
+      "profile": "SIM_STATE_V1",
+      "privileged": true,
+      "time_s": 0.0,
+      "joint_names": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ],
+      "q": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7
+      ],
+      "qdot": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opening_m": 0.06861958948047794,
+      "tcp_position_base": [
+        0.3913614999999999,
+        -0.0009794652485835562,
+        0.24634517669302677
+      ],
+      "tcp_rotation6_base": [
+        0.9999999999999996,
+        3.4684193112293485e-17,
+        8.443715954216389e-19,
+        -3.4684193112293485e-17,
+        0.9988153863756335,
+        0.04866029119613881
+      ],
+      "tcp_mask": 1,
+      "object_slots": [
+        [
+          0.18,
+          0.0,
+          0.018,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "task_id": "T1",
+      "target_object_id": "task_object",
+      "goal_region_base": [
+        0.18,
+        0.1,
+        0.018
+      ]
+    }
+  ],
+  "qualification": "SIM_MODEL_ONLY",
+  "result": {
+    "status": "UNKNOWN",
+    "success": false,
+    "reason": "TASK_OR_MODEL_GATES_NOT_MET",
+    "denominator": 1,
+    "scope": "SIM_MODEL_REPLAY",
+    "data_line": "SYNTHETIC_SIM",
+    "task_predicates": {
+      "status": "NOT_RUN",
+      "satisfied": false,
+      "reason": "NO_CONTROL_EXECUTED"
+    },
+    "physical_qualification": {
+      "status": "UNKNOWN",
+      "reason": "INCOMPLETE_EXECUTION",
+      "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+      "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET"
+    }
+  }
+}

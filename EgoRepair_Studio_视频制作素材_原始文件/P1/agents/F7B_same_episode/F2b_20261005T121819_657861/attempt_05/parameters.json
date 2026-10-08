@@ -1,0 +1,29 @@
+{
+  "attempt_number": 5,
+  "scene": {
+    "id": "A_ORIGINAL",
+    "object_position": [
+      0.18,
+      0,
+      0.018
+    ],
+    "goal": [
+      0.18,
+      0.1,
+      0.018
+    ],
+    "object_mass": 0.04,
+    "object_friction": 0.5
+  },
+  "controller": {
+    "close_rad": 0.04,
+    "contact_z_offset_m": -0.002,
+    "tilt_rad": 0.0,
+    "open_rad": 0.7,
+    "lift_m": 0.065,
+    "approach_height_m": 0.048,
+    "segment_steps": 35,
+    "release_clearance_m": 0.0
+  },
+  "denominator": 1
+}

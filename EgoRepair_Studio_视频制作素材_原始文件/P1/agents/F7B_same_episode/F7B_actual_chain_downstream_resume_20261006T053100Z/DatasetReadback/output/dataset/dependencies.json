@@ -1,0 +1,17 @@
+{
+  "source_refs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/execution.json",
+      "sha256": "b09edf66b4b97808bc3ce9c82be424e51ac4b2559dbbbd5a2eed6c95b6eed7f5",
+      "bytes": 106556962,
+      "media_type": "application/json"
+    }
+  ],
+  "paired_source_hashes": [
+    "b09edf66b4b97808bc3ce9c82be424e51ac4b2559dbbbd5a2eed6c95b6eed7f5"
+  ],
+  "terminal_state_count": 1,
+  "source_clock_unchanged": true,
+  "observed_estimated_masks_separate": true,
+  "teacher_data_accepted": true
+}

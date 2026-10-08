@@ -1,0 +1,15 @@
+Delivery is full-row SOURCE REFERENCE intermediate, not completedA3 or physicalexecution.
+
+A1: cachedexact302/270RGB andsource-bound HuRoStage4HAWOR/Stage5MoGe3 camera/hands/SLAM. No newinference/GT/measuredscale/fullhumanbody. OfficialA1root untouched; Stage8humanoidroute not automatically runfor mechanicalA1X.
+
+A2: ownsourcepackage actualHEAD53356eb/treea370d602. Observation.load/EEFPoseReference.load/world_points/video_clock actually called in snapshotisolated subprocess. Current referenceuses cachedA2EEF/joint/placement outputs, no newIK/searchimprovement. Rawq14maskfalse remainsfalse;per-handstatic/diagnosticseparate;14→16 nativeauthor mapping must not inventobservedslider2.
+
+A3: ownsourcepackage actualHEAD7d68baa/tree13f6936. Actualactions.camera_delta fulloriginalPTS/mask/currentcamera futuregeometry; ONLYK6SOURCEMATH, notKrepair/C/CN/fullA3/physics. Run01 genuineA3source_relocation siblingguard rejection preserved. Correctedbridge passesactualA2-reader verifiednumericalpayload to A3math, neverdisableguard. FullA3JobRequirements.json concreteJobSpec fields remainmandatoryfuture; explicit_relocation_plan resolvesonlysamehash/lengthcode insideownA3snapshot, installinNEWsnapshot andrefreeze,nevermutateconsumedsnapshot.
+
+NativeLeRobot: officiallocalvendorGitb883328e6c95681ca90a18b102e4ae5e1f91e2bf realwriter/reader fullrows/images/columns. Referenceonly:independentEEFcomponentmasks/rawq14 retained;missingzero-carrier withfalsemask andoriginalNaNboundNPZ.320×180resizedoriginalRAW_RGB; parentvirtualrectifiedK separate/notverifiedpixelalignmenttorawimage. FutureA3delta_Ci reference(notcommands),missinglastfuturemask retained. Official_test exposureunchanged. No executableaction/physicalPASS/fullA3 inferredfromformat.
+
+EgoEpisodeReference EGODEX_SEMANTIC_REFERENCE_V1 JSON+NPZ: allsourceframe/time/exactPTS;humanbothhandsC/Wpoints/masks,cameraK/T_WC/world;independentEEF_G/Pposes/position/rotation/openingmasks;originalq14/diagnostic/static/transitionmasks;mount_world.left/rightfromactualPlacement;actualstream-end clock;source/semantic/snapshot/nativeLeRobotrefs.117activeleft preservespassiverighthumancontext,cups270bothactive. Sixcupsinitiallytable,notpre-heldstart.
+
+Snapshot10,761,312B stage-ownedOUR_EXT/common/config/adapters,exactSHA inventory, SOURCE_PACKAGE_NOT_HURO_GIT_CHECKOUT. No fakeclone or mutablesiblingsourceimports. Weights/assetsreadonly, no downloads/upstreamwrites. ActualCPUworkersPIDs/argv/cwd/affinity persisted;NN/IK/native/GPU/newoptimizer0;newuniqueoutputs/oldfailuresretained.
+
+Next required fullA3: currenttaskgeometryinstanceCAD/table/world/humanmeshshape;native selectedrobotmodel/guidedq/initialconditions;newfulltaskA3profile/inheritance/rootbudgets/manualmodelbranch;fixedsourcealiasesinNEWsnapshot;actually invoke applicableA3K/C/CN pipeline andnativewriter/reader,retainingoldparents/fallbacks. No pourCmodel/toy taskreuse. Human/object manualguidance is estimated andexplicit,notautomaticC. NewNN/IK/native requireindependentreview/rootallocation.

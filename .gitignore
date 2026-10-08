@@ -6,3 +6,8 @@ film/assets/audio/
 *.mp4
 *.wav
 __pycache__/
+.DS_Store
+/EgoRepair_Studio_视频制作素材_原始文件.zip
+
+# Keep the original project footage while ignoring generated film outputs.
+!/EgoRepair_Studio_视频制作素材_原始文件/**/*.mp4

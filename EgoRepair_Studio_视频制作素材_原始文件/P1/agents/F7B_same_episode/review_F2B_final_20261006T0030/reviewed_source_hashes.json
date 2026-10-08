@@ -1,0 +1,58 @@
+{
+  "production": [
+    {
+      "path": "src/a4x/sim/gates.py",
+      "sha256": "73634a25a197dd9dd0518968187442a052ab9d6f824e04a4622604aee7daf7a9",
+      "bytes": 21341
+    },
+    {
+      "path": "src/a4x/sim/qualified.py",
+      "sha256": "d33887e2db57267d96065649980d2ddcc2935aa2961f0baa311ef95763556180",
+      "bytes": 6509
+    },
+    {
+      "path": "src/a4x/sim/environment.py",
+      "sha256": "5f691f702224ea2abdc9825a5e2b78f6ccd4b6d6cc9d980c697853492fd94c97",
+      "bytes": 15204
+    },
+    {
+      "path": "src/a4x/sim/tasks.py",
+      "sha256": "1e63db56d2213d02814411c59a88286135d37d9a131015bebd001895d1d635fe",
+      "bytes": 9980
+    },
+    {
+      "path": "src/a4x/robot/grasp.py",
+      "sha256": "02325e3e879f27143dd3abe205b587d1755c461c7e122f00de39b2775e3be577",
+      "bytes": 3020
+    },
+    {
+      "path": "src/a4x/robot/so101.py",
+      "sha256": "e0c6c7275a312e2cdd1487bd9966ae0a9416ce4e83ac012c3c338f1f35f03388",
+      "bytes": 4339
+    },
+    {
+      "path": "src/a4x/robot/adapter.py",
+      "sha256": "406b4c252fa3a2782732c99cae930b9b9728c89d3704c9ac255e3a6b68dfefad",
+      "bytes": 4808
+    },
+    {
+      "path": "tools/sim_teacher_search.py",
+      "sha256": "f2b1e1a12758a3d46aa24062ddcbaadcc1ee975086673113f0152fe9cd0ab379",
+      "bytes": 5063
+    },
+    {
+      "path": "tools/sim_teacher_export.py",
+      "sha256": "3880699520f50690b8a4d29f0211f8c90f02846ff29754b591fea187d4b28a0c",
+      "bytes": 6231
+    },
+    {
+      "path": "tools/sim_teacher_examples.py",
+      "sha256": "4a000603eb99321e6f4f69427a4ae5dc4b62bfc759a874098d1b3b24c86cdc6f",
+      "bytes": 4804
+    }
+  ],
+  "official_model": {
+    "head": "4d038b3feae26ec82b46a4d586379114012a8ac7",
+    "status": ""
+  }
+}

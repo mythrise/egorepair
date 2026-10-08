@@ -1,0 +1,1 @@
+{"edge_multiview":{"boundary_tolerance_px":5.0,"minimum_additional_frames":2,"minimum_visible_edge_samples":8,"occlusion_tolerance_m":0.03},"plane_fit":{"seed":17},"static":{"max_displacement_m":0.03,"minimum_span_s":0.1,"minimum_spread_m":0.05,"minimum_tracks":3},"tracking":{"max_fb_error_px":0.5,"max_tracks":160,"quality_level":0.02}}

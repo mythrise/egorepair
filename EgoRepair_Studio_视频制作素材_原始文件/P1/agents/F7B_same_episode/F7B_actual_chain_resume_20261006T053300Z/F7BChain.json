@@ -1,0 +1,164 @@
+{
+  "scope": "NO_EDIT_CONNECTIVITY_ABLATION",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "original_commands": 280,
+  "original_states": 281,
+  "results": {
+    "CommandCompilation": {
+      "stage": "adopt-projection",
+      "status": "EXECUTED",
+      "outputs": [
+        {
+          "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/CommandCompilation/output/ImportedProjection.json",
+          "sha256": "dcad59f2cccab9b9a23cc3ac5ac542e317c923a8fb5d96cd7325c3bd04df1058",
+          "bytes": 1724,
+          "media_type": "application/json"
+        },
+        {
+          "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/CommandCompilation/output/CandidateCommands.json",
+          "sha256": "3f205ad1c4ea7c58203eab68594ecee720dc84385e03f8215f72339aa221d249",
+          "bytes": 71352,
+          "media_type": "application/json"
+        }
+      ],
+      "missing_dependencies": [],
+      "denominators": {
+        "original_states": 281,
+        "original_commands": 280
+      },
+      "reason": null,
+      "schema_version": "A4X_REVIEW_V5_20261005",
+      "scope": "NO_EDIT_CONNECTIVITY_ABLATION",
+      "M6": "NOT_RUN"
+    },
+    "WholeCandidateReplay": {
+      "stage": "replay-candidate",
+      "status": "EXECUTED",
+      "outputs": [
+        {
+          "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/execution.json",
+          "sha256": "b09edf66b4b97808bc3ce9c82be424e51ac4b2559dbbbd5a2eed6c95b6eed7f5",
+          "bytes": 106556962,
+          "media_type": "application/json"
+        },
+        {
+          "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/summary.json",
+          "sha256": "a38b47442c4b05e81d3510161b496be1a4e85ff7743e48ab0baa6028c025dfce",
+          "bytes": 2935,
+          "media_type": "application/json"
+        },
+        {
+          "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/ExecutionLineage.json",
+          "sha256": "f1b1492ae2de0fea0085fc1b1822dcb4879462745014751c89911c09b6353801",
+          "bytes": 2574,
+          "media_type": "application/json"
+        }
+      ],
+      "missing_dependencies": [],
+      "denominators": {
+        "issued_commands": 280,
+        "actual_states": 281,
+        "trials": 1,
+        "successes": 1
+      },
+      "reason": null,
+      "schema_version": "A4X_REVIEW_V5_20261005",
+      "task_result": {
+        "status": "PASS",
+        "success": true,
+        "reason": "ACTUAL_TASK_AND_ESTIMATED_MODEL_GATES",
+        "denominator": 1,
+        "scope": "SIM_MODEL_REPLAY",
+        "data_line": "SYNTHETIC_SIM",
+        "task_predicates": {
+          "status": "SATISFIED",
+          "satisfied": true,
+          "lift_end_state": 3083,
+          "place_end_state": 5793,
+          "contact_semantics": "BOTH_MODEL_FINGERS_POSITIVE_NORMAL_CONTACT_NOT_FORCE_CLOSURE_CERTIFICATION",
+          "evaluation_hz": 500,
+          "evaluated_states": 7001,
+          "lift_end_control_boundary": 124,
+          "place_end_control_boundary": 232
+        },
+        "physical_qualification": {
+          "status": "PASS",
+          "aggregate_metrics": {
+            "pad_fixed_force_N": 41.49372559393026,
+            "pad_moving_force_N": 39.624045942908865,
+            "support_force_N": 29.658035862306587,
+            "max_penetration_m": 0.0014090273451935508,
+            "max_unintended_penetration_m": 0.0,
+            "unintended_contact_samples": 0,
+            "max_joint_speed_rad_s": 2.9513917413583575,
+            "max_actuator_force_Nm": 2.94
+          },
+          "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+          "recipe_sha256": "0a4ce2bc3129171ab001553e3c89f3ea16e339a012d11ede2993b47e89a9e9d5",
+          "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET",
+          "checked_substeps": 7000,
+          "command_count": 280,
+          "state_count": 281,
+          "failed_substeps": [],
+          "failed_substep_count": 0,
+          "independent_replay_max_error": 0.0,
+          "continuous_collision_certified": false,
+          "hardware_certified": false
+        }
+      },
+      "scope": "SYNTHETIC_SIM_ESTIMATED_MODEL",
+      "hardware": "NOT_RUN",
+      "continuous_collision": "NOT_CERTIFIED"
+    },
+    "CandidateDataset": {
+      "stage": "build-pairs",
+      "status": "FAILED",
+      "outputs": [],
+      "missing_dependencies": [],
+      "denominators": {},
+      "reason": "Worker produced no StageResult",
+      "schema_version": "A4X_REVIEW_V5_20261005"
+    }
+  },
+  "stop_reason": "DATA_NOT_EXECUTED",
+  "source_totals": {
+    "used": {
+      "responses": 0,
+      "tools": 0,
+      "candidates": 5,
+      "projections": 3,
+      "selection_rollouts": 1,
+      "independent_rollouts": 2,
+      "spatial": 4,
+      "semantic": 0,
+      "jev": 0
+    },
+    "costs": {
+      "host_inclusive_wall_seconds": 1184.471528035123,
+      "wall_seconds": 394.07572564063594,
+      "denoiser_calls": 256,
+      "guidance_calls": 0,
+      "projection_calls": 384
+    },
+    "states": {
+      "SETTLED": 50,
+      "RESERVED": 1
+    }
+  },
+  "nonzero_M4_failure_receipt": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/FullCPUChain.json",
+    "sha256": "7b870cac1dd9dd0b8ee1d6f6c5f28e4225d1f34038daaafae9b806fdea3b6494",
+    "bytes": 173484,
+    "media_type": "application/json"
+  },
+  "pi0_evaluation": "NOT_RUN_OLD_TWO_SOURCE_ROLLOUTS_REMAIN_SPENT_SIX_REMAINING_USED_FOR_MATCHED_ARMS",
+  "repair_benefit": "NOT_CLAIMED",
+  "formal_research": "NOT_RUN",
+  "RGB_POLICY": "NOT_RUN_NUMERIC_SIM_STATE_V1",
+  "full_M5_optimization": "NOT_RUN_PARENT_FEASIBILITY_ONLY"
+}

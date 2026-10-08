@@ -1,0 +1,11 @@
+{
+  "status": "NOT_READY",
+  "reason": "No projected candidate available; failure retained",
+  "M6": "NOT_RUN",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  }
+}

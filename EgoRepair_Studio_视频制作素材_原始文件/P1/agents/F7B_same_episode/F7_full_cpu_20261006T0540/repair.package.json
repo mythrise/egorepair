@@ -1,0 +1,59 @@
+{
+  "schema": "a4x.pipeline.package.v1",
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "stage": "repair",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/context.json",
+    "sha256": "18d9af7935d4d966f53acb11d646cc695cf5df82ad7d706e39c50f039b92331a",
+    "bytes": 378,
+    "media_type": "application/json"
+  },
+  "inputs": {
+    "checkpoint": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/F1c_numeric_teacher05_20261006_02/conditioned_checkpoint.pt",
+      "sha256": "244cbefc8a74765735b4d4157b6ed784c6eb3836bd46802f20279aa003b0a5ac",
+      "bytes": 36639953,
+      "media_type": "application/vnd.snesdev-page-table"
+    },
+    "conditioning": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/condition_source.json",
+      "sha256": "be2e0c1aaa97a30a3aed4be572ed6d8b1e65ddec23043d39735e40169a600e54",
+      "bytes": 738,
+      "media_type": "application/json"
+    },
+    "geometry": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/geometry.npz",
+      "sha256": "901438ded6ffdd487cc1a22a7d02394b958aa458678efc1f18757662ead653ae",
+      "bytes": 30486,
+      "media_type": "application/octet-stream"
+    },
+    "intent": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/intent.json",
+      "sha256": "0b165f57656401db37afb6826b066a51e9d4a38fcf15072f278e234bd0eddda7",
+      "bytes": 680,
+      "media_type": "application/json"
+    },
+    "intent_context": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/intent_context.json",
+      "sha256": "bf43f0c59dfd87420a2ab0c2cc471c68ce7735d4ee00d8b16e5c73715a477e41",
+      "bytes": 1745,
+      "media_type": "application/json"
+    },
+    "projection_template": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/projection_template.npz",
+      "sha256": "d7f9aaed3347640c31433c94b025047810781f01ef46f486288e11363c299538",
+      "bytes": 41235,
+      "media_type": "application/octet-stream"
+    }
+  },
+  "profile": {
+    "development_checkpoint": true,
+    "repair_round": 1
+  }
+}

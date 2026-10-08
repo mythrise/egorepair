@@ -1,0 +1,257 @@
+{
+  "schema": "a4x.source.snapshot.v1",
+  "module": "F7B",
+  "scope": "NO_EDIT_CONNECTIVITY_ABLATION",
+  "author": "/root/f7b_finish_chain",
+  "production_and_tests": [
+    {
+      "relative_path": "src/a4x/cli.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/cli.py",
+        "sha256": "75087c093b101acfaac3ec589513d75a41278d21547f66cf08d2e85b9aceef7a",
+        "bytes": 9226,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/__init__.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/__init__.py",
+        "sha256": "dd42764666446e287c504b1ad44fc2331fa4307b99b56714af7fb70bf2d28c3d",
+        "bytes": 87,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/authority.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/authority.py",
+        "sha256": "a8763c8aa438b474d221514e762af32fb4f3779e617dd478ffb17f5ca4252f61",
+        "bytes": 4324,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/candidate.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/candidate.py",
+        "sha256": "64e10d2fb5cc7ae7554b51fb79ce9c10cb785842774f12610fbda85efb6b7456",
+        "bytes": 9267,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/critic.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/critic.py",
+        "sha256": "a99079e77659dff3f725f343c94b57a0a58796f2dfb3b324078ef19711e2f9ce",
+        "bytes": 1970,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/full_profile.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/full_profile.py",
+        "sha256": "c2cf439f33949233dc6917e9573f9311f7b8b912cc0173495ecc2e584070f6a8",
+        "bytes": 6253,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/graph.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/graph.py",
+        "sha256": "a4d88dfb8384c576326c3e132758b4217a3641057501bae3bb40dd0275eec48d",
+        "bytes": 5009,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/handlers.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/handlers.py",
+        "sha256": "c4c65a68a417297b5d3baff2afcaf61c35ef296d17dc2ca198e12b87939aa2f5",
+        "bytes": 19440,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/intent.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/intent.py",
+        "sha256": "411f7d5a56659c4fec935fd96532642d923ae3b84da1d95ed8fad73e589f30a9",
+        "bytes": 1010,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/packages.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/packages.py",
+        "sha256": "1b65affd789b86ef86dc69c336db78350efb1ce62b47d75110db03af0cba7dd8",
+        "bytes": 9889,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/project.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/project.py",
+        "sha256": "b4afc4e886c63f5b734c8a8413658f3fa42889fbd81e9277628b32a0247fedb5",
+        "bytes": 4350,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/provider.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/provider.py",
+        "sha256": "9f228c413d06be6b75e49e299dbd0cad8f0a3f56e57d654328e863f6a7388089",
+        "bytes": 7428,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/repair.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/repair.py",
+        "sha256": "10cea415c97fc6ad16ff1d1dd7ad2e0751c1cd99b068537a10aedfcf782a3209",
+        "bytes": 8973,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/pipeline/source_registry.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/source_registry.py",
+        "sha256": "f6405b26ecb632e5c81b0641c8974215187c089413423bef244739d97ab8ee09",
+        "bytes": 980,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/server/jobs.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/server/jobs.py",
+        "sha256": "bb4c57ac065a661e42755c2c78b4106fff5132886c7f3997463ae2ab2058e0d1",
+        "bytes": 14355,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/__init__.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/__init__.py",
+        "sha256": "f4d86f232d9ce6289dce0b9e3d67ba9dbafa03287d50b556157daffc7f7b4ca5",
+        "bytes": 50,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/budget_scope.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/budget_scope.py",
+        "sha256": "d8ec9e7bf1493b8082af4c185a3e6026683ff96b4a6293b01c474758710c9666",
+        "bytes": 2991,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/dispatch.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/dispatch.py",
+        "sha256": "351f2d3b29e2329c60b0993ff416816271f3eeebfb05107f94537561687609be",
+        "bytes": 1570,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/entry.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/entry.py",
+        "sha256": "6dbe3a0472dbdf840a6ed7df0f5fe8282461cf4105f08e2b5dbe22d0e0c2043b",
+        "bytes": 5970,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/process_gate.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/process_gate.py",
+        "sha256": "1ea2fe284d6258308f7c6e4a695345363f1d5460f175edb79afbe26d55739e08",
+        "bytes": 252,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/process_owner.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/process_owner.py",
+        "sha256": "ea936d6f5c957429d6e7535ebc327d60aa2859f39a49e8c5d8ee93787dfa5155",
+        "bytes": 3446,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/registry.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/registry.py",
+        "sha256": "28ed6305c90a8bb54da4142ff4db23fc9e3706a41344d5387eb4cafdee43b344",
+        "bytes": 3328,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/runtime.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/runtime.py",
+        "sha256": "786d5f8f95b289a5a3b47e2e6cc53a83529d32728da155560d00c97451214477",
+        "bytes": 2169,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "src/a4x/workers/supervise.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/supervise.py",
+        "sha256": "05007a605afc8b35249d002ad580eed6a5d4c0baf4630e4dda24d4738da67522",
+        "bytes": 1273,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "tests/test_pipeline_f7.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/tests/test_pipeline_f7.py",
+        "sha256": "a8a700ad303165ef0cefcf87ff6ebc5a2a4f6a567e15f04d80990e0ac5be44db",
+        "bytes": 5043,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "tests/test_pipeline_f7b.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/tests/test_pipeline_f7b.py",
+        "sha256": "08ff9fdbb2bad457da60b5fcb408b589e99a66149e95c0dac0de82061000fbbe",
+        "bytes": 4440,
+        "media_type": "text/x-python"
+      }
+    },
+    {
+      "relative_path": "tools/pipeline_f7b_chain.py",
+      "artifact": {
+        "path": "/home/xklv/ego_robot/a4_experiment/tools/pipeline_f7b_chain.py",
+        "sha256": "7f19e821eef2e8c37786f0e10f039e89c7f2b3e404be84e741f58d67b48f453d",
+        "bytes": 8103,
+        "media_type": "text/x-python"
+      }
+    }
+  ],
+  "numeric_producer_acceptance": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2D_acceptance_20261006T051429_418919Z/Acceptance.json",
+    "sha256": "d73498134f47cc5c4bd49a2466354d5959bb58c3a26d2ed40b7c37479b1e1ea5",
+    "bytes": 831,
+    "media_type": "application/json"
+  }
+}

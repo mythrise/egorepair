@@ -1,0 +1,158 @@
+[
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/continuous.py",
+    "sha256": "46dee14237f805db6bbcf5f18b349aedd0ba8a35637d689ab5e190c501f963e3",
+    "bytes": 7509,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/solver.py",
+    "sha256": "9e6c58c8a96a872424814cda253079949b6fe81ab116a0bc27904c1d6156c00c",
+    "bytes": 9855,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/__init__.py",
+    "sha256": "964eb9c4c67d5a7a127388a95f926d81f4db1b4f6bd0554edcac677f672734c5",
+    "bytes": 91,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/distance.py",
+    "sha256": "a8b4610da41ec31060e805b56c994f72624db827700db42c02e40727cda052c7",
+    "bytes": 15745,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/reference.py",
+    "sha256": "004a52afbeb9e002870cede6d30fb21ac5fb25b51a0a2d90f1c305c0a50d423a",
+    "bytes": 3017,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/task.py",
+    "sha256": "99c1b089944593a4d6ebc6b728be805ffc7f1c482184637cf9882ad8d14aee51",
+    "bytes": 4787,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/f1_target.py",
+    "sha256": "2731bc597e942410a2e1a66f2f9db693acb311640dcebc458b19280316813980",
+    "bytes": 8042,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/pipeline.py",
+    "sha256": "b77ba02b971d93e3c0bcb6f8aea1d576fdec9a600aca7d609096901c719d1702",
+    "bytes": 6187,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/retiming.py",
+    "sha256": "3731baf304826dd4ae4a8de0a0605dc3cea28c6902c3f57fb3b53412c921a93d",
+    "bytes": 3705,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/moving_target.py",
+    "sha256": "fd5fe86dc676de6ca0fc29c321e4ba3eea73ac5ed129ad6360abc9e61b5d872c",
+    "bytes": 5700,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/object_motion.py",
+    "sha256": "4d9a505e481241a1b3a2240d18c46830485f61dcbd6ecf67f6ed1177295c539c",
+    "bytes": 3456,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/adapters.py",
+    "sha256": "848a764eb0fd9d0292f5eb61f6edcefe2a298d93c3cd16a491cdf0c846d54c9e",
+    "bytes": 2718,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/source_geometry.py",
+    "sha256": "ce12f32c57fb9b3e1f0c7eb2df20bdb1407be83efd719bb2c492844befccc829",
+    "bytes": 6220,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/tool.py",
+    "sha256": "d6600b9da0b2b19f089ad49a0e86a21065ecd23565fa9bfddac86fe3c2834510",
+    "bytes": 1859,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/full_episode_bounds.py",
+    "sha256": "bd165845a43af8b1561fecb0855a0415067873f9cd01bc59a474d5c67d3fc366",
+    "bytes": 6382,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/contact_contract.py",
+    "sha256": "de11ad46904330a6397b980e41619d4a2c5f46500fedb744dff22e85c8dab437",
+    "bytes": 4177,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/full_solver.py",
+    "sha256": "f7d87b0e28bde47a0023076ad1d668989bbd926f3c18f5ff56af550e796a2393",
+    "bytes": 11006,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/tools/projection_full_preflight.py",
+    "sha256": "d72f6678634e2633167df1a89fd25634feeb1c200a97d01fca6c6d020bc6cc34",
+    "bytes": 10709,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/tools/projection_run.py",
+    "sha256": "2141186c84fb4a8e958b379a52d5d4be5906f5a7d511df20dd82eeea7219c9c9",
+    "bytes": 7633,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/protocols/full_episode_development_m5.json",
+    "sha256": "89771d56300da0a37a59f0febbc960a87b18b53012da8234dc5790e89cb7516a",
+    "bytes": 827,
+    "media_type": "application/json"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/repair/math.py",
+    "sha256": "09f05753342fcddba457c3e020ef3aeaf7df1d7077c3ebfd29c7118c52dc3359",
+    "bytes": 13666,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/robot/so101.py",
+    "sha256": "e0c6c7275a312e2cdd1487bd9966ae0a9416ce4e83ac012c3c338f1f35f03388",
+    "bytes": 4339,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/robot/adapter.py",
+    "sha256": "406b4c252fa3a2782732c99cae930b9b9728c89d3704c9ac255e3a6b68dfefad",
+    "bytes": 4808,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/sim/environment.py",
+    "sha256": "5f691f702224ea2abdc9825a5e2b78f6ccd4b6d6cc9d980c697853492fd94c97",
+    "bytes": 15204,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/sim/gates.py",
+    "sha256": "73634a25a197dd9dd0518968187442a052ab9d6f824e04a4622604aee7daf7a9",
+    "bytes": 21341,
+    "media_type": "text/x-python"
+  },
+  {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/provenance.py",
+    "sha256": "0ab6ede4c57d8b99eef6eeb23ee75cf75f35a42ebf95d350660390778ee5c10b",
+    "bytes": 1572,
+    "media_type": "text/x-python"
+  }
+]

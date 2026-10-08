@@ -1,0 +1,9 @@
+{
+  "pid": 772210,
+  "start_token": "275487427",
+  "pgid": 772210,
+  "session": 772210,
+  "state": "R",
+  "owner_nonce": "a1f65fbe-4302-4181-a32a-a10a76434f56",
+  "job_run": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/build-graph"
+}

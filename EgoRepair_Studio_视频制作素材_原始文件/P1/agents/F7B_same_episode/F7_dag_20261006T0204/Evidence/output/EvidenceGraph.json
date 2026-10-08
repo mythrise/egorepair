@@ -1,0 +1,48 @@
+{
+  "data_line": "SYNTHETIC_SIM",
+  "scope": "ESTIMATED_MODEL_GEOMETRY",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_chain_20261006T0140/context.json",
+    "sha256": "18d9af7935d4d966f53acb11d646cc695cf5df82ad7d706e39c50f039b92331a",
+    "bytes": 378,
+    "media_type": "application/json"
+  },
+  "nodes": [
+    {
+      "id": "object",
+      "position_world_m": [
+        0.18,
+        0.0,
+        0.018
+      ]
+    },
+    {
+      "id": "goal",
+      "position_world_m": [
+        0.18,
+        0.1,
+        0.018
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "id": "initial_goal_distance",
+      "value": 0.1,
+      "unit": "m",
+      "frame": "WORLD",
+      "origin": "ACTUAL_REGISTERED_MODEL_SCENE"
+    }
+  ],
+  "denominators": {
+    "source_states": 281,
+    "issued_commands": 280
+  },
+  "task_outcome_not_used_as_geometry": true
+}

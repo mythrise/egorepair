@@ -1,0 +1,26 @@
+{
+  "name": "FULL_EPISODE_DEVELOPMENT",
+  "scope": "SO101_TYPED_REFERENCE_MODEL_NOT_FORMAL_V5_OR_M6",
+  "policy_source": "F2d bounded development throughput investigation; pending independent review",
+  "solver": {
+    "max_fk_calls": 2000000,
+    "max_distance_calls": 2000000,
+    "max_wall_s": 1800
+  },
+  "continuous": {
+    "max_depth": 24,
+    "max_distance_calls": 4000000,
+    "max_wall_s": 1800
+  },
+  "task": {
+    "max_depth": 24,
+    "max_calls": 1000000,
+    "fail_fast": true,
+    "max_wall_s": 1800,
+    "native_opening_bound": true
+  },
+  "aggregate_wall_s": 3600,
+  "geometry_thresholds_changed": false,
+  "source_clock_clipping_allowed": false,
+  "parent_q_warm_start": "Validate whole supplied native parent curve before expensive alternative-branch search; never claim objective optimum or neural repair"
+}

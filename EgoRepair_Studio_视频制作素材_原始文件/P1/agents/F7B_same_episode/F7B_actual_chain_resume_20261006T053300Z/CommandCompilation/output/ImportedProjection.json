@@ -1,0 +1,35 @@
+{
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "result": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/Result.json",
+    "sha256": "251e8007f4369e43b98b34c7864e0c1c2ecb732126898181aa685586d728ded2",
+    "bytes": 548298,
+    "media_type": "application/json"
+  },
+  "receipt": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/Receipt.json",
+    "sha256": "0d5307e47f6d31938a8e206b20cfe31621b427baacd66e04b0b5ad79e2f63ae9",
+    "bytes": 10042,
+    "media_type": "application/json"
+  },
+  "profile": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/protocols/full_episode_development_m5.json",
+    "sha256": "89771d56300da0a37a59f0febbc960a87b18b53012da8234dc5790e89cb7516a",
+    "bytes": 827,
+    "media_type": "application/json"
+  },
+  "contact_source": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "experiment_scope": "NO_EDIT_CONNECTIVITY_ABLATION",
+  "optimization": "NOT_RUN_DIAGNOSTIC_ONLY",
+  "actual_origin_import": "registered-m5:251e8007f4369e43b98b34c7864e0c1c2ecb732126898181aa685586d728ded2"
+}

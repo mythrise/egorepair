@@ -1,0 +1,53 @@
+{
+  "status": "POLICY_COMMAND_REJECTED",
+  "scope": "IN_SAMPLE_NOT_GENERALIZATION",
+  "data_line": "SYNTHETIC_SIM",
+  "checkpoint": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/raw/checkpoint.pt",
+    "sha256": "db3e88a1a59ffd50269d2894c196ebae6bd0cc2b08a2d833df25f5ca40857ceb",
+    "bytes": 117385,
+    "media_type": "application/x-pytorch"
+  },
+  "parameters": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/parameters.json",
+    "sha256": "c5dad7943ff92298cb61d059f18fac0508db27910eb37498c0ea4bc7aaadddef",
+    "bytes": 492,
+    "media_type": "application/json"
+  },
+  "execution": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYrawEvaluation/output/evaluation/execution.json",
+    "sha256": "5d840dcb953f262483ab5a0e57d61f76f402e3848e5c4c8202a6979e01a7e915",
+    "bytes": 21881,
+    "media_type": "application/json"
+  },
+  "proposed_actions": 1,
+  "issued_commands": 0,
+  "actual_states": 1,
+  "queried_chunks": 1,
+  "query_frequency": 8,
+  "task_result": {
+    "status": "UNKNOWN",
+    "success": false,
+    "reason": "TASK_OR_MODEL_GATES_NOT_MET",
+    "denominator": 1,
+    "scope": "SIM_MODEL_REPLAY",
+    "data_line": "SYNTHETIC_SIM",
+    "task_predicates": {
+      "status": "NOT_RUN",
+      "satisfied": false,
+      "reason": "NO_CONTROL_EXECUTED"
+    },
+    "physical_qualification": {
+      "status": "UNKNOWN",
+      "reason": "INCOMPLETE_EXECUTION",
+      "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+      "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET"
+    }
+  },
+  "hardware_qualified": false,
+  "continuous_collision_certified": false,
+  "source_groups": 1,
+  "trials": 1,
+  "wall_seconds": 0.2839645338244736,
+  "controller": "ACTUAL_POSITION_ZERO_ORDER_20HZ_NO_TEACHER_REPLAY"
+}

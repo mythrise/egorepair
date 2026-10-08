@@ -1,0 +1,56 @@
+{
+  "depth_kind": "Z_DEPTH",
+  "pixel_convention": "PIXEL_CENTER_INTEGER",
+  "image_hw": [
+    540,
+    960
+  ],
+  "source_frame_id": 300,
+  "source_time_s": 10.0,
+  "world_id": "f8a53e5554f5472eb299f118c381862a:basic_pick_place_117:0:0",
+  "depth_world_mode": "FINAL_CAMERA_LOCAL_METRIC",
+  "scale_level": "ESTIMATED_METRIC",
+  "scale_applied_after_model": 1.0,
+  "source_bindings": [
+    {
+      "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/PreparedManifest.json",
+      "sha256": "fe233084624d273423b0999605f550df48c73be92ee0f32d1ed111f61d56cb94",
+      "bytes": 128705
+    },
+    {
+      "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/sam2/TableMaskManifest.json",
+      "sha256": "538ba70981c566d64eb612f0a10125ddfa980446fae6aae493d2911a75f45266",
+      "bytes": 118663
+    },
+    {
+      "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/frames/000300.jpg",
+      "sha256": "3a9b554d472c626fb7729f9eeaf7a36ca6c97b5ad96986ed803d4fdf8cc664de",
+      "bytes": 72921
+    },
+    {
+      "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/sam2/masks/000300.png",
+      "sha256": "916355615b25ee92a398f785c1a567c82edae584cb9ae313e2941b5e8070e774",
+      "bytes": 3479
+    },
+    {
+      "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/moge3/frames/000300.npz",
+      "sha256": "232bb173ccc1797fa8b3da3735789a4c617c007e3bd204be4676787fd9fa949a",
+      "bytes": 7279266
+    }
+  ],
+  "parents": {
+    "prepared": {
+      "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/prepared/PreparedManifest.json",
+      "sha256": "fe233084624d273423b0999605f550df48c73be92ee0f32d1ed111f61d56cb94",
+      "bytes": 128705
+    },
+    "masks": {
+      "path": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/scene/sam2/TableMaskManifest.json",
+      "sha256": "538ba70981c566d64eb612f0a10125ddfa980446fae6aae493d2911a75f45266",
+      "bytes": 118663
+    }
+  },
+  "model_mask_pixels": 516901,
+  "table_valid_pixels": 135700,
+  "point_projection_max_error_m": 1.8811575175359252e-07
+}

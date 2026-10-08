@@ -1,0 +1,9 @@
+{
+  "pid": 3922507,
+  "start_token": "271456567",
+  "pgid": 3922507,
+  "session": 3922507,
+  "state": "R",
+  "owner_nonce": "7211c9b5-1783-4496-847f-7a171ffa5a45",
+  "job_run": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_dag_20261006T0204/Geometry"
+}

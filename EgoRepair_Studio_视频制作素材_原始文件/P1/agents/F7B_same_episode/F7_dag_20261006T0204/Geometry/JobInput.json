@@ -1,0 +1,18 @@
+{
+  "stage": "measure-geometry",
+  "context": "offline-cli",
+  "input": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_dag_20261006T0204/Geometry.package.json",
+    "sha256": "e78e4493d498b27ea5c6260e8492ebf779e9b543f59954e58f988e843e6d70b8",
+    "bytes": 1040,
+    "media_type": "application/json"
+  },
+  "config": {
+    "_dispatch_stage": "measure-geometry",
+    "allowed_input_roots": [
+      "/home/xklv/ego_robot/a4_experiment/runs",
+      "/home/xklv/ego_robot/a4_experiment/inputs/a2_pour_so101",
+      "/home/xklv/ego_robot/a4_experiment/models"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "stage": "repair",
+  "context": "offline-cli",
+  "input": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/repair.package.json",
+    "sha256": "36eb66b05646da0b4cc126947db9378d0c5ed4f5f4da4efc7014286c546aeaf0",
+    "bytes": 2598,
+    "media_type": "application/json"
+  },
+  "config": {
+    "_dispatch_stage": "repair",
+    "allowed_input_roots": [
+      "/home/xklv/ego_robot/a4_experiment/runs"
+    ]
+  }
+}

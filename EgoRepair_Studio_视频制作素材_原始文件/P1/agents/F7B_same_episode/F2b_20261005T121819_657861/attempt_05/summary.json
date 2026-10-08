@@ -1,0 +1,41 @@
+{
+  "attempt_number": 5,
+  "scene_id": "A_ORIGINAL",
+  "denominator": 1,
+  "planner_status": "PLANNED_REFERENCE_ONLY",
+  "task": {
+    "status": "SATISFIED",
+    "satisfied": true,
+    "lift_end_state": 124,
+    "place_end_state": 232,
+    "contact_semantics": "BOTH_MODEL_FINGERS_POSITIVE_NORMAL_CONTACT_NOT_FORCE_CLOSURE_CERTIFICATION"
+  },
+  "model_gate_status": "PASS",
+  "overall": "PASS",
+  "teacher_candidate_qualified": true,
+  "teacher_accepted": false,
+  "independent_review_status": "PENDING",
+  "kind": "ACTUAL_CLEAN_SIM_TEACHER",
+  "execution_steps": 280,
+  "source_refs": {
+    "execution": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+      "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+      "bytes": 110310359,
+      "media_type": "application/json"
+    },
+    "scene": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/scene.xml",
+      "sha256": "5342b4382a1264334f55c175e2a326571b803d9e6f3614d9686e360a1b082ffb",
+      "bytes": 15345,
+      "media_type": "application/xml"
+    },
+    "parameters": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/parameters.json",
+      "sha256": "c5dad7943ff92298cb61d059f18fac0508db27910eb37498c0ea4bc7aaadddef",
+      "bytes": 492,
+      "media_type": "application/json"
+    }
+  },
+  "failure_substeps": 0
+}

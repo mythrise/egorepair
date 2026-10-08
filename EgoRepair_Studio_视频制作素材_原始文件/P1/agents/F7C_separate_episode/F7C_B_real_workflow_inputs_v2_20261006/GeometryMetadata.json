@@ -1,0 +1,11 @@
+{
+  "episode_bounds": [
+    0.0,
+    14.000000000001345
+  ],
+  "context_hash": "6ecdfc3a7130e4e61ae937f7ef8c4989e3ece1344c776fa1acc0019be6d812db",
+  "snapshot_hash": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+  "source_group_id": "SYNTHETIC_SIM_FAMILY:NARROW_PRISM_LAYOUT_B_V1",
+  "reference_frame": "WORLD",
+  "time_sha256": "eb5e2778161adc6f432048f6571a01a9b072df595739916e6546e816e2eb4888"
+}

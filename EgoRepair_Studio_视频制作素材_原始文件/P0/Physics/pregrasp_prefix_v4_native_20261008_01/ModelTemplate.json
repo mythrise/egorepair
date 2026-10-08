@@ -1,0 +1,974 @@
+{
+  "template_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/reports/egodex_pregrasp_prefix_implementation_20261008_01/ModelTemplateHeader02.json",
+    "bytes": 51496,
+    "sha256": "aecc86adb3bd1cf6f312394fea8359805461bf8a71bf308419979378eb8fb6c4"
+  },
+  "actual_model_signature": "f9d9e559a6e234cde47f7ecf1c76a9ebf3cf2837467ca1e2f041bc9b6cb71516",
+  "actual_compiled_fields": {
+    "policy": {
+      "implementation": "MODEL_CONTROLLER_V3_ROBOT_GRAVITY_COMPENSATION_TOTAL_JOINT_LIMITED",
+      "robot_body_gravcomp": 1.0,
+      "nonrobot_body_gravcomp": 0.0,
+      "robot_scalar_joint_actuatorgravcomp": true,
+      "total_joint_effort_limits": "UNCHANGED_SOURCE_URDF",
+      "arm_kp": 100,
+      "arm_kd": 10,
+      "finger_kp": 1000,
+      "finger_kd": 20,
+      "object_gravity": "UNCHANGED",
+      "external_applied_forces": "ALL_ZERO",
+      "issued_position_targets": "EXACT_PARENT_PLAN_UNCHANGED",
+      "hardware_firmware_validated": false
+    },
+    "signature_schema": "EGODEX_MODEL_CONTROLLER_V3_SIGNATURE_V1",
+    "body_gravcomp": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "jnt_actgravcomp": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "jnt_actfrclimited": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "jnt_actfrcrange": [
+      [
+        -27.0,
+        27.0
+      ],
+      [
+        -50.0,
+        50.0
+      ],
+      [
+        -27.0,
+        27.0
+      ],
+      [
+        -14.0,
+        14.0
+      ],
+      [
+        -14.0,
+        14.0
+      ],
+      [
+        -14.0,
+        14.0
+      ],
+      [
+        -100.0,
+        100.0
+      ],
+      [
+        -100.0,
+        100.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "robot_joint_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "robot_dof_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "status": "COMPILED_CONTROLLER_FIELDS_VERIFIED_NOT_PHYSICAL_SUCCESS",
+    "compiled_contact_numerics_fields": {
+      "status": "COMPILED_CONTACT_OPTIONS_VERIFIED_NOT_PHYSICAL_SUCCESS",
+      "variant": "MODEL_CONTACT_NUMERICS_VARIANT_V1",
+      "candidate": "elliptic_impratio10",
+      "policy": {
+        "variant": "MODEL_CONTACT_NUMERICS_VARIANT_V1",
+        "allowed_xml_option_fields": [
+          "cone",
+          "impratio"
+        ],
+        "fixed_candidates": {
+          "elliptic_impratio10": {
+            "cone": "elliptic",
+            "impratio": 10
+          },
+          "elliptic_impratio100": {
+            "cone": "elliptic",
+            "impratio": 100
+          }
+        },
+        "noslip_iterations": 0,
+        "physical_material_geometry_controller_targets": "EXACT_PARENT_UNCHANGED",
+        "hypothesis": "SOFT_FRICTION_PERSISTENT_LOAD_SLIP_PENDING_EXPERIMENT",
+        "gain_scope": "MODEL_CONTACT_NUMERICS_NOT_TRAJECTORY_ONLY",
+        "automatic_search": false,
+        "maximum_candidates": 2,
+        "hardware_validated": false
+      },
+      "options": {
+        "timestep": 0.002,
+        "gravity": [
+          -0.18561075077152087,
+          -0.45700272270775283,
+          -9.797591395880712
+        ],
+        "integrator": 3,
+        "disableflags": 0,
+        "enableflags": 0,
+        "disableactuator": 0,
+        "solver": 2,
+        "iterations": 100,
+        "tolerance": 1e-08,
+        "ls_iterations": 50,
+        "ls_tolerance": 0.01,
+        "noslip_iterations": 0,
+        "noslip_tolerance": 1e-06,
+        "jacobian": 2,
+        "cone": 1,
+        "impratio": 10.0,
+        "ccd_iterations": 35,
+        "ccd_tolerance": 1e-06,
+        "o_solref": [
+          0.02,
+          1.0
+        ],
+        "o_solimp": [
+          0.9,
+          0.95,
+          0.001,
+          0.5,
+          2.0
+        ],
+        "o_friction": [
+          1.0,
+          1.0,
+          0.005,
+          0.0001,
+          0.0001
+        ],
+        "o_margin": 0.0,
+        "density": 0.0,
+        "viscosity": 0.0,
+        "wind": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "magnetic": [
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "sdf_initpoints": 40,
+        "sdf_iterations": 10,
+        "sleep_tolerance": 0.001
+      },
+      "expected_unchanged_options": {
+        "timestep": 0.002,
+        "integrator": 3,
+        "solver": 2,
+        "iterations": 100,
+        "tolerance": 1e-08,
+        "ls_iterations": 50,
+        "ls_tolerance": 0.01,
+        "noslip_iterations": 0,
+        "noslip_tolerance": 1e-06,
+        "jacobian": 2,
+        "disableflags": 0,
+        "enableflags": 0,
+        "disableactuator": 0
+      },
+      "source": "ACTUAL_COMPILED_MODEL_OPTION_READBACK"
+    },
+    "compiled_finite_patch_fields": {
+      "status": "ACTUAL_ALL_GEOMS_VERIFIED_NOT_PHYSICAL_SUCCESS",
+      "source_audit": {
+        "scope": "PURE_SOURCE_XML_PLUS_OFFICIAL_DEFAULTS_NOT_NEW_PARENT_COMPILED_MODEL",
+        "geom_rows": [
+          {
+            "name": "left_base_link_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_arm_link1_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_arm_link2_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_arm_link3_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_arm_link4_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_arm_link5_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_arm_link6_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_link_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link1_source_visual0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link1_collision0_part000",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link1_collision0_part001",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link1_collision0_part002",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link2_source_visual0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link2_collision0_part000",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link2_collision0_part001",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "left_gripper_finger_link2_collision0_part002",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "semantic_table_geom",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.7,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "gray_tray_visual0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "gray_tray_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "gray_tray_collision1",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "gray_tray_collision2",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "gray_tray_collision3",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "gray_tray_collision4",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "purple_scoop_visual0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "purple_scoop_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "purple_scoop_collision1",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "purple_scoop_collision2",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "purple_scoop_collision3",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "purple_scoop_collision4",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          },
+          {
+            "name": "block_visual0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              1.0,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "MUJOCO_INTERNAL_DEFAULT_NO_CLASS_OVERRIDE"
+          },
+          {
+            "name": "block_collision0",
+            "condim": 3,
+            "priority": 0,
+            "friction": [
+              0.6,
+              0.005,
+              0.0001
+            ],
+            "friction_source": "EXPLICIT_XML"
+          }
+        ],
+        "finger_block_parent_contact_dim": 3,
+        "finger_block_variant_contact_dim": 6,
+        "finger_block_combined_friction5": [
+          1,
+          1,
+          0.005,
+          0.0001,
+          0.0001
+        ],
+        "friction_units": [
+          "DIMENSIONLESS_SLIDING",
+          "METRE_TORSIONAL_PATCH_DIAMETER",
+          "METRE_ROLLING_LOCAL_DEFORMATION"
+        ],
+        "documentation": {
+          "defaults": "https://mujoco.readthedocs.io/en/stable/XMLreference.html#body-geom",
+          "combine": "https://mujoco.readthedocs.io/en/stable/modeling.html#contact-parameters",
+          "cone": "https://mujoco.readthedocs.io/en/stable/computation/index.html#friction-cones",
+          "slip": "https://mujoco.readthedocs.io/en/stable/modeling.html#preventing-slip"
+        }
+      },
+      "geom_rows": [
+        {
+          "name": "left_base_link_collision0",
+          "geom_id": 0,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_arm_link1_collision0",
+          "geom_id": 1,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_arm_link2_collision0",
+          "geom_id": 2,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_arm_link3_collision0",
+          "geom_id": 3,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_arm_link4_collision0",
+          "geom_id": 4,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_arm_link5_collision0",
+          "geom_id": 5,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_arm_link6_collision0",
+          "geom_id": 6,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_link_collision0",
+          "geom_id": 7,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link1_source_visual0",
+          "geom_id": 8,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link1_collision0_part000",
+          "geom_id": 9,
+          "condim": 6,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link1_collision0_part001",
+          "geom_id": 10,
+          "condim": 6,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link1_collision0_part002",
+          "geom_id": 11,
+          "condim": 6,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link2_source_visual0",
+          "geom_id": 12,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link2_collision0_part000",
+          "geom_id": 13,
+          "condim": 6,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link2_collision0_part001",
+          "geom_id": 14,
+          "condim": 6,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "left_gripper_finger_link2_collision0_part002",
+          "geom_id": 15,
+          "condim": 6,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "semantic_table_geom",
+          "geom_id": 16,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.7,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "gray_tray_visual0",
+          "geom_id": 17,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "gray_tray_collision0",
+          "geom_id": 18,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "gray_tray_collision1",
+          "geom_id": 19,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "gray_tray_collision2",
+          "geom_id": 20,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "gray_tray_collision3",
+          "geom_id": 21,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "gray_tray_collision4",
+          "geom_id": 22,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "purple_scoop_visual0",
+          "geom_id": 23,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "purple_scoop_collision0",
+          "geom_id": 24,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "purple_scoop_collision1",
+          "geom_id": 25,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "purple_scoop_collision2",
+          "geom_id": 26,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "purple_scoop_collision3",
+          "geom_id": 27,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "purple_scoop_collision4",
+          "geom_id": 28,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "block_visual0",
+          "geom_id": 29,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            1.0,
+            0.005,
+            0.0001
+          ]
+        },
+        {
+          "name": "block_collision0",
+          "geom_id": 30,
+          "condim": 3,
+          "priority": 0,
+          "friction": [
+            0.6,
+            0.005,
+            0.0001
+          ]
+        }
+      ],
+      "actual_geom_condim": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        3,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "parent_normalized_signature": "e38395c661a24dd12aca72f7e05152dccc04eaa3d9f83d17aaec450b4b360b3d",
+      "normalization_scope": "READ_ONLY_SIGNATURE_VIEW_EXACT_SIX_CONDIM_RESET3_ONLY_NO_MODEL_MUTATION"
+    }
+  }
+}

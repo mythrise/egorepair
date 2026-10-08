@@ -1,0 +1,84 @@
+{
+  "protocol": "SENSE13_NATIVE_MCQ_HOST_REPORT_V1",
+  "report": {
+    "schema_version": "A4X_REVIEW_V5_20261005",
+    "report_id": "F7C_registered_B_spatial",
+    "context_hash": "6ecdfc3a7130e4e61ae937f7ef8c4989e3ece1344c776fa1acc0019be6d812db",
+    "source_group_id": "SYNTHETIC_SIM_FAMILY:NARROW_PRISM_LAYOUT_B_V1",
+    "question_id": "initial_image_horizontal_relation",
+    "expert_id": "SENSENOVA_SI_1_3_INTERNVL3_8B",
+    "model_revision": "4069b9740ed8031cd180275dcd0857294e4d46a6",
+    "processor_profile_id": "SENSE13_PROJECT_16IMG_64TILES_V1",
+    "evidence_family_id": "ONE_REGISTERED_B_ORIGIN_FRAME",
+    "source_frame_ids": [
+      0
+    ],
+    "raw_output_ref": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_spatial_actual_v3_20261006/raw_model_response.txt",
+    "claims": [
+      {
+        "claim_id": "F7C_registered_B_spatial_choice_A",
+        "subject_ids": [
+          "red_object",
+          "robot_gripper"
+        ],
+        "relation": "LEFT_OF",
+        "reference_frame": "CAMERA_IMAGE_PLANE",
+        "source_frame_ids": [
+          0
+        ],
+        "source_pts": [
+          0.0
+        ],
+        "region_ids": [
+          "full"
+        ],
+        "evidence_family_id": "ONE_REGISTERED_B_ORIGIN_FRAME",
+        "basis": "MODEL_SPATIAL_ESTIMATE",
+        "measurement_ids": [],
+        "value": null,
+        "unit": null,
+        "confidence": null,
+        "confidence_kind": "NOT_AVAILABLE",
+        "alternative_explanations": [],
+        "unknowns": [
+          "metric distance/contact/physical outcome unknown"
+        ]
+      }
+    ],
+    "summary": "The red object is left of the robot gripper in the image.",
+    "unknowns": [
+      "metric distance/contact/physical outcome unknown"
+    ]
+  },
+  "raw_answer": "A",
+  "validated_choice": "A",
+  "preregistered_option": {
+    "relation": "LEFT_OF",
+    "subject_ids": [
+      "red_object",
+      "robot_gripper"
+    ],
+    "text": "The red object is left of the robot gripper in the image.",
+    "unknowns": [
+      "metric distance/contact/physical outcome unknown"
+    ]
+  },
+  "epistemic_role": "MODEL_HYPOTHESIS_NOT_GEOMETRIC_MEASUREMENT",
+  "confidence_calibrated": false,
+  "posthoc_option_or_claim_changes": false,
+  "preregistration_status": "VERIFIED_PRECALL",
+  "publication_eligible": true,
+  "preregistered_digest": "f235d82851c9da0a6f07cd7dfc371cb73efaa46f0ac0b3a6dc3c8d5218ea536d",
+  "completion_proof": {
+    "admission_key": "call:75220d8e-b563-4a7d-826a-95b79a3223f5",
+    "ledger_path": "/home/xklv/ego_robot/a4_experiment/.runtime/vision-sense-authority/c59c83773fb4985974e13d502aa355bc482e53a1a7bc4b995f289eb0a33b5c4f/ledger.sqlite3",
+    "query_digest": "f235d82851c9da0a6f07cd7dfc371cb73efaa46f0ac0b3a6dc3c8d5218ea536d",
+    "raw_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+    "raw_ref": {
+      "bytes": 1,
+      "media_type": "text/plain",
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_spatial_actual_v3_20261006/raw_model_response.txt",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    }
+  }
+}

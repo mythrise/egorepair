@@ -1,0 +1,28 @@
+{
+  "stage": "repair",
+  "status": "EXECUTED",
+  "outputs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/repair/output/m4-round2-0.json",
+      "sha256": "ec39190fbed0d9d6125a19222f1d7afa498644b03ded234deefe5d16c01606f0",
+      "bytes": 55723,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/repair/output/m4-round2-1.json",
+      "sha256": "c2815af429cd3a298e6991488b0cc5c79bf3e1a7f6f534862c1a0abe91395f23",
+      "bytes": 55723,
+      "media_type": "application/json"
+    }
+  ],
+  "missing_dependencies": [],
+  "denominators": {
+    "generated_candidates": 2,
+    "global_reference_fits": 2,
+    "accepted_physical_repairs": 0
+  },
+  "reason": null,
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "scope": "M4_DEVELOPMENT_CHECKPOINT_ABLATION_M5_M6_NOT_ACCEPTED",
+  "maximum_rounds": 3
+}

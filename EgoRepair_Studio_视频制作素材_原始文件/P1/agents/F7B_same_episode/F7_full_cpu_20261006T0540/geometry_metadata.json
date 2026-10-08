@@ -1,0 +1,11 @@
+{
+  "episode_bounds": [
+    0.0,
+    14.000000000001345
+  ],
+  "context_hash": "18d9af7935d4d966f53acb11d646cc695cf5df82ad7d706e39c50f039b92331a",
+  "snapshot_hash": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+  "source_group_id": "source_dfddd806dd6bf57f",
+  "reference_frame": "WORLD",
+  "time_sha256": "eb5e2778161adc6f432048f6571a01a9b072df595739916e6546e816e2eb4888"
+}

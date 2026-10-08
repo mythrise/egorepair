@@ -1,0 +1,74 @@
+{
+  "source_refs": {
+    "execution": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/execution.json",
+      "sha256": "b09edf66b4b97808bc3ce9c82be424e51ac4b2559dbbbd5a2eed6c95b6eed7f5",
+      "bytes": 106556962,
+      "media_type": "application/json"
+    },
+    "parameters": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/parameters.json",
+      "sha256": "c5dad7943ff92298cb61d059f18fac0508db27910eb37498c0ea4bc7aaadddef",
+      "bytes": 492,
+      "media_type": "application/json"
+    },
+    "scene": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/scene.xml",
+      "sha256": "5342b4382a1264334f55c175e2a326571b803d9e6f3614d9686e360a1b082ffb",
+      "bytes": 15345,
+      "media_type": "application/xml"
+    }
+  },
+  "original_source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "denominator": 1,
+  "physical_status": "PASS",
+  "task_result": {
+    "status": "PASS",
+    "success": true,
+    "reason": "ACTUAL_TASK_AND_ESTIMATED_MODEL_GATES",
+    "denominator": 1,
+    "scope": "SIM_MODEL_REPLAY",
+    "data_line": "SYNTHETIC_SIM",
+    "task_predicates": {
+      "status": "SATISFIED",
+      "satisfied": true,
+      "lift_end_state": 3083,
+      "place_end_state": 5793,
+      "contact_semantics": "BOTH_MODEL_FINGERS_POSITIVE_NORMAL_CONTACT_NOT_FORCE_CLOSURE_CERTIFICATION",
+      "evaluation_hz": 500,
+      "evaluated_states": 7001,
+      "lift_end_control_boundary": 124,
+      "place_end_control_boundary": 232
+    },
+    "physical_qualification": {
+      "status": "PASS",
+      "aggregate_metrics": {
+        "pad_fixed_force_N": 41.49372559393026,
+        "pad_moving_force_N": 39.624045942908865,
+        "support_force_N": 29.658035862306587,
+        "max_penetration_m": 0.0014090273451935508,
+        "max_unintended_penetration_m": 0.0,
+        "unintended_contact_samples": 0,
+        "max_joint_speed_rad_s": 2.9513917413583575,
+        "max_actuator_force_Nm": 2.94
+      },
+      "recipe_id": "SO101_T1_ESTIMATED_MODEL_GATES_V1",
+      "recipe_sha256": "0a4ce2bc3129171ab001553e3c89f3ea16e339a012d11ede2993b47e89a9e9d5",
+      "scope": "SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET",
+      "checked_substeps": 7000,
+      "command_count": 280,
+      "state_count": 281,
+      "failed_substeps": [],
+      "failed_substep_count": 0,
+      "independent_replay_max_error": 0.0,
+      "continuous_collision_certified": false,
+      "hardware_certified": false
+    }
+  },
+  "teacher_accepted": false
+}

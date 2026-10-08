@@ -1,0 +1,9 @@
+{
+  "pid": 773349,
+  "start_token": "275491574",
+  "pgid": 771899,
+  "session": 771899,
+  "state": "R",
+  "owner_nonce": "126d5764-95d2-4071-bc74-c50d337be2fd",
+  "job_run": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project"
+}

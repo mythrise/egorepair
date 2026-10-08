@@ -1,0 +1,189 @@
+{
+  "head": "execution",
+  "features": {
+    "observation.state": {
+      "dtype": "float32",
+      "shape": [
+        107
+      ],
+      "names": [
+        "component_0",
+        "component_1",
+        "component_2",
+        "component_3",
+        "component_4",
+        "component_5",
+        "component_6",
+        "component_7",
+        "component_8",
+        "component_9",
+        "component_10",
+        "component_11",
+        "component_12",
+        "component_13",
+        "component_14",
+        "component_15",
+        "component_16",
+        "component_17",
+        "component_18",
+        "component_19",
+        "component_20",
+        "component_21",
+        "component_22",
+        "component_23",
+        "component_24",
+        "component_25",
+        "component_26",
+        "component_27",
+        "component_28",
+        "component_29",
+        "component_30",
+        "component_31",
+        "component_32",
+        "component_33",
+        "component_34",
+        "component_35",
+        "component_36",
+        "component_37",
+        "component_38",
+        "component_39",
+        "component_40",
+        "component_41",
+        "component_42",
+        "component_43",
+        "component_44",
+        "component_45",
+        "component_46",
+        "component_47",
+        "component_48",
+        "component_49",
+        "component_50",
+        "component_51",
+        "component_52",
+        "component_53",
+        "component_54",
+        "component_55",
+        "component_56",
+        "component_57",
+        "component_58",
+        "component_59",
+        "component_60",
+        "component_61",
+        "component_62",
+        "component_63",
+        "component_64",
+        "component_65",
+        "component_66",
+        "component_67",
+        "component_68",
+        "component_69",
+        "component_70",
+        "component_71",
+        "component_72",
+        "component_73",
+        "component_74",
+        "component_75",
+        "component_76",
+        "component_77",
+        "component_78",
+        "component_79",
+        "component_80",
+        "component_81",
+        "component_82",
+        "component_83",
+        "component_84",
+        "component_85",
+        "component_86",
+        "component_87",
+        "component_88",
+        "component_89",
+        "component_90",
+        "component_91",
+        "component_92",
+        "component_93",
+        "component_94",
+        "component_95",
+        "component_96",
+        "component_97",
+        "component_98",
+        "component_99",
+        "component_100",
+        "component_101",
+        "component_102",
+        "component_103",
+        "component_104",
+        "component_105",
+        "component_106"
+      ]
+    },
+    "observation.valid_mask": {
+      "dtype": "bool",
+      "shape": [
+        107
+      ],
+      "names": null
+    },
+    "action": {
+      "dtype": "float32",
+      "shape": [
+        6
+      ],
+      "names": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll",
+        "gripper"
+      ]
+    },
+    "action.valid_mask": {
+      "dtype": "bool",
+      "shape": [
+        6
+      ],
+      "names": null
+    },
+    "action.observed_mask": {
+      "dtype": "bool",
+      "shape": [
+        6
+      ],
+      "names": null
+    },
+    "action.estimated_mask": {
+      "dtype": "bool",
+      "shape": [
+        6
+      ],
+      "names": null
+    },
+    "source_frame_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "source_time_s": {
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "derived_time_s": {
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "names": null
+    }
+  },
+  "units": {
+    "action": "rad",
+    "time": "s",
+    "translation": "m"
+  },
+  "policy_observation_profile": "SIM_STATE_V1"
+}

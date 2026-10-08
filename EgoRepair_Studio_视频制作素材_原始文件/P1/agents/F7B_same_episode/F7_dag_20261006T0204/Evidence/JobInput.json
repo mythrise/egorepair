@@ -1,0 +1,18 @@
+{
+  "stage": "build-graph",
+  "context": "offline-cli",
+  "input": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_dag_20261006T0204/Evidence.package.json",
+    "sha256": "0c7229dc975e490921dc0169d554a8d03a2e5d7fdde948d921f424a5e80960b5",
+    "bytes": 721,
+    "media_type": "application/json"
+  },
+  "config": {
+    "_dispatch_stage": "build-graph",
+    "allowed_input_roots": [
+      "/home/xklv/ego_robot/a4_experiment/runs",
+      "/home/xklv/ego_robot/a4_experiment/inputs/a2_pour_so101",
+      "/home/xklv/ego_robot/a4_experiment/models"
+    ]
+  }
+}

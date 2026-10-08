@@ -1,0 +1,7 @@
+参考片：震惊瘫坐！Opus 5.5生成-从现在看过去-AI简史
+作者：铼夏LAYccc
+来源：https://www.bilibili.com/video/BV1H8av6HEYs/
+本组仅为风格参考，非EgoRepair项目结果。
+公开匿名预览档quality=16，实际规格及各原帧PTS见ReferenceMetadata.json与清单。
+六个PNG从原预览视频原生像素帧捕获，无缩放、升采样或改图；封面JPEG为官方原文件。
+临时原视频只用于截图核验，不入最终ZIP。

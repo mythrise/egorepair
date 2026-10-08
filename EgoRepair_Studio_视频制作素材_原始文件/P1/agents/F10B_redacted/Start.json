@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-10-06T08:38:47.904936+00:00",
+  "scope": "PUBLIC_LOCAL_ARITHMETIC_API_PREQUENTIAL_SAME_SOURCE_ONLY",
+  "authorization": "[REDACTED]",
+  "preregistration": {
+    "schema": "a4x.jitrl.api.study.v1",
+    "study_id": "F10B_PUBLIC_ARITHMETIC_V1",
+    "root_authorized": true,
+    "payload_sha256": "455385fefc2276ccaddb253fb0633f819f3167dd16f63cd5d8916a20f2bc6519",
+    "max_attempts": 18,
+    "max_capability_attempts": 2,
+    "max_arm_attempts": 4,
+    "max_output_tokens": 2048,
+    "endpoint": "https://api.deepseek.com/responses",
+    "requested_model": "deepseek-flash",
+    "solved_initial_noop": false,
+    "scope": "PUBLIC_LOCAL_ARITHMETIC_PREQUENTIAL_SAME_SOURCE",
+    "evaluation": "prequential",
+    "retries": 0,
+    "source_sha256": "9dac05421addbe8ed56c94b4e31d11a4e57c71e473cc38721b955e087770a676",
+    "held_cpu_sources": {
+      "jitrl.py": "d369eee37d115628c6fbbc3874bf69a2b6cc4b3f7734f9a49c65ee1fa345b8bb",
+      "experiment.py": "74cd7f235f17c258464adc32c88d91589089e9e65465a47c9a461f09cb6fdc99",
+      "local.py": "164da233ba0945cdbbffc87e44fa8edc213f9248be2ff7853eb0d631976516d1"
+    }
+  },
+  "payload": {
+    "manual": {
+      "criterion": "Reduce absolute distance to target. Select a finite operation, never controls.",
+      "operations": {
+        "ABSTAIN": "Keep initial integer; abstain.",
+        "NOOP": "Keep initial integer.",
+        "QUERY_GEOMETRY": "Add delta to initial integer.",
+        "VERIFY_CANDIDATE": "Subtract delta from initial integer."
+      },
+      "schema": "public.arithmetic.manual.v1"
+    },
+    "tasks": [
+      {
+        "source_group": "public-A",
+        "initial": 0,
+        "target": 3,
+        "delta": 2,
+        "split": "dev"
+      },
+      {
+        "source_group": "public-B",
+        "initial": 5,
+        "target": 1,
+        "delta": 3,
+        "split": "dev"
+      }
+    ],
+    "case_order": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "actions": [
+      "QUERY_GEOMETRY",
+      "VERIFY_CANDIDATE",
+      "NOOP",
+      "ABSTAIN"
+    ],
+    "arms": [
+      "STATIC",
+      "DOCS_RAG",
+      "PROMPT_MEMORY",
+      "JITRL_RANK"
+    ],
+    "requested_model": "deepseek-flash",
+    "endpoint": "https://api.deepseek.com/responses",
+    "max_output_tokens": 2048
+  },
+  "source_sha256": {
+    "src/a4x/adaptation/api_study.py": "9dac05421addbe8ed56c94b4e31d11a4e57c71e473cc38721b955e087770a676",
+    "src/a4x/adaptation/jitrl.py": "d369eee37d115628c6fbbc3874bf69a2b6cc4b3f7734f9a49c65ee1fa345b8bb",
+    "src/a4x/adaptation/local.py": "164da233ba0945cdbbffc87e44fa8edc213f9248be2ff7853eb0d631976516d1",
+    "src/a4x/adaptation/experiment.py": "74cd7f235f17c258464adc32c88d91589089e9e65465a47c9a461f09cb6fdc99",
+    "src/a4x/coordination/http.py": "0fefd974d3ba17e77e5225bab53d1ea1da565edfd32fb788644cef393729938e",
+    "src/a4x/server/api.py": "a996e89a3730b0599c56f7e36960eb4db7811e29478c074135346dbb379c15ca",
+    "tools/jitrl_api_study.py": "e3e7b2df73232bc03f1d2886942f19aac5d6ab551887ecb4eab8dc5f9819594f"
+  },
+  "review": "reviews/F10B_API_STUDY_INDEPENDENT_RETEST_20261006.md",
+  "legacy_F7_spent_budget_untouched": true,
+  "private_RGB_or_reports_authorized": false,
+  "monetary_cost": null,
+  "monetary_cost_status": "UNKNOWN",
+  "status": "REGISTERING_NO_API_CALL_YET"
+}

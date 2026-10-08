@@ -1,0 +1,21 @@
+{
+  "stage": "measure-geometry",
+  "status": "EXECUTED",
+  "outputs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/measure-geometry/output/EvidenceGraph.json",
+      "sha256": "442f7394f206522a939afeee7c76338625303eae2616a827254ed62b8dbc5ac6",
+      "bytes": 1209,
+      "media_type": "application/json"
+    }
+  ],
+  "missing_dependencies": [],
+  "denominators": {
+    "source_states": 281,
+    "issued_commands": 280
+  },
+  "reason": null,
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "data_line": "SYNTHETIC_SIM",
+  "physical_qualification": "NOT_RUN_GEOMETRY_ONLY"
+}

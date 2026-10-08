@@ -1,0 +1,86 @@
+{
+  "schema": "a4x.coordinator.local_workflow.v1",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json",
+    "sha256": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+    "bytes": 109154156,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/Context.json",
+    "sha256": "4c63f29333343344bb38ee1c2473d315103cbd9fb466504a1c8835bc0d760092",
+    "bytes": 378,
+    "media_type": "application/json"
+  },
+  "experts": [
+    {
+      "kind": "SENSENOVA_NATIVE_MCQ",
+      "query_ref": {
+        "bytes": 5340,
+        "media_type": "application/json",
+        "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_workflow_inputs_20261006/preregistered_query.canonical.json",
+        "sha256": "f235d82851c9da0a6f07cd7dfc371cb73efaa46f0ac0b3a6dc3c8d5218ea536d"
+      },
+      "report_ref": {
+        "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_spatial_actual_v3_20261006/SpatialEvidence.json",
+        "sha256": "d86cdc8116dca42d8169534a0464b0245dd2ca5b24d5c462ea8e8760ea575c90",
+        "bytes": 3150,
+        "media_type": "application/json"
+      },
+      "raw_ref": {
+        "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_spatial_actual_v3_20261006/raw_model_response.txt",
+        "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+        "bytes": 1,
+        "media_type": "text/plain"
+      }
+    }
+  ],
+  "intent_context": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/IntentContext.json",
+    "sha256": "f06d9ba0360c66506385379bbb0b9a55288c1650051d00d81b35d26838e857fa",
+    "bytes": 10616,
+    "media_type": "application/json"
+  },
+  "geometry": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/SourceRobotEEFGeometry.npz",
+    "sha256": "a103f2a152bba49b249365836fa26847fb33e57b655e76c06a8def844d5ace52",
+    "bytes": 196436,
+    "media_type": "application/octet-stream"
+  },
+  "intent_templates": {
+    "NOOP": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/NOOP.json",
+      "sha256": "1fa4ddfb872058496cbec7be8f65a510a44e5c343b1ac1df0a14dfd2b6f374fe",
+      "bytes": 860,
+      "media_type": "application/json"
+    },
+    "REQUEST_EVIDENCE": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/REQUEST_EVIDENCE.json",
+      "sha256": "3407ac25d2fbd4f60dd3dd1a76bb640093c1511e083ef89102c1542269761a8c",
+      "bytes": 904,
+      "media_type": "application/json"
+    }
+  },
+  "worker_packages": {},
+  "provider_result": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_public_live_20261006/ProviderResponses.json",
+    "sha256": "77543609491457d291864091ccef73f47218497f142500d41fe14acba59e5480",
+    "bytes": 30150,
+    "media_type": "application/json"
+  },
+  "feedback_refs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/SourceFeedback.json",
+      "sha256": "f42d273892777cb9462966759cd08a81ca7cfe2aa93f2a555ba4e145d6c069c7",
+      "bytes": 2250,
+      "media_type": "application/json"
+    }
+  ],
+  "dispatch_calls": [
+    {
+      "call_id": "inspect-source-71ff22e3c1adc173af8817d41020cdca2089546caae1e9a3417ed0bcad77c4e9",
+      "name": "inspect_result",
+      "arguments": "{\"job_id\": \"feedback71ff22e3c1ad\", \"feedback_id\": 0}"
+    }
+  ]
+}

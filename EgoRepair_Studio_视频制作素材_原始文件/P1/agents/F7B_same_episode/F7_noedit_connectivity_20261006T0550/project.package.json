@@ -1,0 +1,34 @@
+{
+  "schema": "a4x.pipeline.package.v1",
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "stage": "project",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/context.json",
+    "sha256": "18d9af7935d4d966f53acb11d646cc695cf5df82ad7d706e39c50f039b92331a",
+    "bytes": 378,
+    "media_type": "application/json"
+  },
+  "inputs": {
+    "projection_input": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/repair/output/m4-round2-0.projection_input.npz",
+      "sha256": "879eb21b2771ada460cb0cbe24267fcf86be326f2afbf8cb6d165a2a0955d27e",
+      "bytes": 41230,
+      "media_type": "application/octet-stream"
+    },
+    "candidate": {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/repair/output/m4-round2-0.json",
+      "sha256": "ec39190fbed0d9d6125a19222f1d7afa498644b03ded234deefe5d16c01606f0",
+      "bytes": 55723,
+      "media_type": "application/json"
+    }
+  },
+  "profile": {
+    "development_projection": true
+  }
+}

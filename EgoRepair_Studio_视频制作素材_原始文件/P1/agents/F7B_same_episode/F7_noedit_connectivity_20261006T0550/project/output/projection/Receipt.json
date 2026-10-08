@@ -1,0 +1,191 @@
+{
+  "input": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/repair/output/m4-round2-0.projection_input.npz",
+    "sha256": "879eb21b2771ada460cb0cbe24267fcf86be326f2afbf8cb6d165a2a0955d27e",
+    "bytes": 41230,
+    "media_type": "application/octet-stream"
+  },
+  "output": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/Result.json",
+    "sha256": "5aafa29c0107438c849de4e72d6268a8da84664a4c7b8b61fe609d71a1401869",
+    "bytes": 172410,
+    "media_type": "application/json"
+  },
+  "source_sha256": {
+    "continuous.py": "46dee14237f805db6bbcf5f18b349aedd0ba8a35637d689ab5e190c501f963e3",
+    "solver.py": "9e6c58c8a96a872424814cda253079949b6fe81ab116a0bc27904c1d6156c00c",
+    "__init__.py": "964eb9c4c67d5a7a127388a95f926d81f4db1b4f6bd0554edcac677f672734c5",
+    "distance.py": "55d2280dcafa2c668670cab93c4a8bdf683bfda3235400aaf2527bb5e06a980b",
+    "reference.py": "004a52afbeb9e002870cede6d30fb21ac5fb25b51a0a2d90f1c305c0a50d423a",
+    "task.py": "a0ef69fef9342bdc2a973ebf7000b9eb863e32dccfc6bedb5fba21200742ec03",
+    "f1_target.py": "2731bc597e942410a2e1a66f2f9db693acb311640dcebc458b19280316813980",
+    "pipeline.py": "f3362f1a903d3f4c3d38329b26b2702a82263d09807422520a34ffbad7f3a327",
+    "retiming.py": "3731baf304826dd4ae4a8de0a0605dc3cea28c6902c3f57fb3b53412c921a93d",
+    "moving_target.py": "fd5fe86dc676de6ca0fc29c321e4ba3eea73ac5ed129ad6360abc9e61b5d872c",
+    "object_motion.py": "4d9a505e481241a1b3a2240d18c46830485f61dcbd6ecf67f6ed1177295c539c",
+    "adapters.py": "848a764eb0fd9d0292f5eb61f6edcefe2a298d93c3cd16a491cdf0c846d54c9e",
+    "source_geometry.py": "ce12f32c57fb9b3e1f0c7eb2df20bdb1407be83efd719bb2c492844befccc829",
+    "tool.py": "d6600b9da0b2b19f089ad49a0e86a21065ecd23565fa9bfddac86fe3c2834510"
+  },
+  "source_snapshot": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/SourceSnapshot.json",
+    "sha256": "5fb6f2ddd032c0f3dde546d6c02c423bae0413ccf6c3bde24bfeb56fb7d70cec",
+    "bytes": 6955,
+    "media_type": "application/json"
+  },
+  "source_snapshot_files": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/continuous.py",
+      "sha256": "46dee14237f805db6bbcf5f18b349aedd0ba8a35637d689ab5e190c501f963e3",
+      "bytes": 7509,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/solver.py",
+      "sha256": "9e6c58c8a96a872424814cda253079949b6fe81ab116a0bc27904c1d6156c00c",
+      "bytes": 9855,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/__init__.py",
+      "sha256": "964eb9c4c67d5a7a127388a95f926d81f4db1b4f6bd0554edcac677f672734c5",
+      "bytes": 91,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/distance.py",
+      "sha256": "55d2280dcafa2c668670cab93c4a8bdf683bfda3235400aaf2527bb5e06a980b",
+      "bytes": 13559,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/reference.py",
+      "sha256": "004a52afbeb9e002870cede6d30fb21ac5fb25b51a0a2d90f1c305c0a50d423a",
+      "bytes": 3017,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/task.py",
+      "sha256": "a0ef69fef9342bdc2a973ebf7000b9eb863e32dccfc6bedb5fba21200742ec03",
+      "bytes": 3404,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/f1_target.py",
+      "sha256": "2731bc597e942410a2e1a66f2f9db693acb311640dcebc458b19280316813980",
+      "bytes": 8042,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/pipeline.py",
+      "sha256": "f3362f1a903d3f4c3d38329b26b2702a82263d09807422520a34ffbad7f3a327",
+      "bytes": 6106,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/retiming.py",
+      "sha256": "3731baf304826dd4ae4a8de0a0605dc3cea28c6902c3f57fb3b53412c921a93d",
+      "bytes": 3705,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/moving_target.py",
+      "sha256": "fd5fe86dc676de6ca0fc29c321e4ba3eea73ac5ed129ad6360abc9e61b5d872c",
+      "bytes": 5700,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/object_motion.py",
+      "sha256": "4d9a505e481241a1b3a2240d18c46830485f61dcbd6ecf67f6ed1177295c539c",
+      "bytes": 3456,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/adapters.py",
+      "sha256": "848a764eb0fd9d0292f5eb61f6edcefe2a298d93c3cd16a491cdf0c846d54c9e",
+      "bytes": 2718,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/source_geometry.py",
+      "sha256": "ce12f32c57fb9b3e1f0c7eb2df20bdb1407be83efd719bb2c492844befccc829",
+      "bytes": 6220,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/projection/tool.py",
+      "sha256": "d6600b9da0b2b19f089ad49a0e86a21065ecd23565fa9bfddac86fe3c2834510",
+      "bytes": 1859,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/tools/projection_run.py",
+      "sha256": "7bfa9da7b4bda55430fa673e15d0c200926db55490e8e377d66932b00adcd91b",
+      "bytes": 7333,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/repair/math.py",
+      "sha256": "09f05753342fcddba457c3e020ef3aeaf7df1d7077c3ebfd29c7118c52dc3359",
+      "bytes": 13666,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/robot/adapter.py",
+      "sha256": "406b4c252fa3a2782732c99cae930b9b9728c89d3704c9ac255e3a6b68dfefad",
+      "bytes": 4808,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/robot/so101.py",
+      "sha256": "e0c6c7275a312e2cdd1487bd9966ae0a9416ce4e83ac012c3c338f1f35f03388",
+      "bytes": 4339,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/sim/environment.py",
+      "sha256": "5f691f702224ea2abdc9825a5e2b78f6ccd4b6d6cc9d980c697853492fd94c97",
+      "bytes": 15204,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/sim/tasks.py",
+      "sha256": "1e63db56d2213d02814411c59a88286135d37d9a131015bebd001895d1d635fe",
+      "bytes": 9980,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/source_snapshot/src/a4x/provenance.py",
+      "sha256": "0ab6ede4c57d8b99eef6eeb23ee75cf75f35a42ebf95d350660390778ee5c10b",
+      "bytes": 1572,
+      "media_type": "text/x-python"
+    }
+  ],
+  "elapsed_seconds": 34.567147066351026,
+  "candidate_origin": "EXPLICIT_NPZ_COEFFICIENTS_NOT_ASSUMED_NEURAL",
+  "command_profile": "REFERENCE_CURVE_NOT_M6_CONTROLLER",
+  "source_materialization": {
+    "robot": "SO101",
+    "source_revision": "4d038b3feae26ec82b46a4d586379114012a8ac7",
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "joint_units": "rad",
+    "active_arm_dof": 5,
+    "full_dof": 6,
+    "tcp": "official gripperframe",
+    "tcp_semantics": "MODEL_REFERENCE_NOT_MEASURED_TOOL",
+    "opening": "distance between official tip sphere surfaces; not parallel jaw gap",
+    "mimic": false,
+    "controller": "official position actuators; zero-order hold",
+    "hardware_mapping": "NOT_VALIDATED",
+    "mass_inertia": "official MJCF",
+    "gain_source": "official sts3215 simulation estimates, not physical servo equivalence",
+    "source_materialization": "OFFICIAL_GIT_CHECKOUT"
+  }
+}

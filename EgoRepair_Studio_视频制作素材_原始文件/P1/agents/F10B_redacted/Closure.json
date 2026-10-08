@@ -1,0 +1,41 @@
+{
+  "closed_utc": "2026-10-06T08:50:46.398103+00:00",
+  "status": "ACTUAL_PUBLIC_API_ADAPTATION_CONNECTIVITY_ACCEPTED_NO_INCREMENTAL_GAIN",
+  "actual_http_attempts": 18,
+  "registered_attempt_cap": 18,
+  "comparison_case_denominator": 16,
+  "reported_total_tokens": 15736,
+  "progress_by_arm": {
+    "STATIC": 0,
+    "DOCS_RAG": 4,
+    "PROMPT_MEMORY": 4,
+    "JITRL_RANK": 4
+  },
+  "cases_per_arm": 4,
+  "unknown_by_arm": {
+    "STATIC": 3,
+    "DOCS_RAG": 0,
+    "PROMPT_MEMORY": 0,
+    "JITRL_RANK": 0
+  },
+  "static_neutral_abstention": 1,
+  "nonworsening_PASS_is_not_progress": true,
+  "jitrl_incremental_gain_vs_rag": "NOT_DEMONSTRATED",
+  "heldout_generalization": "NOT_RUN",
+  "model_weights_updated": false,
+  "monetary_cost": null,
+  "monetary_cost_status": "UNKNOWN",
+  "raw_receipts_retained": true,
+  "no_extra_audit_api_calls": true,
+  "source_unchanged": {
+    "src/a4x/adaptation/api_study.py": true,
+    "src/a4x/adaptation/jitrl.py": true,
+    "src/a4x/adaptation/local.py": true,
+    "src/a4x/adaptation/experiment.py": true,
+    "src/a4x/coordination/http.py": true,
+    "src/a4x/server/api.py": true,
+    "tools/jitrl_api_study.py": true
+  },
+  "independent_review": "reviews/F10B_LIVE_EXECUTION_AUDIT_20261006.md",
+  "safe_metrics": "runs/reviews/f10b_live_readback_20261006/Metrics.json"
+}

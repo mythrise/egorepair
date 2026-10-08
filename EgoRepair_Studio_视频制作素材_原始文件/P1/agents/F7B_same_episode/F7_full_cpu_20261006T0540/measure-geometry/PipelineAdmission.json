@@ -1,0 +1,18 @@
+{
+  "schema": "a4x.pipeline.admission.v1",
+  "run": "/home/xklv/ego_robot/a4_experiment/.runtime/pipeline_episode_authority/v2/dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+  "episode": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+  "context": "5e49820739952a51f8ea84900294475e086658aec6552552d6daff9dcc728691",
+  "limits": {
+    "responses": 6,
+    "tools": 20,
+    "candidates": 8,
+    "projections": 8,
+    "selection_rollouts": 16,
+    "independent_rollouts": 8,
+    "spatial": 4,
+    "semantic": 2,
+    "jev": 2
+  },
+  "owner": "runs/implementation_20261005/F7_full_cpu_20261006T0540/measure-geometry"
+}

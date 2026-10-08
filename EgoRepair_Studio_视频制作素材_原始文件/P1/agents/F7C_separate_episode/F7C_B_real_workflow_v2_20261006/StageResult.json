@@ -1,0 +1,39 @@
+{
+  "stage": "coordinate-workflow",
+  "status": "EXECUTED",
+  "outputs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/measured86a14b48ab3_Geometry.json",
+      "sha256": "75cca1b1848c3131137605356d2c3f3da9a4ab630f5746b5136f53706a867d19",
+      "bytes": 896,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/SelectedIntent.json",
+      "sha256": "1fa4ddfb872058496cbec7be8f65a510a44e5c343b1ac1df0a14dfd2b6f374fe",
+      "bytes": 860,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/SelectedNumericConstraints.json",
+      "sha256": "949534ce3ce21eca793e4c81b3ea58bd2ca732d4b8ce9aca013226d1ac830757",
+      "bytes": 982,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/LocalCoordinatorWorkflow.json",
+      "sha256": "b98c70014367797b6623d693bbe658b8b4f25dd9df9fbecd9586b0009740e9f8",
+      "bytes": 7031,
+      "media_type": "application/json"
+    }
+  ],
+  "missing_dependencies": [],
+  "denominators": {
+    "local_expert_reports": 1,
+    "new_cloud_calls": 0,
+    "new_model_calls": 0
+  },
+  "reason": null,
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "scope": "ARTIFACT_BOUND_LOCAL_WORKFLOW_NOT_FULL_RESEARCH"
+}

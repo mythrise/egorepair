@@ -1,0 +1,15 @@
+{
+  "scope": "ACTUAL_ROBOT_MODEL_EEF_NOT_HUMAN_HAND",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json",
+    "sha256": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+    "bytes": 109154156,
+    "media_type": "application/json"
+  },
+  "active_slot": "left_robot_EEF",
+  "inactive_right_slot": "MASKED_PLACEHOLDER_NOT_OBSERVED",
+  "human_MANO": "NOT_PRESENT",
+  "original_states": 281,
+  "original_commands": 280,
+  "source_time_preserved": true
+}

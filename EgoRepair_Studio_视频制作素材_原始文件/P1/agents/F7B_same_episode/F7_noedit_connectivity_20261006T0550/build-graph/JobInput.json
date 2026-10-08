@@ -1,0 +1,16 @@
+{
+  "stage": "build-graph",
+  "context": "offline-cli",
+  "input": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/build-graph.package.json",
+    "sha256": "3525ab868fdcb78d2b64bc4261597a5943aec0aee5c659bcf0a40c2f6ec37f97",
+    "bytes": 735,
+    "media_type": "application/json"
+  },
+  "config": {
+    "_dispatch_stage": "build-graph",
+    "allowed_input_roots": [
+      "/home/xklv/ego_robot/a4_experiment/runs"
+    ]
+  }
+}

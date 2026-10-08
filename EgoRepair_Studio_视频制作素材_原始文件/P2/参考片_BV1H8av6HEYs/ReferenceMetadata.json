@@ -1,0 +1,44 @@
+{
+  "bvid": "BV1H8av6HEYs",
+  "title": "震惊瘫坐！Opus 5.5生成-从现在看过去-AI简史",
+  "author": "铼夏LAYccc",
+  "author_mid": 60729919,
+  "page_url": "https://www.bilibili.com/video/BV1H8av6HEYs/",
+  "metadata_duration_s": 390,
+  "quality": 16,
+  "source_acquisition": "EXISTING_ANONYMOUS_PUBLIC_PLAYURL_API_NO_LOGIN",
+  "scope": "STYLE_REFERENCE_NOT_EGOREPAIR_PROJECT_RESULT",
+  "screenshot_policy": "ONE_NATIVE_PIXEL_FRAME_PER_TARGET; NO_SCALING_UPSAMPLING_OR_IMAGE_EDITS",
+  "temporary_original_video_excluded_from_final_zip": true,
+  "captured_utc": "2026-10-08T14:14:23.069821+00:00",
+  "download_attempts": [
+    {
+      "source_url": "https://cn-hljheb-ct-01-02.bilivideo.com/upgcxcode/74/69/42319216974/42319216974-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&oi=3683869742&trid=000007e3e73e0f034ac8bbde97b28e31fd4u&mid=0&gen=playurlv3&platform=pc&deadline=1791475866&nbs=1&os=bcache&og=hw&upsig=f6f20607a43366a6cc977c7b0e95d82e&uparams=e,uipk,oi,trid,mid,gen,platform,deadline,nbs,os,og&cdnid=3841&bvc=vod&nettype=0&bw=359912&lrs=8&agrr=0&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=a9fd88e70f4e980000790c5d6ac7a47a&orderid=0,3",
+      "http_status": 200,
+      "content_type": "video/mp4",
+      "bytes": 17500733,
+      "sha256": "2e67b91e42828a57a20f9494aa62e4293fc2291c60968b7ec2fb2b2b31332849",
+      "path": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/p2_reference/public_preview_original.mp4"
+    },
+    {
+      "source_url": "https://i2.hdslb.com/bfs/archive/2113f7dec1eb92114b6176dfd0a96c812a734e1e.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 182778,
+      "sha256": "ae0390602263e9b756cf6196c8128862ef28b221cad7e469c58751a1b5e8339e",
+      "path": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/p2_reference/official_cover_original.jpg"
+    }
+  ],
+  "actual_preview_stream": {
+    "width": 640,
+    "height": 360,
+    "fps": "30",
+    "time_base": "1/16000",
+    "container_frames": 11670,
+    "duration_s": 389.0,
+    "codec": "h264",
+    "count_method": "ORIGINAL_PUBLIC_PREVIEW_CONTAINER_METADATA"
+  },
+  "temporary_original_video_sha256": "2e67b91e42828a57a20f9494aa62e4293fc2291c60968b7ec2fb2b2b31332849",
+  "temporary_original_video_bytes": 17500733
+}

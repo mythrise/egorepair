@@ -1,0 +1,25 @@
+{
+  "intent_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/SelectedIntent.json",
+    "sha256": "1fa4ddfb872058496cbec7be8f65a510a44e5c343b1ac1df0a14dfd2b6f374fe",
+    "bytes": 860,
+    "media_type": "application/json"
+  },
+  "compiled": [],
+  "deferred": [],
+  "A": [],
+  "b": [],
+  "status": "CONVEX_REFERENCE_CONSTRAINTS_ONLY",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json",
+    "sha256": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+    "bytes": 109154156,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/Context.json",
+    "sha256": "4c63f29333343344bb38ee1c2473d315103cbd9fb466504a1c8835bc0d760092",
+    "bytes": 378,
+    "media_type": "application/json"
+  }
+}

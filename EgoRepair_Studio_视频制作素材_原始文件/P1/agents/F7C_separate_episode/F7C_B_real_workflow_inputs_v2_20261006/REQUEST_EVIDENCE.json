@@ -1,0 +1,32 @@
+{
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "context_hash": "6ecdfc3a7130e4e61ae937f7ef8c4989e3ece1344c776fa1acc0019be6d812db",
+  "parent_snapshot_hash": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+  "source_group_id": "SYNTHETIC_SIM_FAMILY:NARROW_PRISM_LAYOUT_B_V1",
+  "decision": "request_evidence",
+  "event_ids": [
+    "task_interval"
+  ],
+  "editable_components": [],
+  "protected_components": [
+    "left_translation",
+    "left_rotation",
+    "left_opening",
+    "right_translation",
+    "right_rotation",
+    "right_opening",
+    "shared_time"
+  ],
+  "constraints": [],
+  "evidence_ids": [
+    "original_execution"
+  ],
+  "measurement_ids": [],
+  "requested_evidence": [
+    "local spatial evidence"
+  ],
+  "unknowns": [
+    "human mesh/contact priors unavailable"
+  ],
+  "rationale_summary": "Preserve actual source q/EEF while missing evidence remains explicit"
+}

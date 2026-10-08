@@ -1,0 +1,16 @@
+{
+  "module": "F2D",
+  "status": "ACCEPTED_SCOPED",
+  "scope": "WHOLE_ORIGINAL_PARENT_WARMSTART_MODEL_REFERENCE_FEASIBILITY_ONLY",
+  "commit": "9de0eeff1bb8d524b79515945e4016c1519a71bd",
+  "source_manifest": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_final_guards_stable_20261006T045209_965135Z/SourceSHA.json",
+  "source_entries_verified": 21,
+  "receipt_references_verified": 31,
+  "actual_full_result": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/Result.json",
+  "review": "/home/xklv/ego_robot/a4_experiment/reviews/REVIEW_F2D.md",
+  "review_sha256": "493d840ddfbaa39753394c7e2c744c186a956ab9c361bdd6e7bed3bbb8c0d58b",
+  "independent_tests": 73,
+  "full_nonzero_optimizer": false,
+  "M6_accepted": false,
+  "full_pipeline_accepted": false
+}

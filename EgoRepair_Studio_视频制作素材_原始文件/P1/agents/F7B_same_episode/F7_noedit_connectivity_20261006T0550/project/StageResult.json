@@ -1,0 +1,46 @@
+{
+  "stage": "project",
+  "status": "EXECUTED",
+  "outputs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/Result.json",
+      "sha256": "5aafa29c0107438c849de4e72d6268a8da84664a4c7b8b61fe609d71a1401869",
+      "bytes": 172410,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/projection/Receipt.json",
+      "sha256": "2934519e09f3cbd2525c2c8f8db325cc409c4967088b110cb2270c3e161d0eee",
+      "bytes": 10481,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/ProjectionLog.json",
+      "sha256": "1930ded36d94b9e9e573f036f73441b135523a1ab7d3e326e0e1f3e5c47dc71f",
+      "bytes": 268,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project/output/CandidateReplayBlocked.json",
+      "sha256": "5ece3ecd2e97fe637e86c3e2bac6eb6e4408b9f3ee328fead382b15f54317da4",
+      "bytes": 411,
+      "media_type": "application/json"
+    }
+  ],
+  "missing_dependencies": [],
+  "denominators": {
+    "source_rows": 281,
+    "whole_original_episode_covered": 1
+  },
+  "reason": null,
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "full_M5_status": "UNKNOWN",
+  "M6_status": "NOT_RUN",
+  "scope": "MODEL_REFERENCE_UNDER_F2C_REVIEW_NOT_TEACHER",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+    "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+    "bytes": 110310359,
+    "media_type": "application/json"
+  }
+}

@@ -1,0 +1,1193 @@
+{
+  "scope": "NO_EDIT_CONNECTIVITY_ABLATION",
+  "chain": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/F7BChain.json",
+    "sha256": "8f53546f4f5624189bc5410a2609cde1ea1f5a8114c1abb7ec550bcc75a81c87",
+    "bytes": 1628427,
+    "media_type": "application/json"
+  },
+  "source_manifest": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_author_source_fixed_20261006T053400Z/SourceSHA.json",
+    "sha256": "93531641480c2b3c19ce129a935a7b3c399bbea9791a35103a4eda3b03d9296f",
+    "bytes": 9239,
+    "media_type": "application/json"
+  },
+  "verified_refs": 161,
+  "reference_inventory": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/F7BChain.json",
+      "sha256": "8f53546f4f5624189bc5410a2609cde1ea1f5a8114c1abb7ec550bcc75a81c87",
+      "bytes": 1628427,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/F7BChain.json",
+      "sha256": "c076b070e92ece18ccd34925f202f847297dc6bbfebe6a89a90547c582c0723e",
+      "bytes": 6203,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/execution.json",
+      "sha256": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+      "bytes": 110310359,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/CommandCompilation/output/ImportedProjection.json",
+      "sha256": "dcad59f2cccab9b9a23cc3ac5ac542e317c923a8fb5d96cd7325c3bd04df1058",
+      "bytes": 1724,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/Result.json",
+      "sha256": "251e8007f4369e43b98b34c7864e0c1c2ecb732126898181aa685586d728ded2",
+      "bytes": 548298,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_registered_object_recipe_20261006T0625/candidate_with_object.npz",
+      "sha256": "20701f3f08863513b7566a9676d7b751b29ffdb17a5d7e11f3dc15a04b1dd3df",
+      "bytes": 54401,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/SourceSHA.json",
+      "sha256": "dffa685018b95c8e007344911e2de37b0f53559eb67035fea7663d3b7e3874d9",
+      "bytes": 8039,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/continuous.py",
+      "sha256": "46dee14237f805db6bbcf5f18b349aedd0ba8a35637d689ab5e190c501f963e3",
+      "bytes": 7509,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/solver.py",
+      "sha256": "9e6c58c8a96a872424814cda253079949b6fe81ab116a0bc27904c1d6156c00c",
+      "bytes": 9855,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/__init__.py",
+      "sha256": "964eb9c4c67d5a7a127388a95f926d81f4db1b4f6bd0554edcac677f672734c5",
+      "bytes": 91,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/distance.py",
+      "sha256": "a8b4610da41ec31060e805b56c994f72624db827700db42c02e40727cda052c7",
+      "bytes": 15745,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/reference.py",
+      "sha256": "004a52afbeb9e002870cede6d30fb21ac5fb25b51a0a2d90f1c305c0a50d423a",
+      "bytes": 3017,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/task.py",
+      "sha256": "99c1b089944593a4d6ebc6b728be805ffc7f1c482184637cf9882ad8d14aee51",
+      "bytes": 4787,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/f1_target.py",
+      "sha256": "2731bc597e942410a2e1a66f2f9db693acb311640dcebc458b19280316813980",
+      "bytes": 8042,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/pipeline.py",
+      "sha256": "b77ba02b971d93e3c0bcb6f8aea1d576fdec9a600aca7d609096901c719d1702",
+      "bytes": 6187,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/retiming.py",
+      "sha256": "3731baf304826dd4ae4a8de0a0605dc3cea28c6902c3f57fb3b53412c921a93d",
+      "bytes": 3705,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/moving_target.py",
+      "sha256": "fd5fe86dc676de6ca0fc29c321e4ba3eea73ac5ed129ad6360abc9e61b5d872c",
+      "bytes": 5700,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/object_motion.py",
+      "sha256": "4d9a505e481241a1b3a2240d18c46830485f61dcbd6ecf67f6ed1177295c539c",
+      "bytes": 3456,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/adapters.py",
+      "sha256": "848a764eb0fd9d0292f5eb61f6edcefe2a298d93c3cd16a491cdf0c846d54c9e",
+      "bytes": 2718,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/source_geometry.py",
+      "sha256": "ce12f32c57fb9b3e1f0c7eb2df20bdb1407be83efd719bb2c492844befccc829",
+      "bytes": 6220,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/tool.py",
+      "sha256": "d6600b9da0b2b19f089ad49a0e86a21065ecd23565fa9bfddac86fe3c2834510",
+      "bytes": 1859,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/full_episode_bounds.py",
+      "sha256": "bd165845a43af8b1561fecb0855a0415067873f9cd01bc59a474d5c67d3fc366",
+      "bytes": 6382,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/contact_contract.py",
+      "sha256": "de11ad46904330a6397b980e41619d4a2c5f46500fedb744dff22e85c8dab437",
+      "bytes": 4177,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/projection/full_solver.py",
+      "sha256": "f7d87b0e28bde47a0023076ad1d668989bbd926f3c18f5ff56af550e796a2393",
+      "bytes": 11006,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/tools/projection_full_preflight.py",
+      "sha256": "d72f6678634e2633167df1a89fd25634feeb1c200a97d01fca6c6d020bc6cc34",
+      "bytes": 10709,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/tools/projection_run.py",
+      "sha256": "2141186c84fb4a8e958b379a52d5d4be5906f5a7d511df20dd82eeea7219c9c9",
+      "bytes": 7633,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/protocols/full_episode_development_m5.json",
+      "sha256": "89771d56300da0a37a59f0febbc960a87b18b53012da8234dc5790e89cb7516a",
+      "bytes": 827,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/repair/math.py",
+      "sha256": "09f05753342fcddba457c3e020ef3aeaf7df1d7077c3ebfd29c7118c52dc3359",
+      "bytes": 13666,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/robot/so101.py",
+      "sha256": "e0c6c7275a312e2cdd1487bd9966ae0a9416ce4e83ac012c3c338f1f35f03388",
+      "bytes": 4339,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/robot/adapter.py",
+      "sha256": "406b4c252fa3a2782732c99cae930b9b9728c89d3704c9ac255e3a6b68dfefad",
+      "bytes": 4808,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/sim/environment.py",
+      "sha256": "5f691f702224ea2abdc9825a5e2b78f6ccd4b6d6cc9d980c697853492fd94c97",
+      "bytes": 15204,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/sim/gates.py",
+      "sha256": "73634a25a197dd9dd0518968187442a052ab9d6f824e04a4622604aee7daf7a9",
+      "bytes": 21341,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/source_snapshot/src/a4x/provenance.py",
+      "sha256": "0ab6ede4c57d8b99eef6eeb23ee75cf75f35a42ebf95d350660390778ee5c10b",
+      "bytes": 1572,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2d_full_final_guards_20261006T045230Z/Receipt.json",
+      "sha256": "0d5307e47f6d31938a8e206b20cfe31621b427baacd66e04b0b5ad79e2f63ae9",
+      "bytes": 10042,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/CommandCompilation/output/CandidateCommands.json",
+      "sha256": "3f205ad1c4ea7c58203eab68594ecee720dc84385e03f8215f72339aa221d249",
+      "bytes": 71352,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/context.json",
+      "sha256": "18d9af7935d4d966f53acb11d646cc695cf5df82ad7d706e39c50f039b92331a",
+      "bytes": 378,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/CommandCompilation/output/CommandCurve.json",
+      "sha256": "6cab9a5382c63dc16ca015f6080b078c12c54be6dad172883aaab7c809273a9f",
+      "bytes": 280729,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/CandidateWithObjectLineage.json",
+      "sha256": "c6e4ffc49dd24744023630d2329d341f50f50865096070d3544f03f2a897c5ca",
+      "bytes": 56120,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/geometry.npz",
+      "sha256": "581ef73c77c1c4357c285616fe05fe2e4429baf6dc98ebddb8c48a00914934ed",
+      "bytes": 30481,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/repair/output/m4-round2-0.json",
+      "sha256": "ec39190fbed0d9d6125a19222f1d7afa498644b03ded234deefe5d16c01606f0",
+      "bytes": 55723,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/repair/output/m4-round2-0.projection_input.npz",
+      "sha256": "879eb21b2771ada460cb0cbe24267fcf86be326f2afbf8cb6d165a2a0955d27e",
+      "bytes": 41230,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/execution.json",
+      "sha256": "b09edf66b4b97808bc3ce9c82be424e51ac4b2559dbbbd5a2eed6c95b6eed7f5",
+      "bytes": 106556962,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/summary.json",
+      "sha256": "a38b47442c4b05e81d3510161b496be1a4e85ff7743e48ab0baa6028c025dfce",
+      "bytes": 2935,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/parameters.json",
+      "sha256": "c5dad7943ff92298cb61d059f18fac0508db27910eb37498c0ea4bc7aaadddef",
+      "bytes": 492,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/scene.xml",
+      "sha256": "5342b4382a1264334f55c175e2a326571b803d9e6f3614d9686e360a1b082ffb",
+      "bytes": 15345,
+      "media_type": "application/xml"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_resume_20261006T053300Z/WholeCandidateReplay/output/ExecutionLineage.json",
+      "sha256": "f1b1492ae2de0fea0085fc1b1822dcb4879462745014751c89911c09b6353801",
+      "bytes": 2574,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/FullCPUChain.json",
+      "sha256": "7b870cac1dd9dd0b8ee1d6f6c5f28e4225d1f34038daaafae9b806fdea3b6494",
+      "bytes": 173484,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/build-graph/output/EvidenceGraph.json",
+      "sha256": "3639758a781bb993fec5f9d0f585000b05ca51e3e5a36f002fb38d9cd4afd277",
+      "bytes": 1198,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/context.json",
+      "sha256": "18d9af7935d4d966f53acb11d646cc695cf5df82ad7d706e39c50f039b92331a",
+      "bytes": 378,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/measure-geometry/output/EvidenceGraph.json",
+      "sha256": "3639758a781bb993fec5f9d0f585000b05ca51e3e5a36f002fb38d9cd4afd277",
+      "bytes": 1198,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/repair/output/m4-round1-0.json",
+      "sha256": "3f54ca922bcc154b97bcc29ad569ffb1d1082f8835112274240b8fc2861fc6b1",
+      "bytes": 67414,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/geometry.npz",
+      "sha256": "901438ded6ffdd487cc1a22a7d02394b958aa458678efc1f18757662ead653ae",
+      "bytes": 30486,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/repair/output/m4-round1-1.json",
+      "sha256": "2cfe7460bc813dc77331cd4a110828adc8e2129be3d45f95217790b856d17439",
+      "bytes": 67372,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/dataset_receipt.json",
+      "sha256": "20aefd7929fea1599e6741e50e82fd834bf3cf248ea8a5fb441dcc959c200864",
+      "bytes": 24380,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/qualification/replay/numeric_audit.json",
+      "sha256": "e1963c94b5c6a895415c5f78eba842f645ef2d9cf40d2171e27fce386a3a8524",
+      "bytes": 2650,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/backups/F2b_validator_fixed_20261005T134912_816871/source/src/a4x/sim/gates.py",
+      "sha256": "73634a25a197dd9dd0518968187442a052ab9d6f824e04a4622604aee7daf7a9",
+      "bytes": 21341,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/reviews/REVIEW_F2B.md",
+      "sha256": "fae75d9e439bb6082fe7af2cdafc739deacbc1ef461b8e8c4e961a6fae11d3ba",
+      "bytes": 9365,
+      "media_type": "text/markdown"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/review_F2B_final_20261006T0030/reviewed_source_hashes.json",
+      "sha256": "38b2608c2c5ad109b5c5f109036ec3d557dcff8a7e1254159500997253cff666",
+      "bytes": 1717,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/qualification/qualification.json",
+      "sha256": "852747d958eb1e368bc1d01e940e4115ebbddc0d5f98dfe0d4c640f1f761363a",
+      "bytes": 28379,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/lerobot/data/chunk-000/episode_000000.parquet",
+      "sha256": "c87b7e10bc54d0739ff4918c20e1a981066fe173b1d84a6cac55ad0c569af5ea",
+      "bytes": 77400,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/lerobot/meta/episodes.jsonl",
+      "sha256": "7473729b1864bcef4e35e0e9e5f0de92788d7313a7b27c7d82f1fd8611440cfd",
+      "bytes": 79,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/lerobot/meta/episodes_stats.jsonl",
+      "sha256": "ca4fdd6199c4d39585fff37dd0e07b3bb034f6ccaea99b3f53140d4fc5e73093",
+      "bytes": 9391,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/lerobot/meta/info.json",
+      "sha256": "bd479fdad0fc75cee77aa6ef8f14e384977cc3b4b19db0ad11876214c293f644",
+      "bytes": 6159,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/lerobot/meta/tasks.jsonl",
+      "sha256": "84812d5b8b59cf588ace558d93d547d66a5580831b89c6a678f995441982a034",
+      "bytes": 58,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/dataset_version.json",
+      "sha256": "2e9566c4340385dc1ab4c7957c973da7a52c2dc8f826490f72d735b538242ad9",
+      "bytes": 5495,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/reference_head_schema.json",
+      "sha256": "0e069d70d4faf1cc4c4ade7494efe47cdf5b726e0d30a3b507148bbcf9f4a603",
+      "bytes": 145,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/head_schema.json",
+      "sha256": "2bb37832dee16c656abbb8113f3293b944b3c1c9dd65fa128e81f8cda51c56e7",
+      "bytes": 3909,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/CandidateDataset/output/dataset/dependencies.json",
+      "sha256": "1f880eaf13cfc3018a42580f6a3de347b99c4aa38aa427fae65b3dad96181f59",
+      "bytes": 598,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/dataset_receipt.json",
+      "sha256": "e5f69380b77bbdfee5f4a73b40c82b62e9a19ad77c69eb9e8a85411757fcb51a",
+      "bytes": 23625,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/summary.json",
+      "sha256": "e83ecd366fcd4a3e48758aadd27b7255fa1db0011495bfae806f23e805daeb28",
+      "bytes": 1527,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2b_20261005T121819_657861/attempt_05/scene.xml",
+      "sha256": "5342b4382a1264334f55c175e2a326571b803d9e6f3614d9686e360a1b082ffb",
+      "bytes": 15345,
+      "media_type": "application/xml"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/qualification/replay/numeric_audit.json",
+      "sha256": "fcf60a2bafc0a817db0faca5fc75fa9836696af4d635fa41f8a03d7b5b25098d",
+      "bytes": 2586,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/qualification/qualification.json",
+      "sha256": "2a108026f8add3598b3146031841c33d65b6fdaa792d06720a464168f0b4c71a",
+      "bytes": 28316,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/data/chunk-000/episode_000000.parquet",
+      "sha256": "8bb4ff43ba995064456224fcdee702219e36b2cbf38dbc0b7f7b131aae77a6ce",
+      "bytes": 72575,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/episodes.jsonl",
+      "sha256": "7473729b1864bcef4e35e0e9e5f0de92788d7313a7b27c7d82f1fd8611440cfd",
+      "bytes": 79,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/episodes_stats.jsonl",
+      "sha256": "76552324b7138db4b9321ca83bcb78b1a779017b15bdafa0e071608f792e32e3",
+      "bytes": 9387,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/info.json",
+      "sha256": "bd479fdad0fc75cee77aa6ef8f14e384977cc3b4b19db0ad11876214c293f644",
+      "bytes": 6159,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/lerobot/meta/tasks.jsonl",
+      "sha256": "84812d5b8b59cf588ace558d93d547d66a5580831b89c6a678f995441982a034",
+      "bytes": 58,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/dataset_version.json",
+      "sha256": "1b26ce929ec77a342b0147267a47f67d8a3d0a2bbca44765d92cb47242601517",
+      "bytes": 5361,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/reference_head_schema.json",
+      "sha256": "0e069d70d4faf1cc4c4ade7494efe47cdf5b726e0d30a3b507148bbcf9f4a603",
+      "bytes": 145,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/head_schema.json",
+      "sha256": "2bb37832dee16c656abbb8113f3293b944b3c1c9dd65fa128e81f8cda51c56e7",
+      "bytes": 3909,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/OriginalDataset/output/dataset/dependencies.json",
+      "sha256": "f88d2ea26371da909c6baccba6a014744ebbddfa1808089c9618c748d1d96255",
+      "bytes": 567,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/dataset_receipt.json",
+      "sha256": "d80e83fc347cc3331a8b05cd9ea6c0f83c6bb240d7e1d86387d5dba87cec0eeb",
+      "bytes": 24374,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/lerobot/data/chunk-000/episode_000000.parquet",
+      "sha256": "c87b7e10bc54d0739ff4918c20e1a981066fe173b1d84a6cac55ad0c569af5ea",
+      "bytes": 77400,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/lerobot/meta/episodes.jsonl",
+      "sha256": "7473729b1864bcef4e35e0e9e5f0de92788d7313a7b27c7d82f1fd8611440cfd",
+      "bytes": 79,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/lerobot/meta/episodes_stats.jsonl",
+      "sha256": "ca4fdd6199c4d39585fff37dd0e07b3bb034f6ccaea99b3f53140d4fc5e73093",
+      "bytes": 9391,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/lerobot/meta/info.json",
+      "sha256": "bd479fdad0fc75cee77aa6ef8f14e384977cc3b4b19db0ad11876214c293f644",
+      "bytes": 6159,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/lerobot/meta/tasks.jsonl",
+      "sha256": "84812d5b8b59cf588ace558d93d547d66a5580831b89c6a678f995441982a034",
+      "bytes": 58,
+      "media_type": "application/octet-stream"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/dataset_version.json",
+      "sha256": "1a51f22d2122f16bdc8ea598dec89567e1fdae8da1ee7e76122ba8028749cde7",
+      "bytes": 5485,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/reference_head_schema.json",
+      "sha256": "0e069d70d4faf1cc4c4ade7494efe47cdf5b726e0d30a3b507148bbcf9f4a603",
+      "bytes": 145,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/head_schema.json",
+      "sha256": "2bb37832dee16c656abbb8113f3293b944b3c1c9dd65fa128e81f8cda51c56e7",
+      "bytes": 3909,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DatasetReadback/output/dataset/dependencies.json",
+      "sha256": "1f880eaf13cfc3018a42580f6a3de347b99c4aa38aa427fae65b3dad96181f59",
+      "bytes": 598,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTPi0/output/TrainingResults.json",
+      "sha256": "ec267d426320aa4c2f009441250809ba202384f70e76999cc02ceac125bc2210",
+      "bytes": 7874,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTPi0/output/training/17/checkpoint.pt",
+      "sha256": "69ecb1524d24d1c1192b85060adddf8e6dc8b00c85cbaa30ec3cffe344eb88b6",
+      "bytes": 248032,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTPi0/output/training/17/initial.pt",
+      "sha256": "5dc0422b5393b35a3d5c45fb9458b010ffaa10ce07464e2ca640e86dd42e8b5d",
+      "bytes": 246688,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTPi0/output/training/17/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/TrainingResults.json",
+      "sha256": "8b3a3dea2c3a64bff91158257109835bc6a04308a6cba123af6ab9469b2d7de6",
+      "bytes": 24781,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/raw/checkpoint.pt",
+      "sha256": "5f8581acf0638fd49e347ac49ae769c713b3ebf3088ca7655931dcb7d014d7ae",
+      "bytes": 248416,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/raw/initial.pt",
+      "sha256": "c046eb32242ce4481610ab1ccab1ec2d30b5369568a1d95c00c192231179efbf",
+      "bytes": 246688,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/raw/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/qualified/checkpoint.pt",
+      "sha256": "4137ea10c4553a8baf978a84dd8bb3203fb71523644f3b87ceccfe292774cd9e",
+      "bytes": 248864,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/qualified/initial.pt",
+      "sha256": "c046eb32242ce4481610ab1ccab1ec2d30b5369568a1d95c00c192231179efbf",
+      "bytes": 246688,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/qualified/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/matched_control/checkpoint.pt",
+      "sha256": "7340056ae184abbe92606de0a0066ee81d7ad8b3e838fef656f1b8bb3f94343a",
+      "bytes": 248480,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/matched_control/initial.pt",
+      "sha256": "c046eb32242ce4481610ab1ccab1ec2d30b5369568a1d95c00c192231179efbf",
+      "bytes": 246688,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTMatchedPosttrain/output/training/matched_control/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTrawEvaluation/output/EvaluationResults.json",
+      "sha256": "3f71a4a635f78bc80eeaf2a443231881d1e6c9b7758652fe6484abf74e6eef86",
+      "bytes": 488209,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTrawEvaluation/output/evaluation/execution.json",
+      "sha256": "2fc07b806d5b8ae46713992ef6fdf78fe91daff0e75c5c5173a23f57495d41b6",
+      "bytes": 50085837,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTqualifiedEvaluation/output/EvaluationResults.json",
+      "sha256": "e0ac4bcc32c01ae8ad1d37189385faca41684d5fcd57cfe81a7ab71a6d1acd51",
+      "bytes": 449864,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTqualifiedEvaluation/output/evaluation/execution.json",
+      "sha256": "a6425cd2ab6e6b0ffa232ebb68c2651d0fe52673997d6113b0b02c3b215108bf",
+      "bytes": 50051715,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTmatched_controlEvaluation/output/EvaluationResults.json",
+      "sha256": "45da9bc5c8ee01954bcc7224d973b1215dfdace55c66bdac9ea54172ddfc0469",
+      "bytes": 488233,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/ACTmatched_controlEvaluation/output/evaluation/execution.json",
+      "sha256": "2fc07b806d5b8ae46713992ef6fdf78fe91daff0e75c5c5173a23f57495d41b6",
+      "bytes": 50085837,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYPi0/output/TrainingResults.json",
+      "sha256": "468e850fd1676e94ca0bff9acb7861bda93414bb588be0e69026543cf6233467",
+      "bytes": 7894,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYPi0/output/training/17/checkpoint.pt",
+      "sha256": "8aecba9ef756df56c54cce5147c0f491dbefce1b99e2c97f34826accc87f1124",
+      "bytes": 116937,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYPi0/output/training/17/initial.pt",
+      "sha256": "1a28326b76723fc371ab82f372f9b6d4b77b06bf63699fb5f89b579c7ef0f133",
+      "bytes": 115593,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYPi0/output/training/17/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/TrainingResults.json",
+      "sha256": "81f02e274af92f506128e70388b8c8ac4390569c0968e8d18a5a89a21c2775cd",
+      "bytes": 24871,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/raw/checkpoint.pt",
+      "sha256": "db3e88a1a59ffd50269d2894c196ebae6bd0cc2b08a2d833df25f5ca40857ceb",
+      "bytes": 117385,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/raw/initial.pt",
+      "sha256": "7e17b20be94e48771d56a9396d7474fe678c4888161c0b2c3635ee30f330eeef",
+      "bytes": 115593,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/raw/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/qualified/checkpoint.pt",
+      "sha256": "baa62d00f486ca22e26d26e4f21f9fdedd020d80ae33af47914518e6bd124f93",
+      "bytes": 117769,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/qualified/initial.pt",
+      "sha256": "7e17b20be94e48771d56a9396d7474fe678c4888161c0b2c3635ee30f330eeef",
+      "bytes": 115593,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/qualified/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/matched_control/checkpoint.pt",
+      "sha256": "a779b25ca1911796344a308ebcce014026d7037aaeaade9c528b32b8ecb162b5",
+      "bytes": 117385,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/matched_control/initial.pt",
+      "sha256": "7e17b20be94e48771d56a9396d7474fe678c4888161c0b2c3635ee30f330eeef",
+      "bytes": 115593,
+      "media_type": "application/x-pytorch"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYMatchedPosttrain/output/training/matched_control/training_source_snapshot.json",
+      "sha256": "bbffa35a1aa152ba5907101ee4a5f412b32363c8c5584609ee1fd88d48b2e48f",
+      "bytes": 37449,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYrawEvaluation/output/EvaluationResults.json",
+      "sha256": "1b2b04458336acb8bbe7e3aa0b4777345d908706f699b9eaa45c4b918bd6b44d",
+      "bytes": 2012,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYrawEvaluation/output/evaluation/execution.json",
+      "sha256": "5d840dcb953f262483ab5a0e57d61f76f402e3848e5c4c8202a6979e01a7e915",
+      "bytes": 21881,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYqualifiedEvaluation/output/EvaluationResults.json",
+      "sha256": "5c7abd6b7b6612feeca05bbf8cce21256d91d7592f97423cf900b5c5038f0ef7",
+      "bytes": 2024,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYqualifiedEvaluation/output/evaluation/execution.json",
+      "sha256": "5d840dcb953f262483ab5a0e57d61f76f402e3848e5c4c8202a6979e01a7e915",
+      "bytes": 21881,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYmatched_controlEvaluation/output/EvaluationResults.json",
+      "sha256": "46cbb6ca5a83e8990645bf1574a8ac241f6542d6d4fc1e4a7d381f1603024eb8",
+      "bytes": 2037,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_actual_chain_downstream_resume_20261006T053100Z/DIFFUSION_POLICYmatched_controlEvaluation/output/evaluation/execution.json",
+      "sha256": "5d840dcb953f262483ab5a0e57d61f76f402e3848e5c4c8202a6979e01a7e915",
+      "bytes": 21881,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_author_source_fixed_20261006T053400Z/SourceSHA.json",
+      "sha256": "93531641480c2b3c19ce129a935a7b3c399bbea9791a35103a4eda3b03d9296f",
+      "bytes": 9239,
+      "media_type": "application/json"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/cli.py",
+      "sha256": "75087c093b101acfaac3ec589513d75a41278d21547f66cf08d2e85b9aceef7a",
+      "bytes": 9226,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/__init__.py",
+      "sha256": "dd42764666446e287c504b1ad44fc2331fa4307b99b56714af7fb70bf2d28c3d",
+      "bytes": 87,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/authority.py",
+      "sha256": "a8763c8aa438b474d221514e762af32fb4f3779e617dd478ffb17f5ca4252f61",
+      "bytes": 4324,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/candidate.py",
+      "sha256": "64e10d2fb5cc7ae7554b51fb79ce9c10cb785842774f12610fbda85efb6b7456",
+      "bytes": 9267,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/critic.py",
+      "sha256": "a99079e77659dff3f725f343c94b57a0a58796f2dfb3b324078ef19711e2f9ce",
+      "bytes": 1970,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/full_profile.py",
+      "sha256": "c2cf439f33949233dc6917e9573f9311f7b8b912cc0173495ecc2e584070f6a8",
+      "bytes": 6253,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/graph.py",
+      "sha256": "a4d88dfb8384c576326c3e132758b4217a3641057501bae3bb40dd0275eec48d",
+      "bytes": 5009,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/handlers.py",
+      "sha256": "c4c65a68a417297b5d3baff2afcaf61c35ef296d17dc2ca198e12b87939aa2f5",
+      "bytes": 19440,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/intent.py",
+      "sha256": "411f7d5a56659c4fec935fd96532642d923ae3b84da1d95ed8fad73e589f30a9",
+      "bytes": 1010,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/packages.py",
+      "sha256": "1b65affd789b86ef86dc69c336db78350efb1ce62b47d75110db03af0cba7dd8",
+      "bytes": 9889,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/project.py",
+      "sha256": "b4afc4e886c63f5b734c8a8413658f3fa42889fbd81e9277628b32a0247fedb5",
+      "bytes": 4350,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/provider.py",
+      "sha256": "9f228c413d06be6b75e49e299dbd0cad8f0a3f56e57d654328e863f6a7388089",
+      "bytes": 7428,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/repair.py",
+      "sha256": "10cea415c97fc6ad16ff1d1dd7ad2e0751c1cd99b068537a10aedfcf782a3209",
+      "bytes": 8973,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/pipeline/source_registry.py",
+      "sha256": "f6405b26ecb632e5c81b0641c8974215187c089413423bef244739d97ab8ee09",
+      "bytes": 980,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/server/jobs.py",
+      "sha256": "bb4c57ac065a661e42755c2c78b4106fff5132886c7f3997463ae2ab2058e0d1",
+      "bytes": 14355,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/__init__.py",
+      "sha256": "f4d86f232d9ce6289dce0b9e3d67ba9dbafa03287d50b556157daffc7f7b4ca5",
+      "bytes": 50,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/budget_scope.py",
+      "sha256": "d8ec9e7bf1493b8082af4c185a3e6026683ff96b4a6293b01c474758710c9666",
+      "bytes": 2991,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/dispatch.py",
+      "sha256": "351f2d3b29e2329c60b0993ff416816271f3eeebfb05107f94537561687609be",
+      "bytes": 1570,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/entry.py",
+      "sha256": "6dbe3a0472dbdf840a6ed7df0f5fe8282461cf4105f08e2b5dbe22d0e0c2043b",
+      "bytes": 5970,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/process_gate.py",
+      "sha256": "1ea2fe284d6258308f7c6e4a695345363f1d5460f175edb79afbe26d55739e08",
+      "bytes": 252,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/process_owner.py",
+      "sha256": "ea936d6f5c957429d6e7535ebc327d60aa2859f39a49e8c5d8ee93787dfa5155",
+      "bytes": 3446,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/registry.py",
+      "sha256": "28ed6305c90a8bb54da4142ff4db23fc9e3706a41344d5387eb4cafdee43b344",
+      "bytes": 3328,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/runtime.py",
+      "sha256": "786d5f8f95b289a5a3b47e2e6cc53a83529d32728da155560d00c97451214477",
+      "bytes": 2169,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/workers/supervise.py",
+      "sha256": "05007a605afc8b35249d002ad580eed6a5d4c0baf4630e4dda24d4738da67522",
+      "bytes": 1273,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/tests/test_pipeline_f7.py",
+      "sha256": "a8a700ad303165ef0cefcf87ff6ebc5a2a4f6a567e15f04d80990e0ac5be44db",
+      "bytes": 5043,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/tests/test_pipeline_f7b.py",
+      "sha256": "08ff9fdbb2bad457da60b5fcb408b589e99a66149e95c0dac0de82061000fbbe",
+      "bytes": 4440,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/tools/pipeline_f7b_chain.py",
+      "sha256": "7f19e821eef2e8c37786f0e10f039e89c7f2b3e404be84e741f58d67b48f453d",
+      "bytes": 8103,
+      "media_type": "text/x-python"
+    },
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F2D_acceptance_20261006T051429_418919Z/Acceptance.json",
+      "sha256": "d73498134f47cc5c4bd49a2466354d5959bb58c3a26d2ed40b7c37479b1e1ea5",
+      "bytes": 831,
+      "media_type": "application/json"
+    }
+  ],
+  "stage_statuses": {
+    "CommandCompilation": "EXECUTED",
+    "WholeCandidateReplay": "EXECUTED",
+    "CandidateDataset": "EXECUTED",
+    "OriginalDataset": "EXECUTED",
+    "DatasetReadback": "EXECUTED",
+    "ACTPi0": "EXECUTED",
+    "ACTMatchedPosttrain": "EXECUTED",
+    "ACTrawEvaluation": "EXECUTED",
+    "ACTqualifiedEvaluation": "EXECUTED",
+    "ACTmatched_controlEvaluation": "EXECUTED",
+    "DIFFUSION_POLICYPi0": "EXECUTED",
+    "DIFFUSION_POLICYMatchedPosttrain": "EXECUTED",
+    "DIFFUSION_POLICYrawEvaluation": "EXECUTED",
+    "DIFFUSION_POLICYqualifiedEvaluation": "EXECUTED",
+    "DIFFUSION_POLICYmatched_controlEvaluation": "EXECUTED"
+  },
+  "native_candidate_task_successes": 1,
+  "native_candidate_trials": 1,
+  "native_candidate_issued_commands": 280,
+  "native_candidate_states": 281,
+  "candidate_training_rows": 280,
+  "original_training_rows": 280,
+  "training": {
+    "ACT": {
+      "initial_hashes": [
+        "c046eb32242ce4481610ab1ccab1ec2d30b5369568a1d95c00c192231179efbf"
+      ],
+      "pi0_hashes": [
+        "69ecb1524d24d1c1192b85060adddf8e6dc8b00c85cbaa30ec3cffe344eb88b6"
+      ],
+      "reload_errors": {
+        "raw": 0.0,
+        "qualified": 0.0,
+        "matched_control": 0.0
+      },
+      "weight_change_l2": {
+        "raw": 0.022435894082902027,
+        "qualified": 0.02242355328926539,
+        "matched_control": 0.022435894082902027
+      }
+    },
+    "DIFFUSION_POLICY": {
+      "initial_hashes": [
+        "7e17b20be94e48771d56a9396d7474fe678c4888161c0b2c3635ee30f330eeef"
+      ],
+      "pi0_hashes": [
+        "8aecba9ef756df56c54cce5147c0f491dbefce1b99e2c97f34826accc87f1124"
+      ],
+      "reload_errors": {
+        "raw": 0.0,
+        "qualified": 0.0,
+        "matched_control": 0.0
+      },
+      "weight_change_l2": {
+        "raw": 0.01442746051370007,
+        "qualified": 0.014496099235987527,
+        "matched_control": 0.01442746051370007
+      }
+    }
+  },
+  "evaluations": [
+    {
+      "family": "ACT",
+      "arm": "raw",
+      "status": "POLICY_REPLAY_COMPLETED",
+      "scope": "IN_SAMPLE_NOT_GENERALIZATION",
+      "requested_commands": 280,
+      "issued_commands": 280,
+      "actual_states": 281,
+      "proposed_actions": 280,
+      "task_success": false,
+      "task_status": "FAIL",
+      "physical_status": "FAIL",
+      "failed_substeps": 1126,
+      "max_speed_rad_s": 5.083854836113214
+    },
+    {
+      "family": "ACT",
+      "arm": "qualified",
+      "status": "POLICY_REPLAY_COMPLETED",
+      "scope": "IN_SAMPLE_NOT_GENERALIZATION",
+      "requested_commands": 280,
+      "issued_commands": 280,
+      "actual_states": 281,
+      "proposed_actions": 280,
+      "task_success": false,
+      "task_status": "FAIL",
+      "physical_status": "FAIL",
+      "failed_substeps": 1037,
+      "max_speed_rad_s": 5.085267690991955
+    },
+    {
+      "family": "ACT",
+      "arm": "matched_control",
+      "status": "POLICY_REPLAY_COMPLETED",
+      "scope": "IN_SAMPLE_NOT_GENERALIZATION",
+      "requested_commands": 280,
+      "issued_commands": 280,
+      "actual_states": 281,
+      "proposed_actions": 280,
+      "task_success": false,
+      "task_status": "FAIL",
+      "physical_status": "FAIL",
+      "failed_substeps": 1126,
+      "max_speed_rad_s": 5.083854836113214
+    },
+    {
+      "family": "DIFFUSION_POLICY",
+      "arm": "raw",
+      "status": "POLICY_COMMAND_REJECTED",
+      "scope": "IN_SAMPLE_NOT_GENERALIZATION",
+      "requested_commands": 280,
+      "issued_commands": 0,
+      "actual_states": 1,
+      "proposed_actions": 1,
+      "task_success": false,
+      "task_status": "UNKNOWN",
+      "physical_status": "UNKNOWN",
+      "failed_substeps": null,
+      "max_speed_rad_s": null
+    },
+    {
+      "family": "DIFFUSION_POLICY",
+      "arm": "qualified",
+      "status": "POLICY_COMMAND_REJECTED",
+      "scope": "IN_SAMPLE_NOT_GENERALIZATION",
+      "requested_commands": 280,
+      "issued_commands": 0,
+      "actual_states": 1,
+      "proposed_actions": 1,
+      "task_success": false,
+      "task_status": "UNKNOWN",
+      "physical_status": "UNKNOWN",
+      "failed_substeps": null,
+      "max_speed_rad_s": null
+    },
+    {
+      "family": "DIFFUSION_POLICY",
+      "arm": "matched_control",
+      "status": "POLICY_COMMAND_REJECTED",
+      "scope": "IN_SAMPLE_NOT_GENERALIZATION",
+      "requested_commands": 280,
+      "issued_commands": 0,
+      "actual_states": 1,
+      "proposed_actions": 1,
+      "task_success": false,
+      "task_status": "UNKNOWN",
+      "physical_status": "UNKNOWN",
+      "failed_substeps": null,
+      "max_speed_rad_s": null
+    }
+  ],
+  "policy_successes": 0,
+  "policy_evaluation_trials": 6,
+  "policy_six_full_command_rollouts": false,
+  "pi0_evaluation": "NOT_RUN_PRIOR_TWO_SOURCE_ROLLOUTS_REMAIN_SPENT",
+  "canonical_source_totals": {
+    "used": {
+      "responses": 0,
+      "tools": 0,
+      "candidates": 5,
+      "projections": 3,
+      "selection_rollouts": 1,
+      "independent_rollouts": 8,
+      "spatial": 4,
+      "semantic": 0,
+      "jev": 0
+    },
+    "costs": {
+      "host_inclusive_wall_seconds": 2052.877237847075,
+      "wall_seconds": 471.5259220902808,
+      "denoiser_calls": 256,
+      "guidance_calls": 0,
+      "projection_calls": 384
+    },
+    "states": {
+      "SETTLED": 70,
+      "RESERVED": 1
+    }
+  },
+  "repair_benefit": "NOT_CLAIMED",
+  "formal_research": "NOT_RUN",
+  "independent_review": "PENDING",
+  "common_DP_sampling_seed": {
+    "value": 17,
+    "source": {
+      "path": "/home/xklv/ego_robot/a4_experiment/src/a4x/models/policies.py",
+      "sha256": "b59815968ac079f3167e0910f4e61d37ca6c0adf0a4c8e5eaba225a3b71b78fb",
+      "bytes": 9174,
+      "media_type": "text/x-python"
+    },
+    "semantics": "DP.predict defaults seed17 and creates/reset generator for each query; raw/control proposals identical",
+    "formal_independent_seed_population": "NOT_RUN"
+  },
+  "prior_readback": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7B_final_readback_20261006T054200Z/ActualReadback.json",
+    "sha256": "c2cde86c27e0166a7d2bd01fe52292b193b2c667e2e04b8ddf3bddb40c234ec2",
+    "bytes": 57226,
+    "media_type": "application/json"
+  },
+  "retained_prior_reservation": {
+    "key": "m4-round0-0",
+    "resource": {
+      "candidates": 1
+    },
+    "state": "RESERVED",
+    "changed_by_F7B": false
+  }
+}

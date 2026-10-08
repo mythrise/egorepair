@@ -1,0 +1,95 @@
+{
+  "status": "FINITE_INTENT_COMPILED",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json",
+    "sha256": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+    "bytes": 109154156,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/Context.json",
+    "sha256": "4c63f29333343344bb38ee1c2473d315103cbd9fb466504a1c8835bc0d760092",
+    "bytes": 378,
+    "media_type": "application/json"
+  },
+  "source_group_id": "SYNTHETIC_SIM_FAMILY:NARROW_PRISM_LAYOUT_B_V1",
+  "expert_report_refs": [
+    {
+      "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_spatial_actual_v3_20261006/SpatialEvidence.json",
+      "sha256": "d86cdc8116dca42d8169534a0464b0245dd2ca5b24d5c462ea8e8760ea575c90",
+      "bytes": 3150,
+      "media_type": "application/json"
+    }
+  ],
+  "local_expert_count": 1,
+  "adopted_unique_expert_model_calls": 1,
+  "adopted_public_generation_calls": 2,
+  "numeric_tool_output": {
+    "type": "function_call_output",
+    "call_id": "f7c-measure-d86a14b48ab38dcdfdfeb43d6a7b02c13d792d66925450b30959d4c9c6917980",
+    "output": "{\"executed\":true,\"result\":{\"measurement_ref\":{\"bytes\":896,\"media_type\":\"application/json\",\"path\":\"/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/measured86a14b48ab3_Geometry.json\",\"sha256\":\"75cca1b1848c3131137605356d2c3f3da9a4ab630f5746b5136f53706a867d19\"},\"status\":\"AVAILABLE\",\"value\":{\"basis\":\"REGISTERED_GEOMETRY\",\"context_ref\":{\"bytes\":378,\"media_type\":\"application/json\",\"path\":\"/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/Context.json\",\"sha256\":\"4c63f29333343344bb38ee1c2473d315103cbd9fb466504a1c8835bc0d760092\"},\"frame\":\"WORLD\",\"measurement_id\":\"initial_goal_distance\",\"pts\":0.0,\"source_frame_id\":0,\"source_group_id\":\"SYNTHETIC_SIM_FAMILY:NARROW_PRISM_LAYOUT_B_V1\",\"source_initial_state_verified\":true,\"source_ref\":{\"bytes\":109154156,\"media_type\":\"application/json\",\"path\":\"/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json\",\"sha256\":\"9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9\"},\"task_success_not_used\":true,\"unit\":\"m\",\"value\":0.1}},\"status\":\"EXECUTED\"}"
+  },
+  "worker_tool_outputs": [
+    {
+      "type": "function_call_output",
+      "call_id": "inspect-source-71ff22e3c1adc173af8817d41020cdca2089546caae1e9a3417ed0bcad77c4e9",
+      "output": "{\"executed\":true,\"result\":{\"actual_result\":{\"actual_result\":{\"data_line\":\"SYNTHETIC_SIM\",\"denominator\":1,\"physical_qualification\":{\"aggregate_metrics\":{\"max_actuator_force_Nm\":2.94,\"max_joint_speed_rad_s\":2.6664832828264946,\"max_penetration_m\":0.0014817484894152166,\"max_unintended_penetration_m\":0.0,\"pad_fixed_force_N\":41.101428054016644,\"pad_moving_force_N\":36.66123751927541,\"support_force_N\":23.759580187043944,\"unintended_contact_samples\":0},\"checked_substeps\":7000,\"command_count\":280,\"continuous_collision_certified\":false,\"failed_substep_count\":0,\"failed_substeps\":[],\"hardware_certified\":false,\"independent_replay_max_error\":0.0,\"recipe_id\":\"SO101_T1_ESTIMATED_MODEL_GATES_V1\",\"recipe_sha256\":\"0a4ce2bc3129171ab001553e3c89f3ea16e339a012d11ede2993b47e89a9e9d5\",\"scope\":\"SIM_MODEL_REPLAY_500HZ_ESTIMATED_ASSET\",\"state_count\":281,\"status\":\"PASS\"},\"reason\":\"ACTUAL_TASK_AND_ESTIMATED_MODEL_GATES\",\"scope\":\"SIM_MODEL_REPLAY\",\"status\":\"PASS\",\"success\":true,\"task_id\":\"T1\",\"task_predicates\":{\"contact_semantics\":\"BOTH_MODEL_FINGERS_POSITIVE_NORMAL_CONTACT_NOT_FORCE_CLOSURE_CERTIFICATION\",\"evaluated_states\":7001,\"evaluation_hz\":500,\"lift_end_control_boundary\":124,\"lift_end_state\":3083,\"place_end_control_boundary\":232,\"place_end_state\":5796,\"satisfied\":true,\"status\":\"SATISFIED\"}},\"context_ref\":{\"bytes\":378,\"media_type\":\"application/json\",\"path\":\"/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/Context.json\",\"sha256\":\"4c63f29333343344bb38ee1c2473d315103cbd9fb466504a1c8835bc0d760092\"},\"issued_commands\":280,\"origin_not_task_acceptance\":true,\"original_states\":281,\"source_ref\":{\"bytes\":109154156,\"media_type\":\"application/json\",\"path\":\"/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json\",\"sha256\":\"9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9\"}},\"controls_emitted\":false,\"feedback_ref\":{\"bytes\":2250,\"media_type\":\"application/json\",\"path\":\"/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/SourceFeedback.json\",\"sha256\":\"f42d273892777cb9462966759cd08a81ca7cfe2aa93f2a555ba4e145d6c069c7\"}},\"status\":\"EXECUTED\"}"
+    }
+  ],
+  "provider_result_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_public_live_20261006/ProviderResponses.json",
+    "sha256": "77543609491457d291864091ccef73f47218497f142500d41fe14acba59e5480",
+    "bytes": 30150,
+    "media_type": "application/json"
+  },
+  "provider_decision": {
+    "action": "finish",
+    "reason": "Registered public model confirms INITIAL_GOAL_DISTANCE = 0.1 m in WORLD_MODEL; geometry is sufficient and no controls are emitted."
+  },
+  "selected_local_template": "NOOP",
+  "intent_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/SelectedIntent.json",
+    "sha256": "1fa4ddfb872058496cbec7be8f65a510a44e5c343b1ac1df0a14dfd2b6f374fe",
+    "bytes": 860,
+    "media_type": "application/json"
+  },
+  "numeric_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_v2_20261006/SelectedNumericConstraints.json",
+    "sha256": "949534ce3ce21eca793e4c81b3ea58bd2ca732d4b8ce9aca013226d1ac830757",
+    "bytes": 982,
+    "media_type": "application/json"
+  },
+  "unknowns": [
+    "M3_HUMAN_CONTACT_INPUTS_NOT_PRESENT_FORCE_COMMAND_FORBIDDEN"
+  ],
+  "private_material_sent": false,
+  "free_control_output": false,
+  "force_command": false,
+  "physical_qualification": "NOT_GRANTED",
+  "new_local_model_calls": 0,
+  "new_cloud_calls": 0,
+  "canonical_spatial_spent": 1,
+  "budget": {
+    "used": {
+      "responses": 2,
+      "tools": 5,
+      "candidates": 0,
+      "projections": 0,
+      "selection_rollouts": 0,
+      "independent_rollouts": 0,
+      "spatial": 1,
+      "semantic": 0,
+      "jev": 0
+    },
+    "costs": {
+      "cpu_seconds": 0.0024088420000012434,
+      "wall_seconds": 13.451784631237388,
+      "input_tokens": 1376,
+      "output_tokens": 399,
+      "total_tokens": 1775
+    },
+    "states": {
+      "SETTLED": 8
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "measurement_id": "initial_goal_distance",
+  "value": 0.1,
+  "unit": "m",
+  "frame": "WORLD",
+  "basis": "REGISTERED_GEOMETRY",
+  "source_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/F2F_native_factory_20261006_02/narrow_prism_T1_clean/execution.json",
+    "sha256": "9fc7bd66e9909e45d38d77f8f405928c8472a141f6383e6a87445ae26d2b1ca9",
+    "bytes": 109154156,
+    "media_type": "application/json"
+  },
+  "context_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7C_B_real_workflow_inputs_v2_20261006/Context.json",
+    "sha256": "4c63f29333343344bb38ee1c2473d315103cbd9fb466504a1c8835bc0d760092",
+    "bytes": 378,
+    "media_type": "application/json"
+  },
+  "source_group_id": "SYNTHETIC_SIM_FAMILY:NARROW_PRISM_LAYOUT_B_V1",
+  "source_frame_id": 0,
+  "pts": 0.0,
+  "source_initial_state_verified": true,
+  "task_success_not_used": true
+}

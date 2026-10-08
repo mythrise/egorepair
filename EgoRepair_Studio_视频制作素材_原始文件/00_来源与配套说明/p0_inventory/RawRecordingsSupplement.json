@@ -1,0 +1,1129 @@
+{
+  "backup_dir": "/data/xklv_data/a4_experiment/video_materials/20261008T135842_689360Z/work/p0_inventory/backups/20261008T142155_600617Z",
+  "raw_scan_roots": [
+    "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z",
+    "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01"
+  ],
+  "raw_mp4_source_count": 149,
+  "new_source_records": 180,
+  "new_mp4_source_records": 95,
+  "new_unique_sha_count": 110,
+  "new_unique_sha_bytes": 134680766,
+  "all_raw_scanned_paths_in_final_inventory": true,
+  "scanned_videos": [
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/original.mp4",
+      "sha256": "c766987e5074ed86dbc39c436176e5099544f3199b3d2ba858e62bf86304b628",
+      "bytes": 6548947,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "94b390286d0be6389075de0f392dcb21aef57433340cb6eee8d41d765d978dd5",
+      "bytes": 1001295,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "ffd7bd9368d9885ad4a1587d1cc2db540afd88ea0883cda0efdf4d1c48f4281d",
+      "bytes": 166158,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/three_view.mp4",
+      "sha256": "b3c8731d29026851dc65b07b347a3cd36932d8ee5d1b4c8fc0c50ab31e32656c",
+      "bytes": 1971215,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/assemble_disassemble_legos_33/primary/recordings/assemble_disassemble_legos_33/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "d066c77f33cef990a0e5ac04c64dd9800ab77a1e494a166127df40a9f22b122e",
+      "bytes": 916206,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "d066c77f33cef990a0e5ac04c64dd9800ab77a1e494a166127df40a9f22b122e",
+      "bytes": 916206,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "ae19126978cd5113d379fdc2d6b16fffb91103a006fbadfecf16225921cb6a14",
+      "bytes": 1753613,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/original.mp4",
+      "sha256": "72be53d5462f44a69f2dfd2e0f157e3a5541df0d466f265717db43b72a4881b6",
+      "bytes": 5839426,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "40d7892e806055aeb9300971163b883b2bb4eeee200e3af789a86a77b8bdadc1",
+      "bytes": 990450,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "36d7757ece10d97a604e9467ad9c14c46cc4b1ffba143a9fd0b39a8ca18d24c3",
+      "bytes": 185156,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/three_view.mp4",
+      "sha256": "e8c11f583d4031ba436cf6d6199453ae15ac7ea06e82d37531425768f36bec38",
+      "bytes": 1991576,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/original.mp4",
+      "sha256": "34d20e34bd30ab0b511530b361ab55dfdbe793ed26f1f0efce1b6ea569ce9db1",
+      "bytes": 9136011,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "b2d9c132e813df5a3f038355c31f2615066c48fa8545d29e18d4e42ef67454e5",
+      "bytes": 1782161,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "e7c7b0ab1197b9fd2876d142e2c8a47108995b7187b8b7e4ffb615bf621cfd2d",
+      "bytes": 250941,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/three_view.mp4",
+      "sha256": "de7056845664383d744365bfcff624dd801d89bd22eec7b0272c5b0d4ad6f94c",
+      "bytes": 3355749,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/insert_remove_bagging_10/primary/recordings/insert_remove_bagging_10/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/original.mp4",
+      "sha256": "e3d763781a70c8f5c9329cd5a7c9fc7dd095de2c8ce4fec57539ba9f924f2488",
+      "bytes": 5651404,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "4ae5b3ab5d9e2350aeee739924c4e7cd8e023f18c8a9caf1ae99a8e25ac19e98",
+      "bytes": 944799,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "17edca1711ab83d1401ebc60b475f43e1b7a7775024a285024d5a2454efcf09e",
+      "bytes": 183962,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/three_view.mp4",
+      "sha256": "96b0593fbd8b86d6a6f43a017e2991dafe13a5ef22f33d2aae9169aba75fae65",
+      "bytes": 1909446,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/sort_beads_1/primary/recordings/sort_beads_1/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "8c698109e5af28462fc5e2e5e49bf89fbfd5fb3047e435b8dfa9c6650c74bddb",
+      "bytes": 1003513,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "8c698109e5af28462fc5e2e5e49bf89fbfd5fb3047e435b8dfa9c6650c74bddb",
+      "bytes": 1003513,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "f47ce248f98ea67ca1f0e66a1d0d575fd7d23076a83aead5c7fc71a919314f6a",
+      "bytes": 1828761,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/original.mp4",
+      "sha256": "11d5dd124d927f366666cea24372cadfe01934151ae127ff7aaf82ae0d1c5e7f",
+      "bytes": 5109177,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "9071ff77a0beb4b14f8b4d22a6effb691849dfe8c18c8260f574e64fac3c6d5e",
+      "bytes": 1158895,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "2ec63648a1feabd5fea666e5ddf437aafca1702df132daa505d03eea459622e9",
+      "bytes": 209009,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/three_view.mp4",
+      "sha256": "9e53584463231efeb358fa169b1f7869309ed8e49e12764fd7272ac127063bef",
+      "bytes": 2182316,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "153d80e36d0fc9746a24b9e6b9b683cfa213ff9cbb8540a435465c8f4ee5d11f",
+      "bytes": 1007910,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "153d80e36d0fc9746a24b9e6b9b683cfa213ff9cbb8540a435465c8f4ee5d11f",
+      "bytes": 1007910,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "47780223dbf2559d163ab1e0671dd0078ac9507b93b7e9385aac0109e7207440",
+      "bytes": 1858049,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/original.mp4",
+      "sha256": "c766987e5074ed86dbc39c436176e5099544f3199b3d2ba858e62bf86304b628",
+      "bytes": 6548947,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "68b7019140cb573f5394275e89e876ecf94121f733e2d62470306ddbb5f2bb12",
+      "bytes": 1319607,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "7caac0ba3e99cd52cf49310dd926ddf9da6f08fe6eff87b1b7deec7a2a9631d0",
+      "bytes": 251384,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "ed34789e5d15ed23da6d259a18de03fa23220a2f9d9bc4791d51ac3fe7b33159",
+      "bytes": 2418833,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "656527925270228e1472a8de245a8e5811f0ecefb1c6d3af84edad103c597f43",
+      "bytes": 3049588,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "656527925270228e1472a8de245a8e5811f0ecefb1c6d3af84edad103c597f43",
+      "bytes": 3049588,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "072fe56c5a78abb609d0812a40fec54dd524eab7d24299eb57183bbaea766556",
+      "bytes": 5340342,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/original.mp4",
+      "sha256": "c3d8edb07052ee7df6ce7f3d61ab77d281de8b91397b7b1c6cbdbe52178b34c6",
+      "bytes": 14213529,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "9bf9b9062e8bb0677de18dbca532995bba29c46734e51a61daa0c94727a86eb4",
+      "bytes": 4366266,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "8a08d2201ed46e51bfa7d7cfdcb3dc645838ea7d78184acd30dc78d96cf48f5f",
+      "bytes": 951032,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "19aa3f28e23df2c89dc048186b13f123e22b720f85704d1ddde9480ecf65d67b",
+      "bytes": 7555287,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "8ed59dbe01b5fe2001bbebb5d4e445d7327971444f8cfffc02cc746f4762f613",
+      "bytes": 2702430,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "8ed59dbe01b5fe2001bbebb5d4e445d7327971444f8cfffc02cc746f4762f613",
+      "bytes": 2702430,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "26f13e20118d6e1485e905845b6cbef9ba5075f833a1875f793223fc0547a5ac",
+      "bytes": 4972267,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/original.mp4",
+      "sha256": "c3d8edb07052ee7df6ce7f3d61ab77d281de8b91397b7b1c6cbdbe52178b34c6",
+      "bytes": 14213529,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "9bd6885b7847dfff20b1e081a77039150d6a2422d119fabbe1b3bc9c1da1db99",
+      "bytes": 2880385,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "f093b26af2618f06aa0382106e86fa3a27178efab0c4d7f8d0dbfe0729b3a18a",
+      "bytes": 542244,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/three_view.mp4",
+      "sha256": "842a6ca4d526dbfd8c7bfda04afdbaac2f0a6a1d90197ce30e20c8ceaa92b4c0",
+      "bytes": 5652912,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "2a9470c4f7a586964d8771b0ace9e128cf1b1cf9522231d9bcb2cdf6f59d8ab6",
+      "bytes": 1052113,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "2a9470c4f7a586964d8771b0ace9e128cf1b1cf9522231d9bcb2cdf6f59d8ab6",
+      "bytes": 1052113,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "3a1faef501ad8f0d80c221d88f8fc04e18c8ae460f891dfe2292a26f50a94c89",
+      "bytes": 1861329,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/original.mp4",
+      "sha256": "72be53d5462f44a69f2dfd2e0f157e3a5541df0d466f265717db43b72a4881b6",
+      "bytes": 5839426,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "b5a49a6380089c2d9ebb4afe3958fb9553f350503d42f48e46d84104f1cf591f",
+      "bytes": 1578388,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "bd5691bf0d262fc1f426b7be33ee5d386dd6e4122e9b9dd96a10dcf4daccc715",
+      "bytes": 282832,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "7d54b750d28f3c93406d2b36501d6efbcad575619449e2bea7f710efd947b439",
+      "bytes": 2679384,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "4b27e93a0c50a1d2cd18a5a2ca37479bb361c2f1c264b7a355b6cb2ba6d66fb7",
+      "bytes": 1620807,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "4b27e93a0c50a1d2cd18a5a2ca37479bb361c2f1c264b7a355b6cb2ba6d66fb7",
+      "bytes": 1620807,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "5c765099dc34ac1462b760567f24680a130c7d506c00ec71ab7be8110cc39f9a",
+      "bytes": 2971656,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/original.mp4",
+      "sha256": "34d20e34bd30ab0b511530b361ab55dfdbe793ed26f1f0efce1b6ea569ce9db1",
+      "bytes": 9136011,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "fe996451e4b5405ff1c211af5cedadf44c795e49f17b275ad8d9ff138f717c40",
+      "bytes": 1849890,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "eb636fef23e3fcdbfcab9dc6b3686326d9ef30bbb7f2bd8d8d6458a94d553202",
+      "bytes": 335089,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "c0bdc6d4bcadc63794c823abfa0c546e1bdd41ea4b5ef23459f95b67ce1de75f",
+      "bytes": 3515566,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "a7d7126c4a09af930959d52ab3714883dbbdb9b7a9ac6765a2a7574758599839",
+      "bytes": 1021112,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "a7d7126c4a09af930959d52ab3714883dbbdb9b7a9ac6765a2a7574758599839",
+      "bytes": 1021112,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "0bdc6cc0e6f53002a2a6af08fc61bc43811a46dfd255957d2910f7b056af190f",
+      "bytes": 1818634,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/original.mp4",
+      "sha256": "e3d763781a70c8f5c9329cd5a7c9fc7dd095de2c8ce4fec57539ba9f924f2488",
+      "bytes": 5651404,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "0791f50e94705a75f4f72f878de0f2209130dc063de6bf34553bd73bc20d63a0",
+      "bytes": 1341606,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "b9db652ae555ed3b82b30f57c14867d52eb4e60b7f1a17eccbbd61a1b73fac7e",
+      "bytes": 284915,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "916e73d684a48eb93974a4f8707d0f3f257916b8740bdefddfe4026d3b127896",
+      "bytes": 2417464,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "7bbeaaf3ebad911b3266b100d40b695e82d76a72a11ccecac14b1d746e2eac63",
+      "bytes": 1140814,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "7bbeaaf3ebad911b3266b100d40b695e82d76a72a11ccecac14b1d746e2eac63",
+      "bytes": 1140814,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "2db1c01b7d3f77613e7eb82bba92337bb9bd8938fe4b97fbb1aed01168c833a2",
+      "bytes": 1969410,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/original.mp4",
+      "sha256": "11d5dd124d927f366666cea24372cadfe01934151ae127ff7aaf82ae0d1c5e7f",
+      "bytes": 5109177,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "59fa8137316c36d4a17ea0163f5d86f44c7d355e1634da7cbf02285708ebbda5",
+      "bytes": 1232748,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "f888cb413b3c35da351142ccca8265a221c0410a152fc364e551baab739920bb",
+      "bytes": 226246,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "3fbf9d391f8ad51db41c6f60905ec7fe27027138688f958dafcc411e7f4b6b05",
+      "bytes": 2277154,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "f070990a11cbdc372b5bee060a6886f0ccbdf698ba137446d31ee3163e12d22a",
+      "bytes": 1070527,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "f070990a11cbdc372b5bee060a6886f0ccbdf698ba137446d31ee3163e12d22a",
+      "bytes": 1070527,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "eaaea1eef7718674c8c5329988e019daa59f11a3d9040cd5ee47dedb7abd8bcf",
+      "bytes": 1846218,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/original.mp4",
+      "sha256": "c7294bfdbb7526bed9f0f65ca5ddc2091fd60dd7c24aff398d5c94bf40abad56",
+      "bytes": 5596436,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "0184e07554f2ca12b8bc52baae9fc06b49ca2996be22acc949f197f23c159d71",
+      "bytes": 1395134,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "b12396eb39f2c5e0ca61b71839f625abf89a6cdf3664724d10db8baef32f4b00",
+      "bytes": 301938,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "cfeb58d02cd550669a1e0f92032a85da55ecdb12383c57715256587f9915438e",
+      "bytes": 2460304,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "9ddc9e640f9ea9cbd5e4883eaec73c1db546c6b07938c059997d8c45f1098d17",
+      "bytes": 931663,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "9ddc9e640f9ea9cbd5e4883eaec73c1db546c6b07938c059997d8c45f1098d17",
+      "bytes": 931663,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "5d776d1abf80b58be828a2a580504fd5d3b3867730d5504441551f4eaedb68c3",
+      "bytes": 1703948,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/original.mp4",
+      "sha256": "c7294bfdbb7526bed9f0f65ca5ddc2091fd60dd7c24aff398d5c94bf40abad56",
+      "bytes": 5596436,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "5c30540cbf550a3722de2f3690e06ec1ea5270b092af9e85e2eb1d920f92ab67",
+      "bytes": 1014914,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "43261051d31aac7918b20e0a5f833b789a9ad0b8d8713c00dceb341399d09ae2",
+      "bytes": 185463,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/three_view.mp4",
+      "sha256": "38ff4ad53ba04da5b1a4cb1743bec3552c667450609398ee7706b540a4155588",
+      "bytes": 1965864,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "fc36e909182f6a9594928b0423b2524e3c822e599834a245db0f2bc5ff23ef5c",
+      "bytes": 652940,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "fc36e909182f6a9594928b0423b2524e3c822e599834a245db0f2bc5ff23ef5c",
+      "bytes": 652940,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "6f35bcb6273a346d3226511dbcaa841c6b027772c4b3b5d9018ebe32e8419cce",
+      "bytes": 1108348,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/original.mp4",
+      "sha256": "99441a3dcf311068cc2df799ed910e9e7cffed6e0e71e237abf7efbf9612d4e7",
+      "bytes": 3352695,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "da4927d600aca5e28b9a48ffc3eda2555f12c439fbf14576cf1fd16785b9ee4d",
+      "bytes": 769925,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "562a51c97a6cd22e73d2d5530a8f353fa1775850c17f2621ff7ed9e1e5fedf0d",
+      "bytes": 129233,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "020bc3cf2cea155f3e2b4fdcdd8a74563f3edbb01aec1b6d4f9aaf13e4e3cf35",
+      "bytes": 1348872,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "344efb7643370bc904758daf55f39204503070e318d065b94efffdabd94b2f4f",
+      "bytes": 540218,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "344efb7643370bc904758daf55f39204503070e318d065b94efffdabd94b2f4f",
+      "bytes": 540218,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "4895f25f99a48dec978d66f6d647192a752890bece77c8881017b3cf3a02da98",
+      "bytes": 994421,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/original.mp4",
+      "sha256": "99441a3dcf311068cc2df799ed910e9e7cffed6e0e71e237abf7efbf9612d4e7",
+      "bytes": 3352695,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "952fa4ea3608930feb4266c10025ecaad5977a63838db39b1cd93067fa20587e",
+      "bytes": 589954,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "ecae792544f3350df3327600fb01eff5770fab7f30d2e6f65a6e6f160ea8f524",
+      "bytes": 102206,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/three_view.mp4",
+      "sha256": "898d947d124f4a3ccb3e8a656828bfddadde7ce9140babe4768cf456aec6234e",
+      "bytes": 1135945,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "e407deddb65590796830216628ea28346dff7957e92f217e422d2e62eef4cc81",
+      "bytes": 4817635,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "e407deddb65590796830216628ea28346dff7957e92f217e422d2e62eef4cc81",
+      "bytes": 4817635,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "1f2c0e186afce09566e053e8a1271d9de9e57ef57500431a071e78a9e53611ae",
+      "bytes": 8490284,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/original.mp4",
+      "sha256": "f39c923438aee0d410c4d461a34e56cb80136466269dcdf0d173e95f595f2b84",
+      "bytes": 27570051,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "998e18a4a457adde46710f014e5d7bc2fd6409a704c621398712b3f7ce0bf876",
+      "bytes": 5653921,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "35d27961bb3f81eb8884672488caea35db42f633000dd1c0e8fb64178ecc2843",
+      "bytes": 1109666,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "95f78c3613d6e8b1393a41f6025fab18cccf97df8f5b21b5e89910e0c48bddb1",
+      "bytes": 10328644,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "7d66a7d783e176a9a6f6f02b9b2d85e43d4c7e7485f32dc004cd8b48ac2cdb87",
+      "bytes": 4729895,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "7d66a7d783e176a9a6f6f02b9b2d85e43d4c7e7485f32dc004cd8b48ac2cdb87",
+      "bytes": 4729895,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "6dbc0a3c69cec7c6ad988f26f0d7bc089c9ce87c80bd1de6a2e2af7d837edce3",
+      "bytes": 8391811,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/original.mp4",
+      "sha256": "f39c923438aee0d410c4d461a34e56cb80136466269dcdf0d173e95f595f2b84",
+      "bytes": 27570051,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "34cd51491341a16ba6348a60da362bd100d51cce9ef47d12d834f8c92c0ddcdf",
+      "bytes": 7213453,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "bf4eefbd246df011fe1b99a1ab6ab264ef06957d8710c7f67cf9ee9450653dac",
+      "bytes": 1050980,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/three_view.mp4",
+      "sha256": "6eb091bc8f4453f4df386e23951aea1ab00d5381ee7d47b8c912c45e61b7dbf7",
+      "bytes": 11771597,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "928a329118b03976b0caddc494e9fb286b2d4b5aa7204a56bfb0216c90c717f8",
+      "bytes": 950592,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "928a329118b03976b0caddc494e9fb286b2d4b5aa7204a56bfb0216c90c717f8",
+      "bytes": 950592,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "5f4972ac429bc466708577775142b86fd1f36d1212fa0d3dc98d07721d868dc4",
+      "bytes": 1633484,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/original.mp4",
+      "sha256": "c9103930cbcac54ea6e5ae64ab05979b533abba108665160375ccc7a8f8ede02",
+      "bytes": 4537513,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "875d3ba94117b3d01af8bb94d977e783532db40804294b958f46825fdb10e554",
+      "bytes": 1357187,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "a1cc8d1321612dededf46d5f7f3de9fbe4fe699d06669cfa95f61e3e7077574f",
+      "bytes": 258336,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "0fb11debe3ec7b2d888e5c09e90ae9d6ccd09064a228fea25a57f03c07b14288",
+      "bytes": 2275455,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "1c5316cae847f805dc08db124d4aca280fdcdc010a349240791c4f9070828e9c",
+      "bytes": 818163,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "1c5316cae847f805dc08db124d4aca280fdcdc010a349240791c4f9070828e9c",
+      "bytes": 818163,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "fbf78663ad531332df5448b7e358081cd22875c698396e69430c132f17d6f46b",
+      "bytes": 1505161,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/original.mp4",
+      "sha256": "c9103930cbcac54ea6e5ae64ab05979b533abba108665160375ccc7a8f8ede02",
+      "bytes": 4537513,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "1c5316cae847f805dc08db124d4aca280fdcdc010a349240791c4f9070828e9c",
+      "bytes": 818163,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "8c088365f3e290cc8aa09b1957ec25a5d8fc1d4612ff060a34f136442bee2461",
+      "bytes": 130243,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/three_view.mp4",
+      "sha256": "d8904fb6dbe4bb6cb92c3705022cb52ad1b3b92b0b1870c2dfc9d0cf2cc5b343",
+      "bytes": 1614862,
+      "dest": "P0/All_original_videos/01_视频/UPSTREAM_DOCUMENTED_REFERENCE/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "8ed59dbe01b5fe2001bbebb5d4e445d7327971444f8cfffc02cc746f4762f613",
+      "bytes": 2702430,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "8ed59dbe01b5fe2001bbebb5d4e445d7327971444f8cfffc02cc746f4762f613",
+      "bytes": 2702430,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "26f13e20118d6e1485e905845b6cbef9ba5075f833a1875f793223fc0547a5ac",
+      "bytes": 4972267,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/original.mp4",
+      "sha256": "c3d8edb07052ee7df6ce7f3d61ab77d281de8b91397b7b1c6cbdbe52178b34c6",
+      "bytes": 14213529,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "e0b51fcb51a8c759aff6e16da5edb4187523d06e2e0f73f937c6c22bb3fb5c27",
+      "bytes": 2912846,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "11887675c749cae966d75e24ef1802712b9f21cb71f6bc15483151e0bc6c6863",
+      "bytes": 546834,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/three_view.mp4",
+      "sha256": "4cb79d7fc026534e49b86110b9450fb84389a2bc417109649787a3890da38753",
+      "bytes": 5709292,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+      "sha256": "e407deddb65590796830216628ea28346dff7957e92f217e422d2e62eef4cc81",
+      "bytes": 4817635,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+      "sha256": "e407deddb65590796830216628ea28346dff7957e92f217e422d2e62eef4cc81",
+      "bytes": 4817635,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4",
+      "sha256": "1f2c0e186afce09566e053e8a1271d9de9e57ef57500431a071e78a9e53611ae",
+      "bytes": 8490284,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/original.mp4",
+      "sha256": "f39c923438aee0d410c4d461a34e56cb80136466269dcdf0d173e95f595f2b84",
+      "bytes": 27570051,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/robot_hybrid.mp4",
+      "sha256": "770a29de43745c023cb4349b816aee24484361f7d266f4bd6f81ab4c9cb2d71d",
+      "bytes": 5665341,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/scene_trajectory.mp4",
+      "sha256": "11d692bb11e60b28d6fb817333613a66fc0515d2768cae47879939f185e83bf5",
+      "bytes": 1124188,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/three_view.mp4",
+      "sha256": "7758829d87e2b6872af1d6b9a8e8d077641a17fbcb9d451a8b32143e63433ee3",
+      "bytes": 10334029,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/screw_unscrew_allen_fixture_10__a1x_dual/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/videos/three_view.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/original.mp4",
+      "sha256": "14812850f9c5820288008eab74b4fef56cdce5aac495df29dd24bb2705a5fbd9",
+      "bytes": 31810152,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/original.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/robot_hybrid.mp4",
+      "sha256": "bc5bee6a2b1278fd4926abd70eede8e1c46aa399dfdedf5a6404f2a6e27f5e98",
+      "bytes": 5763044,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/robot_hybrid.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/scene_trajectory.mp4",
+      "sha256": "5b1da1ff9a5d81d4a1a0f5a03803c5f444c56f6aa89688c5e7b199e0e4590ccb",
+      "bytes": 1022978,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/scene_trajectory.mp4"
+    },
+    {
+      "source": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/three_view.mp4",
+      "sha256": "edf9020836ceb69b307bbb5b47be8d187baf245405c02e737147614a396d9b69",
+      "bytes": 11242287,
+      "dest": "P0/Additional_original_recordings/source_tree/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/so101_egodex__so101/primary/recordings/so101_egodex/robots/so101/videos/three_view.mp4"
+    }
+  ],
+  "paired_additional_eef_groups": [
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101",
+      "task": "clip_unclip_papers_1",
+      "npz_sha256": "70a38adee85c5b3d09b4689966fdfdc8fd1cb80d2eaae5b886c088416964b649",
+      "rows": 953,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/a2_v34_implementation_20261004T170458_253795Z/egodex_batch_01/clip_unclip_papers_1__so101/primary/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101",
+      "task": "fold_unfold_paper_basic_10",
+      "npz_sha256": "066cca9ed300b37d316d87c7318db8b64bb82bde30f9b72be8da5c48b13ea981",
+      "rows": 317,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/fold_unfold_paper_basic_10/primary/recordings/fold_unfold_paper_basic_10/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101",
+      "task": "stack_unstack_cups_5",
+      "npz_sha256": "e34ac35db1c3b3a84cbc12a31cb414bd5ee93b4445ad9520d37b7c2dcafe3d8a",
+      "rows": 270,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_01/stack_unstack_cups_5/primary/recordings/stack_unstack_cups_5/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual",
+      "task": "assemble_disassemble_legos_33",
+      "npz_sha256": "3a16516cda1b892af2c8d7fe25a9ea5e43b13d1ab63eac8f38d738cf9fc6aa0d",
+      "rows": 362,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/assemble_disassemble_legos_33/primary_a1x_dual/recordings/assemble_disassemble_legos_33/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual",
+      "task": "clip_unclip_papers_1",
+      "npz_sha256": "217afdd11e4553ee8b9cd55d4c11eae3efda71ee4d746e5fe8885694ee0cc446",
+      "rows": 953,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_a1x_dual/recordings/clip_unclip_papers_1/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101",
+      "task": "clip_unclip_papers_1",
+      "npz_sha256": "63dcb403b971d1448853117afaa6f94af97b6d6a9b87c51d0b6b42583e7cebb9",
+      "rows": 953,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/clip_unclip_papers_1/primary_so101/recordings/clip_unclip_papers_1/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual",
+      "task": "fold_unfold_paper_basic_10",
+      "npz_sha256": "e24916a0dd4fbfeaa1c2578c315297279732371ed1a1ec63c7ea843171dee0f8",
+      "rows": 317,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/fold_unfold_paper_basic_10/primary_a1x_dual/recordings/fold_unfold_paper_basic_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual",
+      "task": "insert_remove_bagging_10",
+      "npz_sha256": "4f6ab2572ce225cf297610ff41266e190326faae72e44727692a0f6b83c3aefa",
+      "rows": 337,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/insert_remove_bagging_10/primary_a1x_dual/recordings/insert_remove_bagging_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual",
+      "task": "sort_beads_1",
+      "npz_sha256": "28d57824af0ce3a2ae29aa0704b85cd8996f341517c9902bfd0db6a9349386ae",
+      "rows": 300,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/sort_beads_1/primary_a1x_dual/recordings/sort_beads_1/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual",
+      "task": "stack_unstack_cups_5",
+      "npz_sha256": "4da2b0a2a5b04c6bcfc44fd40f9e7e3114419bbd3fad76944692d8f38b66e987",
+      "rows": 270,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_recovery_01/stack_unstack_cups_5/primary_a1x_dual/recordings/stack_unstack_cups_5/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual",
+      "task": "open_close_insert_remove_box_4",
+      "npz_sha256": "d6bdf15b454e1ce096f89de1f5b7fb28bcddba811535af131122be1aaf0859b0",
+      "rows": 323,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101",
+      "task": "open_close_insert_remove_box_4",
+      "npz_sha256": "7005935661616cdef1e75d56060248a41b84364da911a7e5ab70e563b23a685c",
+      "rows": 323,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/open_close_insert_remove_box_4/primary/recordings/open_close_insert_remove_box_4/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual",
+      "task": "pour_32",
+      "npz_sha256": "f504caa02c7eff72b70f08c27eed975a18795e2bf7d0cebab62994fccc0a1de8",
+      "rows": 214,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101",
+      "task": "pour_32",
+      "npz_sha256": "b1d7e5a1fa43d41ecebc1f0e6e3c6f1b592b90a71a82ed067e6c690612779707",
+      "rows": 214,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/pour_32/primary/recordings/pour_32/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual",
+      "task": "screw_unscrew_allen_fixture_10",
+      "npz_sha256": "a2c262d715ac3b7cb619f6399081577093900fb728ffd5aa499f61223d74828c",
+      "rows": 1960,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101",
+      "task": "screw_unscrew_allen_fixture_10",
+      "npz_sha256": "c2c2b6973663b22d206f47743d43a54eba1be0d4dea3d240e63851ec44890861",
+      "rows": 1960,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/batch_tail_01/screw_unscrew_allen_fixture_10/primary/recordings/screw_unscrew_allen_fixture_10/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual",
+      "task": "basic_pick_place_117",
+      "npz_sha256": "6e8425d65a4cdcfccf24e574b18daaaf1741738b66372dcb0835a01c31e9548c",
+      "rows": 302,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/a1x_dual/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    },
+    {
+      "robot_root": "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101",
+      "task": "basic_pick_place_117",
+      "npz_sha256": "6ab724b037e62152864daf3f2dcd374f15071a5bf75677ec63d1b960ce099d9f",
+      "rows": 302,
+      "video_count_matches": true,
+      "source_videos": [
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/eef_reference.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/hybrid_preview.mp4",
+        "/data/xklv_data/egorobot_a2/runs/egodex_additional_arms_20261002T151622_849424Z/pilot_execution_01/primary/recordings/basic_pick_place_117/robots/so101/standard_io/eef_view/original_vs_reference.mp4"
+      ]
+    }
+  ],
+  "hdf5_alignment_method": "FRAME_INDEX_PLUS_ORIGINAL_MP4_PTS; NO_INTERNAL_HDF5_TIMESTAMPS",
+  "no_source_mutation_or_transcoding": true
+}

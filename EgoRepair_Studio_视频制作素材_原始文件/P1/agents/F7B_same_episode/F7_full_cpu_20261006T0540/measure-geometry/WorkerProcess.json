@@ -1,0 +1,9 @@
+{
+  "pid": 769993,
+  "start_token": "275482798",
+  "pgid": 769993,
+  "session": 769993,
+  "state": "R",
+  "owner_nonce": "d120982e-98ac-48d7-ae5d-0ec312f40e14",
+  "job_run": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_full_cpu_20261006T0540/measure-geometry"
+}

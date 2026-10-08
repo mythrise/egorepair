@@ -1,0 +1,18 @@
+{
+  "schema_version": "A4X_REVIEW_V5_20261005",
+  "context_hash": "18d9af7935d4d966f53acb11d646cc695cf5df82ad7d706e39c50f039b92331a",
+  "parent_snapshot_hash": "dfddd806dd6bf57fbf38e2e556561881eebb5b7987f030b0bb54257208ca6132",
+  "source_group_id": "source_dfddd806dd6bf57f",
+  "decision": "noop",
+  "event_ids": [],
+  "editable_components": [],
+  "protected_components": [],
+  "constraints": [],
+  "evidence_ids": [],
+  "measurement_ids": [],
+  "requested_evidence": [],
+  "unknowns": [
+    "No coordinator/model semantic inference in local CPU integration"
+  ],
+  "rationale_summary": "Explicit developer CPU integration; no repair benefit claim"
+}

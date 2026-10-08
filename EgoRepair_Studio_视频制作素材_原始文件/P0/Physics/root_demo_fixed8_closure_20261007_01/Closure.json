@@ -1,0 +1,25 @@
+{
+  "created_by": "ROOT_ORCHESTRATOR",
+  "utc": "2026-10-07T05:03:57.636393+00:00",
+  "scope": "ACCEPTED_FIXED_EF_DEMO_STUDY_RESULTS_NOT_FULL_GOAL",
+  "independent_review_ref": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/reviews/demo_actual_closed_loop_20261007_01/ReviewBinding.json",
+    "sha256": "be34602ad6244ed02cf3f37d51e8b16ec71476041b45dc6bee5d441c97182536",
+    "bytes": 1659234
+  },
+  "fixed_candidates": 8,
+  "task_pass": 1,
+  "task_fail": 7,
+  "additional_infrastructure_unknown": 1,
+  "total_started_attempts": 9,
+  "baseline_F0_success_not_new_tuning_gain": true,
+  "new_E2000_lift_gain_only": true,
+  "producer_actual_native": 46525,
+  "producer_preview_native": 83075,
+  "independent_qualification_native": 46525,
+  "new_substantive_study_native_total": 176125,
+  "historical_infrastructure_costs": "known preview25; original actual25 reserved UNKNOWN retained",
+  "independent_nn_queries": 16,
+  "next": "E_ONLY_FROZEN_PARENT_POST_HOLD_RESIDUAL_ENGINEERING",
+  "full_goal_active": true
+}

@@ -1,0 +1,16 @@
+{
+  "stage": "project",
+  "context": "offline-cli",
+  "input": {
+    "path": "/home/xklv/ego_robot/a4_experiment/runs/implementation_20261005/F7_noedit_connectivity_20261006T0550/project.package.json",
+    "sha256": "c874702e68dfd1d36984884649e60b5fdb19787ccc0e324f7eddc083c628fc71",
+    "bytes": 1442,
+    "media_type": "application/json"
+  },
+  "config": {
+    "_dispatch_stage": "project",
+    "allowed_input_roots": [
+      "/home/xklv/ego_robot/a4_experiment/runs"
+    ]
+  }
+}
