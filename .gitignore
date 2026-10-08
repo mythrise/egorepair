@@ -1,0 +1,8 @@
+film/node_modules/
+film/out/
+film/assets/footage/
+film/assets/scene/
+film/assets/audio/
+*.mp4
+*.wav
+__pycache__/

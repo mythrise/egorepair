@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/node_modules/@fontsource/noto-sans-sc/300.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/noto-sans-sc/400.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/noto-sans-sc/500.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/jetbrains-mono/400.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/jetbrains-mono/500.css">
+<link rel="stylesheet" href="/engine/film.css">
+<script type="importmap">
+{ "imports": {
+  "three": "/node_modules/three/build/three.module.js",
+  "three/addons/": "/node_modules/three/examples/jsm/",
+  "@engine/": "/engine/",
+  "@scenes/": "/scenes/"
+} }
+</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl"></canvas>
+  <canvas id="c2d"></canvas>
+  <div id="ui"></div>
+</div>
+<script type="module">
+import { createContext } from '@engine/core.js';
+const q = new URLSearchParams(location.search);
+const W = +(q.get('w') || 3840), H = +(q.get('h') || 2160);
+try {
+  const ctx = await createContext(W, H, q);
+  const mod = await import('/scenes/' + q.get('scene') + '.js');
+  await mod.init(ctx);
+  await document.fonts.ready;
+  window.__duration = mod.duration;
+  window.__frame = async (t) => { await mod.render(t, ctx); ctx.present(); return true; };
+  window.__ready = true;
+} catch (e) {
+  window.__error = String(e && e.stack || e);
+  console.error(window.__error);
+}
+</script>
+</body>
+</html>
