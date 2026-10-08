@@ -106,6 +106,11 @@ if len(pts) > budget:
 kind = (pts[:, 1] > 0.004).astype(np.float32)[:, None]  # 1 = wall
 arr = np.concatenate([pts, col], axis=1).astype(np.float32)
 arr.tofile(os.path.join(out, "cloud.f32"))
+# depth visualization (turbo colormap of camera distance) for overlay use
+dist = np.linalg.norm(P - o, axis=-1)
+dn = np.clip((dist - 0.25) / (1.35 - 0.25), 0, 1)
+turbo = cv2.applyColorMap((dn * 255).astype(np.uint8), cv2.COLORMAP_TURBO)
+cv2.imwrite(os.path.join(out, "depth_turbo.png"), turbo)
 meta = dict(n=int(len(arr)), cam=dict(pos=[0, cam_h, 0], pitch=pitch, f=f, w=W, h=H),
             corner=c3.tolist(), left=a3.tolist(), right=b3.tolist(), source=os.path.basename(src),
             note="planar stand-in reconstruction (table+walls); replace with MoGe3 depth")

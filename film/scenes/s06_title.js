@@ -21,8 +21,8 @@ export async function init(ctx) {
   ring2 = makeRing({ radius: R * 1.035, tube: 0.004, intensity: 2.2 });
   ring2.rotation.y = Math.PI / 2;
   scene.add(ring2);
-  halo = makeHalo({ size: R * 3.4, ringR: 0.59, ringW: 0.09, intensity: 0.5, color: '#8f7dff' });
-  halo.userData.mat.uniforms.uSpectral.value = 1;
+  halo = makeHalo({ size: R * 3.4, ringR: 0.59, ringW: 0.045, intensity: 0.5, color: '#8f7dff' });
+  halo.userData.mat.uniforms.uSpectral.value = 1; halo.userData.mat.uniforms.uCenterW.value = 0.0;
   halo.rotation.y = Math.PI / 2; scene.add(halo);
   halo2 = makeHalo({ size: R * 1.4, intensity: 0.0, color: '#cfd8ff' });
   halo2.rotation.y = Math.PI / 2; scene.add(halo2);
@@ -105,7 +105,7 @@ export async function render(t, ctx) {
   ring.userData.mat.uniforms.uIntensity.value = 5 + 10 * Math.exp(-Math.pow((t - 2.6) * 2.2, 2));
   halo.userData.mat.uniforms.uI.value = 0.55 * smooth(remap(t, 1.6, 3.2)) * (1 + 0.15 * Math.sin(t * 2));
   halo.userData.mat.uniforms.uTime.value = t;
-  halo2.userData.mat.uniforms.uI.value = 1.8 * Math.exp(-Math.pow((t - 2.65) * 2.5, 2));
+  halo2.userData.mat.uniforms.uI.value = 1.1 * Math.exp(-Math.pow((t - 2.65) * 3.5, 2));
 
   // orbit dust
   const og = orbit.geometry, S = orbit.userData.seed;
@@ -115,9 +115,9 @@ export async function render(t, ctx) {
     const a = a0 + t * sp;
     const burst = 1 + 0.35 * Math.exp(-Math.pow((t - 2.7) * 1.6, 2)) * ph;
     // ring local: circle in plane spanned by y and z' (ring rotates with k)
-    const cy = Math.cos(a) * rr * burst, cz = Math.sin(a) * rr * burst;
+    const lx = Math.cos(a) * rr * burst, ly = Math.sin(a) * rr * burst;
     const ry = ring.rotation.y;
-    og.attributes.position.setXYZ(i, w * Math.cos(ry) + cz * Math.sin(ry), cy, -w * Math.sin(ry) + cz * Math.cos(ry));
+    og.attributes.position.setXYZ(i, lx * Math.cos(ry) + w * Math.sin(ry), ly, -lx * Math.sin(ry) + w * Math.cos(ry));
     og.attributes.alpha.setX(i, dustK * (0.35 + 0.65 * ph) * (0.6 + 0.4 * Math.sin(t * 3 + i)));
   }
   og.attributes.position.needsUpdate = true; og.attributes.alpha.needsUpdate = true;
@@ -138,7 +138,7 @@ export async function render(t, ctx) {
   title.style.opacity = (1 - out).toFixed(3);
   title.style.filter = out > 0.01 ? `blur(${(out * 30).toFixed(1)}px)` : 'none';
   title.style.transform = `scale(${(1 + out * 0.08).toFixed(4)})`;
-  fadeEl(flash, 0.55 * Math.exp(-Math.pow((t - 2.65) * 3.0, 2)));
+  fadeEl(flash, 0.32 * Math.exp(-Math.pow((t - 2.65) * 4.0, 2)));
 
   ctx.grade.uFade.value = smooth(remap(t, 0, 0.4)) * (1 - easeInCubic(remap(t, 12.4, 13)));
   ctx.bloomCfg.strength = 1.0; ctx.bloomCfg.threshold = 0.7;

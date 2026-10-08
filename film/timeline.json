@@ -1,0 +1,18 @@
+{
+  "fps": 30,
+  "scenes": [
+    {"id": "s01_open", "dur": 14},
+    {"id": "s02_scale", "dur": 16},
+    {"id": "s03_anatomy", "dur": 30},
+    {"id": "s04_eef", "dur": 26},
+    {"id": "s05_storm", "dur": 10},
+    {"id": "s06_title", "dur": 13},
+    {"id": "s07_pipeline", "dur": 24},
+    {"id": "s08_agents", "dur": 60},
+    {"id": "s09_review", "dur": 26},
+    {"id": "s10_result", "dur": 26},
+    {"id": "s11_ladder", "dur": 16},
+    {"id": "s12_studio", "dur": 12},
+    {"id": "s13_finale", "dur": 16}
+  ]
+}

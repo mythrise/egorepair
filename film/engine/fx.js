@@ -51,12 +51,12 @@ export function makeRing({ radius = 2, tube = 0.012, intensity = 4, tubular = 72
 // Halo: camera-facing soft radial glow disc (additive).
 export function makeHalo({ size = 4, color = '#9d8cff', intensity = 0.6, ringR = 0.0, ringW = 0.0 } = {}) {
   const mat = new THREE.ShaderMaterial({
-    uniforms: { uColor: { value: new THREE.Color(color) }, uI: { value: intensity }, uRingR: { value: ringR }, uRingW: { value: ringW }, uSpectral: { value: 0 }, uTime: { value: 0 } },
+    uniforms: { uColor: { value: new THREE.Color(color) }, uI: { value: intensity }, uRingR: { value: ringR }, uRingW: { value: ringW }, uSpectral: { value: 0 }, uTime: { value: 0 }, uCenterW: { value: 0.25 } },
     vertexShader: `varying vec2 vUv; void main(){ vUv=uv; gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
-    fragmentShader: GLSL_SPECTRAL + `uniform vec3 uColor; uniform float uI,uRingR,uRingW,uSpectral,uTime; varying vec2 vUv;
+    fragmentShader: GLSL_SPECTRAL + `uniform vec3 uColor; uniform float uI,uRingR,uRingW,uSpectral,uTime,uCenterW; varying vec2 vUv;
       void main(){ vec2 p=vUv*2.0-1.0; float r=length(p);
         float g = exp(-r*r*5.0);
-        if (uRingW>0.0) g = exp(-pow((r-uRingR)/uRingW,2.0)) + 0.25*exp(-r*r*3.0);
+        if (uRingW>0.0) g = exp(-pow((r-uRingR)/uRingW,2.0)) + uCenterW*exp(-r*r*3.0);
         vec3 col = mix(uColor, spectral(atan(p.y,p.x)/6.2831+uTime*0.02), uSpectral);
         gl_FragColor=vec4(col*g*uI*smoothstep(1.0,0.85,r),1.0); }`,
     blending: THREE.AdditiveBlending, depthWrite: false, transparent: true,
@@ -312,13 +312,62 @@ export function toScreen(v, camera) {
 export function makeHaze({ top = '#0a1222', bottom = '#020306', glow = '#16234a', glowDir = new THREE.Vector3(0, 0.2, -1), glowK = 0.6 } = {}) {
   const mat = new THREE.ShaderMaterial({
     uniforms: { uTop: { value: new THREE.Color(top) }, uBot: { value: new THREE.Color(bottom) }, uGlow: { value: new THREE.Color(glow) }, uDir: { value: glowDir.clone().normalize() }, uK: { value: glowK } },
-    vertexShader: `varying vec3 vD; void main(){ vD=normalize(position); gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
+    vertexShader: `varying vec3 vD; void main(){ vD=normalize(position); vec4 p=projectionMatrix*vec4(mat3(modelViewMatrix)*position,1.0); gl_Position=p.xyww; }`,
     fragmentShader: `uniform vec3 uTop,uBot,uGlow,uDir; uniform float uK; varying vec3 vD;
       void main(){ vec3 d=normalize(vD); float y=d.y*0.5+0.5; vec3 c=mix(uBot,uTop,smoothstep(0.2,0.9,y));
         c += uGlow*pow(max(dot(d,uDir),0.0),4.0)*uK; gl_FragColor=vec4(c,1.0); }`,
     side: THREE.BackSide, depthWrite: false,
   });
-  const m = new THREE.Mesh(new THREE.SphereGeometry(500, 48, 24), mat);
+  const m = new THREE.Mesh(new THREE.SphereGeometry(10, 48, 24), mat);
+  m.frustumCulled = false; m.renderOrder = -100;
   m.userData.mat = mat;
   return m;
+}
+
+// ---------------------------------------------------------------- many polylines, one draw call
+const MULTI_VS = RIBBON_VS.replace('attribute vec3 prev;', 'attribute vec2 anim; uniform float uT; varying float vHead;\nattribute vec3 prev;')
+  .replace('vU=u; vD=side*ext;', 'vHead=(uT-anim.x)*anim.y; vU=u; vD=side*ext;');
+const MULTI_FS = RIBBON_FS.replace('varying float vU;', 'varying float vHead; uniform float uLen; varying float vU;')
+  .replace('if (vU > uHead || vU < uTail) discard;', 'if (vU > vHead || vU < vHead - uLen || vU > uHead) discard;')
+  .replace('float head = 1.0 + uHeadGlow*exp(-pow((uHead - vU)*40.0, 2.0));', 'float head = 1.0 + uHeadGlow*exp(-pow((vHead - vU)*30.0, 2.0));');
+export class MultiRibbon {
+  // lines: [{pts:[Vector3], t0, speed, color:[r,g,b,a], width}]
+  constructor(lines, { width = 3, color = '#ffffff', intensity = 1, additive = true, len = 10, glow = 0 } = {}) {
+    let nv = 0; for (const L of lines) nv += L.pts.length * 2;
+    const pos = new Float32Array(nv * 3), prev = new Float32Array(nv * 3), next = new Float32Array(nv * 3);
+    const side = new Float32Array(nv), u = new Float32Array(nv), rgba = new Float32Array(nv * 4), wm = new Float32Array(nv), anim = new Float32Array(nv * 2);
+    const idx = []; let o = 0;
+    for (const L of lines) {
+      const P = L.pts, n = P.length; let len_ = 0; const acc = [0];
+      for (let i = 1; i < n; i++) { len_ += P[i].distanceTo(P[i - 1]); acc.push(len_); }
+      for (let i = 0; i < n; i++) {
+        const p = P[i], pv = P[Math.max(i - 1, 0)], nx = P[Math.min(i + 1, n - 1)];
+        for (let k = 0; k < 2; k++) {
+          const j = o + 2 * i + k;
+          pos.set([p.x, p.y, p.z], j * 3); prev.set([pv.x, pv.y, pv.z], j * 3); next.set([nx.x, nx.y, nx.z], j * 3);
+          side[j] = k ? 1 : -1; u[j] = acc[i] / Math.max(len_, 1e-6);
+          const c = L.color || [1, 1, 1, 1]; rgba.set([c[0], c[1], c[2], c[3] ?? 1], j * 4);
+          wm[j] = L.width || 1; anim[j * 2] = L.t0 || 0; anim[j * 2 + 1] = L.speed || 1;
+        }
+        if (i < n - 1) { const a = o + 2 * i; idx.push(a, a + 1, a + 2, a + 1, a + 3, a + 2); }
+      }
+      o += n * 2;
+    }
+    const g = new THREE.BufferGeometry();
+    g.setIndex(idx);
+    const A = (a, n) => new THREE.BufferAttribute(a, n);
+    g.setAttribute('position', A(pos, 3)); g.setAttribute('prev', A(prev, 3)); g.setAttribute('next', A(next, 3));
+    g.setAttribute('side', A(side, 1)); g.setAttribute('u', A(u, 1)); g.setAttribute('rgba', A(rgba, 4)); g.setAttribute('wmul', A(wm, 1)); g.setAttribute('anim', A(anim, 2));
+    this.mat = new THREE.ShaderMaterial({
+      uniforms: {
+        uRes: { value: new THREE.Vector2(3840, 2160) }, uWidth: { value: width }, uHead: { value: 10 }, uTail: { value: -1 }, uOpacity: { value: 1 }, uGlow: { value: glow },
+        uPulse: { value: 0 }, uPulseK: { value: 6 }, uTime: { value: 0 }, uHeadGlow: { value: 1.5 }, uT: { value: 0 }, uLen: { value: len },
+        uColor: { value: new THREE.Color(color).multiplyScalar(intensity) },
+      },
+      vertexShader: MULTI_VS, fragmentShader: MULTI_FS, transparent: true, depthWrite: false, side: THREE.DoubleSide,
+      blending: THREE.CustomBlending, blendSrc: THREE.OneFactor, blendDst: additive ? THREE.OneFactor : THREE.OneMinusSrcAlphaFactor,
+    });
+    this.mesh = new THREE.Mesh(g, this.mat); this.mesh.frustumCulled = false;
+    this.mesh.onBeforeRender = (r) => { const t = r.getRenderTarget(); this.mat.uniforms.uRes.value.set(t ? t.width : r.domElement.width, t ? t.height : r.domElement.height); };
+  }
 }

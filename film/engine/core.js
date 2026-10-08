@@ -39,15 +39,21 @@ export function setStyle(e, s) { for (const k in s) e.style[k] = s[k]; }
 
 // Split text into per-character spans for reveal animations.
 export function splitChars(e, text) {
+  // words are kept together (nowrap wrappers) so lines only break between words
   e.innerHTML = '';
   const spans = [];
-  for (const ch of text) {
-    const s = document.createElement('span');
-    s.textContent = ch === ' ' ? ' ' : ch;
-    s.style.display = 'inline-block';
-    e.appendChild(s);
-    spans.push(s);
-  }
+  const words = text.split(' ');
+  words.forEach((w, wi) => {
+    const ws = document.createElement('span');
+    ws.style.display = 'inline-block'; ws.style.whiteSpace = 'nowrap';
+    for (const ch of w) {
+      const s = document.createElement('span');
+      s.textContent = ch; s.style.display = 'inline-block';
+      ws.appendChild(s); spans.push(s);
+    }
+    e.appendChild(ws);
+    if (wi < words.length - 1) { const sp = document.createElement('span'); sp.textContent = ' '; e.appendChild(sp); spans.push(sp); }
+  });
   return spans;
 }
 // Cinematic per-character reveal: blur -> sharp, rise, fade. p in [0,1].
