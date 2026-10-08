@@ -121,7 +121,7 @@ export async function init(ctx) {
   scene.add(cloud);
   curve = makeHandPath(meta);
 
-  grid = makeGrid({ size: 8, cell: 0.1, major: 5, color: '#6f8cff', opacity: 0.22, fade: 2.6 });
+  grid = makeGrid({ size: 8, cell: 0.1, major: 5, color: '#6f8cff', opacity: 0.07, fade: 1.3 });
   grid.position.y = -0.002; scene.add(grid);
   floorRing = new Ribbon(circlePoints(1.8, 256, -0.001), { width: 2, color: '#6f8cff', intensity: 0.6 }); scene.add(floorRing.mesh);
 
@@ -307,7 +307,7 @@ async function buildSpatial(ctx) {
 function updateSpatial(t) {
   const k = smooth(remap(t, 19.8, 21.0)) * (1 - smooth(remap(t, 28.5, 30)));
   spatial.polys.forEach((rb, i) => rb.set({ head: smooth(remap(t, 20.0 + i * 0.3, 21.4 + i * 0.3)), opacity: k }));
-  grid.userData.mat.uniforms.uOpacity.value = 0.22 + 0.5 * k * (1 - smooth(remap(t, 27, 29)));
+  grid.userData.mat.uniforms.uOpacity.value = 0.07 + 0.18 * k * (1 - smooth(remap(t, 27, 29)));
   const g = spatial.pts.geometry; let tested = 0, passed = 0;
   spatial.cands.forEach((c, i) => {
     const ap = smooth(remap(t, 20.6 + (i % 30) * 0.02, 21.0 + (i % 30) * 0.02));
@@ -605,8 +605,8 @@ export async function render(t, ctx) {
   ST.forEach((s, i) => { if (t >= s.t[0] && t < s.t[1]) activeIdx = i; });
   stations.forEach((e, i) => {
     const on = smooth(remap(t, 0.8 + i * 0.35, 1.6 + i * 0.35));
-    const act = i === activeIdx ? 1 : 0;
-    e.actK = lerp(e.actK || 0, act, 0.25);
+    // activation is a pure function of t (so any frame range renders identically, e.g. chunked parallel renders)
+    e.actK = Math.min(smooth((t - e.s.t[0]) / 0.35), smooth((e.s.t[1] - t) / 0.35));
     if (e.update) e.update(t, e.actK, i === 6 ? smooth(remap(t, 54.6, 55.2)) : 0);
     const camD = e.g.position.distanceTo(camera.position);
     e.fade(on * smooth(remap(camD, 0.9, 1.5)), e.actK);

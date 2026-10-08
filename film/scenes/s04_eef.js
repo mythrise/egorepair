@@ -94,7 +94,7 @@ export async function render(t, ctx) {
   const draw = easeInOutCubic(remap(t, 8.2, 12.5));
   pathRb.set({ head: draw, opacity: vk * 0.5 });
   triads.forEach((tr) => { const k = vk * smooth(remap(draw, tr.u - 0.02, tr.u + 0.02)); tr.visible = k > 0.01; tr.userData.ribbons.forEach((r) => r.set({ opacity: k })); });
-  grid.position.set(ctr.x, 0, ctr.z); grid.userData.mat.uniforms.uCenter.value.set(ctr.x, ctr.z); grid.userData.mat.uniforms.uOpacity.value = 0.25 * vk;
+  grid.position.set(ctr.x, 0, ctr.z); grid.userData.mat.uniforms.uCenter.value.set(ctr.x, ctr.z); grid.userData.mat.uniforms.uOpacity.value = 0.08 * vk;
   // C: failure records along the path
   fails.forEach((F, i) => {
     const t0 = 14.2 + i * 1.45;

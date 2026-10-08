@@ -246,8 +246,8 @@ export function makeGrid({ size = 40, cell = 0.5, major = 5, color = '#6f8cff', 
     uniforms: { uCell: { value: cell }, uMajor: { value: major }, uColor: { value: new THREE.Color(color) }, uOpacity: { value: opacity }, uFade: { value: fade }, uCenter: { value: new THREE.Vector2() } },
     vertexShader: `varying vec3 vW; void main(){ vec4 w=modelMatrix*vec4(position,1.0); vW=w.xyz; gl_Position=projectionMatrix*viewMatrix*w; }`,
     fragmentShader: `uniform float uCell,uMajor,uOpacity,uFade; uniform vec3 uColor; uniform vec2 uCenter; varying vec3 vW;
-      float gl_(vec2 p){ vec2 g=abs(fract(p-0.5)-0.5)/fwidth(p); return 1.0-min(min(g.x,g.y),1.0); }
-      void main(){ vec2 p=vW.xz; float a = gl_(p/uCell)*0.45 + gl_(p/(uCell*uMajor))*0.8;
+      float gridLine(vec2 p){ vec2 g=abs(fract(p-0.5)-0.5)/fwidth(p); return 1.0-min(min(g.x,g.y),1.0); }
+      void main(){ vec2 p=vW.xz; float a = gridLine(p/uCell)*0.45 + gridLine(p/(uCell*uMajor))*0.8;
         float f = exp(-pow(length(p-uCenter)/uFade, 2.0));
         float al = a*f*uOpacity; if (al<0.002) discard; gl_FragColor=vec4(uColor*al, al); }`,
     transparent: true, depthWrite: false, blending: THREE.CustomBlending, blendSrc: THREE.OneFactor, blendDst: THREE.OneMinusSrcAlphaFactor,

@@ -10,7 +10,14 @@ import { fileURLToPath } from 'node:url';
 import { serve } from './server.mjs';
 
 const require = createRequire(import.meta.url);
-const { chromium } = require(process.env.PLAYWRIGHT_PATH || '/opt/node22/lib/node_modules/playwright');
+function loadPlaywright() {
+  for (const p of [process.env.PLAYWRIGHT_PATH, 'playwright', '/opt/node22/lib/node_modules/playwright']) {
+    if (!p) continue;
+    try { return require(p); } catch (e) { /* try next */ }
+  }
+  throw new Error('playwright not found: run `npm ci && npx playwright install chromium` in film/');
+}
+const { chromium } = loadPlaywright();
 
 const args = Object.fromEntries(process.argv.slice(2).reduce((acc, a, i, arr) => {
   if (a.startsWith('--')) acc.push([a.slice(2), arr[i + 1] && !arr[i + 1].startsWith('--') ? arr[i + 1] : '1']);
@@ -22,9 +29,12 @@ const W = +(args.w || 3840), H = +(args.h || 2160), FPS = +(args.fps || 30);
 const scene = args.scene;
 
 const { server, port } = await serve({ '/': FILM, '/assets/': ASSETS + '/' });
+// GL backend: CPU SwiftShader by default (bit-stable everywhere). On a GPU server try CHROME_GL="--use-angle=vulkan" or "--use-gl=egl".
+const glArgs = (process.env.CHROME_GL || '--use-angle=swiftshader --enable-unsafe-swiftshader').split(' ').filter(Boolean);
 const browser = await chromium.launch({
   headless: true,
-  args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist',
+  executablePath: process.env.CHROME_PATH || undefined,
+  args: [...glArgs, '--ignore-gpu-blocklist',
     '--disable-gpu-vsync', '--disable-frame-rate-limit', '--force-color-profile=srgb',
     '--disable-background-timer-throttling', '--disable-renderer-backgrounding', '--font-render-hinting=none'],
 });

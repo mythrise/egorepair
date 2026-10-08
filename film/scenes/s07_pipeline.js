@@ -28,7 +28,7 @@ export async function init(ctx) {
   scene.add(makeHaze({ top: '#081024', bottom: '#020306', glow: '#1b1840', glowDir: V(1, 0.1, 0), glowK: 0.5 }));
   camera = new THREE.PerspectiveCamera(36, ctx.W / ctx.H, 0.02, 1000);
   envLights(scene, ctx.renderer, { envI: 0.5 });
-  const grid = makeGrid({ size: 60, cell: 0.25, major: 4, color: '#5f7cff', opacity: 0.18, fade: 9 });
+  const grid = makeGrid({ size: 60, cell: 0.25, major: 4, color: '#5f7cff', opacity: 0.05, fade: 5 });
   grid.position.set(9, -1.05, 0); grid.userData.mat.uniforms.uCenter.value.set(9, 0); scene.add(grid);
   const spine = new Ribbon([V(-6, -0.98, 0), V(24, -0.98, 0)], { width: 3, color: '#6f8cff', intensity: 0.8 }); scene.add(spine.mesh);
 
