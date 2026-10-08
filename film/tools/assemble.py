@@ -40,8 +40,8 @@ else:
     a_kbps = 192
     v_kbps = int((budget_mb * 1e6 * 8 / total) / 1000 - a_kbps - 30)  # 30 kbps container margin
     print(f"duration {total:.1f}s -> video {v_kbps} kbps, audio {a_kbps} kbps")
-    x264 = "aq-mode=3:aq-strength=0.9:psy-rd=1.0,0.10:deblock=-1,-1:keyint=120:min-keyint=12:bframes=5:ref=4:rc-lookahead=60:me=umh:subme=9"
-    base = ["ffmpeg", "-v", "error", "-y", *common_in, "-map", "0:v", "-c:v", "libx264", "-preset", "slow", "-profile:v", "high", "-level:v", "5.1",
+    x264 = "aq-mode=3:aq-strength=0.9:psy-rd=1.0,0.10:deblock=-1,-1:keyint=120:min-keyint=12:bframes=5:ref=4:rc-lookahead=60"
+    base = ["ffmpeg", "-v", "error", "-y", *common_in, "-map", "0:v", "-c:v", "libx264", "-preset", "medium", "-profile:v", "high", "-level:v", "5.1",
             "-b:v", f"{v_kbps}k", "-maxrate", f"{int(v_kbps * 2.2)}k", "-bufsize", f"{int(v_kbps * 4)}k", "-x264-params", x264,
             "-pix_fmt", "yuv420p", "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-passlogfile", out + ".2pass"]
     subprocess.run(base + ["-pass", "1", "-an", "-f", "mp4", "/dev/null"], check=True)
